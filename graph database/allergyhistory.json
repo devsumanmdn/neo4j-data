@@ -1,0 +1,26 @@
+[
+    {
+        "allergyHId": 1,
+        "ptId": 1,
+        "allergyFrom": [
+            "Nail polish",
+            "Prawn",
+            "Sun",
+            "Tap Water",
+            "Egg",
+            "Peanut",
+            "Milk",
+            "Spore"
+        ],
+        "allergySevrity": [
+            "Mild",
+            "High",
+            "Severe"
+        ],
+        "allergyStatus": [
+            "True allergy",
+            "Adverse effect",
+            "Adverse/Vague"
+        ]
+    }
+]

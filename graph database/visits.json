@@ -1,0 +1,25 @@
+[
+    {
+        "vId": 1,
+        "ptId": 1,
+        "complained": "",
+        "trtEpId": 1,
+        "visitType": "",
+        "visitNumber": 1,
+        "timestamp": "",
+        "reason": "",
+        "observation": "",
+        "summary": "",
+        "diagnosisId": 1,
+        "sysBP": 1,
+        "disBP": 1,
+        "pulse": 1,
+        "temp": 1,
+        "tempSource": "",
+        "respirationRate": 1,
+        "height": 1,
+        "weight": 1,
+        "investigationId": 1,
+        "treatmentPlanId": 1
+    }
+]

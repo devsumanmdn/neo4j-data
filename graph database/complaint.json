@@ -1,0 +1,12 @@
+[
+    {
+        "complaintId": 1,
+        "ptId": 1,
+        "ComplaintDetails": "",
+        "ComplaintStatus": [
+            "In progress",
+            "Pending",
+            "Resolved"
+        ]
+    }
+]

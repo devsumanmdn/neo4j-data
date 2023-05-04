@@ -1,0 +1,38 @@
+[
+    {
+        "ptId": 1,
+        "Id": 1,
+        "alternatePtIds": [
+            1
+        ],
+        "ecpId": 1,
+        "ecpRelation": [
+            "Father",
+            "Mother",
+            "Daughter",
+            "Niece and nephew",
+            "Son",
+            "Brother",
+            "Sister",
+            "Aunt",
+            "Grandparent",
+            "Uncle",
+            "Cousin",
+            "Mother-in-law",
+            "Father-in-law",
+            "Sibling-in-law",
+            "Son-in-law",
+            "Daughter-in-law",
+            "Sibling",
+            "Parents",
+            "Spouse",
+            "Maternal uncle",
+            "Paternal aunt",
+            "Half-sister",
+            "Half-brother",
+            "Wife"
+        ],
+        "cPAHomeId": "",
+        "cPAHomeRelation": ""
+    }
+]

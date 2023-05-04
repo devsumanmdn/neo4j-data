@@ -1,0 +1,33 @@
+[
+    {
+        "drId": 1,
+        "personId": 1,
+        "organizationId": 1,
+        "specialization": [
+            "Internal medicine",
+            "Anesthesiology",
+            "Cardiology",
+            "Urologist",
+            "Neurologist",
+            "Pediatrician",
+            "General practitioner",
+            "Psychiatrist",
+            "Dermatologist",
+            "General surgery",
+            "Radiologist",
+            "Otorhinolaryngology",
+            "Anesthesiologist",
+            "Cardiologist",
+            "Oncologist",
+            "Pathologist",
+            "Immunology",
+            "Gastroenterologist",
+            "Surgeon",
+            "Child and adolescent psychiatry",
+            "Rheumatologist",
+            "Ophthalmologist",
+            "Accident and emergency medicine",
+            "Radiology"
+        ]
+    }
+]

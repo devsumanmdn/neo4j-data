@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "name": "",
+        "occupation": [
+            "Architect",
+            "Technician",
+            "Engineer",
+            "Scientist",
+            "Software Developer",
+            "Teacher",
+            "Social Worker",
+            "Mechanical engineer",
+            "Civil engineer",
+            "Nurse",
+            "Paramedic",
+            "Drafter",
+            "Electrical engineer",
+            "Pharmacist",
+            "Health professional",
+            "Occupational Therapist",
+            "Physiotherapist",
+            "Registered nurse",
+            "Laboratory Technician",
+            "Physician",
+            "Producers and Directors",
+            "Veterinarian",
+            "Consultant",
+            "Aviator",
+            "Farmer",
+            "Graphic Designer",
+            "Speech and Language Therapist",
+            "Psychologist",
+            "Accountant"
+        ],
+        "socioEconomicStatus": [
+            "Low",
+            "Medium",
+            "High"
+        ],
+        "religion": [
+            "Hinduism",
+            "Islam",
+            "Christianity",
+            "Sikhism",
+            "Buddhism",
+            "Tribal Religion",
+            "Jainism",
+            "None"
+        ],
+        "addressType": [
+            "Local Address",
+            "Permanent Address"
+        ],
+        "addressLine1": "",
+        "addressLine2": "",
+        "cityTownVillagePoliceStation": "",
+        "district": "",
+        "state": [],
+        "pinCode": 1,
+        "countryCode": "",
+        "contactNo": "",
+        "email": "",
+        "gender": [
+            "Male",
+            "Female",
+            "Other"
+        ],
+        "dateOfBirthage": 1,
+        "bloodGroup": [
+            "A+",
+            "A-",
+            "B+",
+            "B-",
+            "O+",
+            "O-",
+            "AB+",
+            "AB-"
+        ],
+        "foodHabbit": [
+            "Emotional Eater",
+            "Unconscious Eater",
+            "Habitual Eater",
+            "Critical Eater",
+            "Sensual Eater"
+        ]
+    }
+]

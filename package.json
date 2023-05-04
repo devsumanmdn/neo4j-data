@@ -1,0 +1,19 @@
+{
+  "name": "graphdatabase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoDB",
+    "Neo4j"
+  ],
+  "author": "bhaswatibarma416@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "5.1",
+    "neo4j-driver": "^5.7.0"
+  }
+}
