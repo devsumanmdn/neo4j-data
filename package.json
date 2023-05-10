@@ -13,6 +13,7 @@
   "author": "bhaswatibarma416@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "lorem-ipsum": "^2.0.8",
     "mongodb": "5.1",
     "neo4j-driver": "^5.7.0"
   }
