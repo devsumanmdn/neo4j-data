@@ -2,9 +2,27 @@
     {
         "trtEpId": 1,
         "ptId": 1,
-        "compId": 1,
+        "complaintId": 1,
         "startTime": "",
         "endTime": "",
-        "status": ""
+        "status": [
+          "Collect patient information",
+          "Assign a unique identifier",
+          "Record admission details",
+          "Capture vital signs",
+          "Generate admission orders",
+          "Record treatment progress",
+          "Document vital signs",
+          "Include nursing notes",
+          "Collaborate with multidisciplinary teams",
+          "Monitor and evaluate progress",
+          "Document consultations and interventions",
+          "Capture medication changes",
+          "Include discharge planning",
+          "Finalize treatment documentation",
+          "Discharge instructions",
+          "Arrange follow-up appointments",
+          "Coordinate with insurance and billing"
+      ]
     }
 ]
