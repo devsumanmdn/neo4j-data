@@ -21,7 +21,7 @@ const personName = 'Alice';
       const singleRecord = result.records[0];
       const node = singleRecord.get(0);
 
-      console.log(node.properties.name);
+      console.log(node.properties);
     }
 
 
