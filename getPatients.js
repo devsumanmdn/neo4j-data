@@ -10,7 +10,7 @@ const getPatients = (count) =>
   Array(count)
     .fill(1)
     .map((_, index) => ({
-      ptId: index,
+      ptId: index+1,
       Id: getOneRandom(personsData.map(({ id }) => id)),
       alternatePtIds: randomiseWords(
         personsData.map(({ id }) => id),
@@ -25,6 +25,10 @@ const getPatients = (count) =>
       cPAHomeRelation: getOneRandom(patientsDummyJson[0].ecpRelation),
     }));
 
-const patients = getPatients(10000);
+const generatePatient = (count) => {
+  const patients = getPatients(count);
 fs.writeFileSync('./json/patients.json', JSON.stringify(patients));
 console.log('Successfully created', patients.length, 'patients.');
+}
+
+module.exports = generatePatient;

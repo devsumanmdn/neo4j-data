@@ -65,7 +65,11 @@ const getPerson = async (count) => {
     }));
   });
 
-  console.log({restCount: count - dummyUsers.length, length: dummyUsers.length, count})
+  console.log({
+    restCount: count - dummyUsers.length,
+    length: dummyUsers.length,
+    count,
+  });
 
   const restNewUsers = Array(count - dummyUsers.length)
     .fill(dummyUsers.length)
@@ -79,7 +83,18 @@ const getPerson = async (count) => {
         2
       );
 
-      const email = name.replace(' ', '').toLowerCase() + '@' + getOneRandom(['gmail', 'outlook', 'hotmail', 'yahoo', 'reddif', 'aol']) + '.com';
+      const email =
+        name.replace(' ', '').toLowerCase() +
+        '@' +
+        getOneRandom([
+          'gmail',
+          'outlook',
+          'hotmail',
+          'yahoo',
+          'reddif',
+          'aol',
+        ]) +
+        '.com';
 
       return {
         id: index + length + 1,
@@ -130,7 +145,11 @@ const getPerson = async (count) => {
   return [...dummyUsers, ...restNewUsers];
 };
 
-getPerson(10000).then((users) => {
-  fs.writeFileSync('./json/persons.json', JSON.stringify(users));
-  console.log('Successfully created', users.length, 'users.')
-});
+const generatePerson = (count) => {
+  return getPerson(count).then((users) => {
+    fs.writeFileSync('./json/persons.json', JSON.stringify(users));
+    console.log('Successfully created', users.length, 'users.');
+  });
+};
+
+module.exports = generatePerson;

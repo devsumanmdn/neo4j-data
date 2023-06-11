@@ -1,4 +1,4 @@
-const { getRandomNumberWithinRange } = require("./getRandomNumberWithinRange");
+const getRandomNumberWithinRange = require("./getRandomNumberWithinRange");
 
 const randomiseWords = (array, minCount, maxCount) => {
   const count = getRandomNumberWithinRange(minCount, maxCount)

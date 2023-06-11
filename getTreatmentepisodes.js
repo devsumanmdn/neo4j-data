@@ -1,11 +1,11 @@
 const fs = require('fs');
 
 const getOneRandom = require('./getOneRandom');
-const randomiseWords = require('./randomiseWords');
 
 const treatmentepisodesDummyJson = require('./graph database/treatmentepisode.json');
 const personsData = require('./json/persons.json');
 const getRandomNumberWithinRange = require('./getRandomNumberWithinRange');
+const { count } = require('console');
 
 const getMSFromHours = (hours) => {
   return hours * 60 * 60 * 1000;
@@ -24,7 +24,7 @@ const getTreatmentepisodes = (count) =>
       );
 
       return {
-        treatEpId: index,
+        treatEpId: index + 1,
         ptId: getOneRandom(personsData.map(({ id }) => id)),
         startTime,
         endTime,
@@ -33,7 +33,8 @@ const getTreatmentepisodes = (count) =>
       };
     });
 
-const treatmentepisodes = getTreatmentepisodes(10000);
+const generateTreatmentEpisode = (count) => {
+  const treatmentepisodes = getTreatmentepisodes(count);
 fs.writeFileSync(
   './json/treatmentepisodes.json',
   JSON.stringify(treatmentepisodes)
@@ -43,3 +44,6 @@ console.log(
   treatmentepisodes.length,
   'treatmentepisodes.'
 );
+}
+
+module.exports = generateTreatmentEpisode;
