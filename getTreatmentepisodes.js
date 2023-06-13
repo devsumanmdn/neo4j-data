@@ -3,16 +3,15 @@ const fs = require('fs');
 const getOneRandom = require('./getOneRandom');
 
 const treatmentepisodesDummyJson = require('./graph database/treatmentepisode.json');
-const personsData = require('./json/persons.json');
 const getRandomNumberWithinRange = require('./getRandomNumberWithinRange');
-const { count } = require('console');
 
 const getMSFromHours = (hours) => {
   return hours * 60 * 60 * 1000;
 };
 
-const getTreatmentepisodes = (count) =>
-  Array(count)
+const getTreatmentepisodes = (count) => {
+  const personsData = require('./json/persons.json');
+  return Array(count)
     .fill(1)
     .map((_, index) => {
       const startTime = new Date(
@@ -32,18 +31,19 @@ const getTreatmentepisodes = (count) =>
         status: getOneRandom(treatmentepisodesDummyJson[0].status),
       };
     });
+};
 
 const generateTreatmentEpisode = (count) => {
   const treatmentepisodes = getTreatmentepisodes(count);
-fs.writeFileSync(
-  './json/treatmentepisodes.json',
-  JSON.stringify(treatmentepisodes)
-);
-console.log(
-  'Successfully created',
-  treatmentepisodes.length,
-  'treatmentepisodes.'
-);
-}
+  fs.writeFileSync(
+    './json/treatmentepisodes.json',
+    JSON.stringify(treatmentepisodes)
+  );
+  console.log(
+    'Successfully created',
+    treatmentepisodes.length,
+    'treatmentepisodes.'
+  );
+};
 
 module.exports = generateTreatmentEpisode;
