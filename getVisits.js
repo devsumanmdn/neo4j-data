@@ -3,13 +3,13 @@ const fs = require('fs');
 const getOneRandom = require('./getOneRandom');
 
 const visitsDummyJson = require('./graph database/visit.json');
-const personsData = require('./json/persons.json');
 const { loremIpsum } = require('lorem-ipsum');
 const getRandomNumberWithinRange = require('./getRandomNumberWithinRange');
 
+const getVisits = (count) => {
+  const personsData = require('./json/persons.json');
 
-const getVisits = (count) =>
-  Array(count)
+  return Array(count)
     .fill(1)
     .map((_, index) => {
       const timeStamp = new Date(
@@ -17,7 +17,7 @@ const getVisits = (count) =>
       );
 
       return {
-        vId: index+1,
+        vId: index + 1,
         ptId: getOneRandom(personsData.map(({ id }) => id)),
         complained: loremIpsum({ count: getRandomNumberWithinRange(1, 7) }),
         trtEpId: getOneRandom(personsData.map(({ id }) => id)),
@@ -40,12 +40,12 @@ const getVisits = (count) =>
         treatmentPlanId: index,
       };
     });
-
+};
 
 const generateVisit = (count) => {
   const visits = getVisits(count);
   fs.writeFileSync('./json/visits.json', JSON.stringify(visits));
   console.log('Successfully created', visits.length, 'visits.');
-}
+};
 
 module.exports = generateVisit;
