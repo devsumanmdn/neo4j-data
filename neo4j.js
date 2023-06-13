@@ -11,7 +11,7 @@ const visitData = require('./json/visits.json');
 const getRelationshipQuery = require('./getRelationshipQuery');
 
 const uri = 'bolt://127.0.0.1:7687';
-const driver = neo4j.driver(uri, neo4j.auth.basic('neo4j', 'Mou@2997'));
+const driver = neo4j.driver(uri, neo4j.auth.basic('neo4j', 'Suman@2997'));
 const session = driver.session();
 
 (async () => {
@@ -35,7 +35,7 @@ const session = driver.session();
 
       const result = await session.run(query, person);
 
-      console.log(result);
+      // console.log(result);
     }
 
 
@@ -46,88 +46,88 @@ const session = driver.session();
 
     const query = `CREATE (b: Doctor { ${Object.keys(doctor).map(key => `${key}: $${key}`).join(',')} })`;
 
-    const personRelQuery = getRelationshipQuery('Doctor', 'Person', 'personId', 'id', 'DOCTOR_PERSON_REL');
 
 
     const result = await session.run(query, doctor);
-    const PersonRelResult = await session.run(personRelQuery);
 
-    console.log(result, PersonRelResult);
+    // console.log(result, PersonRelResult);
   }
+  const personRelQuery = getRelationshipQuery('Doctor', 'Person', 'personId', 'id', 'DOCTOR_PERSON_REL');
+  const PersonRelResult = await session.run(personRelQuery);
 
 
     //for patientData
 
-    for (let i = 0; i < patientData.length; i++) {
-      const patient = patientData[i];
+    // for (let i = 0; i < patientData.length; i++) {
+    //   const patient = patientData[i];
 
-      const query = `CREATE (c: Patient { ${Object.keys(patient).map(key => `${key}: $${key}`).join(',')} })`;
+    //   const query = `CREATE (c: Patient { ${Object.keys(patient).map(key => `${key}: $${key}`).join(',')} })`;
 
-      const result = await session.run(query, patient);
+    //   const result = await session.run(query, patient);
 
-      console.log(result);
-    }
+    //   console.log(result);
+    // }
 
 
-    //for complaintData
+    // //for complaintData
 
-    for (let i = 0; i < complaintData.length; i++) {
-      const complaint = complaintData[i];
+    // for (let i = 0; i < complaintData.length; i++) {
+    //   const complaint = complaintData[i];
 
-      const query = `CREATE (d: Complaint { ${Object.keys(complaint).map(key => `${key}: $${key}`).join(',')} })`;
+    //   const query = `CREATE (d: Complaint { ${Object.keys(complaint).map(key => `${key}: $${key}`).join(',')} })`;
 
-      const result = await session.run(query, complaint);
+    //   const result = await session.run(query, complaint);
 
-      console.log(result);
-    }
+    //   console.log(result);
+    // }
 
-    //for historyData
+    // //for historyData
 
-    for (let i = 0; i < historyData.length; i++) {
-      const history = historyData[i];
+    // for (let i = 0; i < historyData.length; i++) {
+    //   const history = historyData[i];
 
-      const query = `CREATE (e: History { ${Object.keys(history).map(key => `${key}: $${key}`).join(',')} })`;
+    //   const query = `CREATE (e: History { ${Object.keys(history).map(key => `${key}: $${key}`).join(',')} })`;
 
-      const result = await session.run(query, history);
+    //   const result = await session.run(query, history);
 
-      console.log(result);
-    }
+    //   console.log(result);
+    // }
 
-    //for allergyHistoryData
+    // //for allergyHistoryData
 
-    for (let i = 0; i < allergyHistoryData.length; i++) {
-      const allergyHistory = allergyHistoryData[i];
+    // for (let i = 0; i < allergyHistoryData.length; i++) {
+    //   const allergyHistory = allergyHistoryData[i];
 
-      const query = `CREATE (f: AllergyHistory { ${Object.keys(allergyHistory).map(key => `${key}: $${key}`).join(',')} })`;
+    //   const query = `CREATE (f: AllergyHistory { ${Object.keys(allergyHistory).map(key => `${key}: $${key}`).join(',')} })`;
 
-      const result = await session.run(query, allergyHistory);
+    //   const result = await session.run(query, allergyHistory);
 
-      console.log(result);
-    }
+    //   console.log(result);
+    // }
 
-    //for treatmentEpisodeData
+    // //for treatmentEpisodeData
 
-    for (let i = 0; i < treatmentEpisodeData.length; i++) {
-      const treatmentEpisode = treatmentEpisodeData[i];
+    // for (let i = 0; i < treatmentEpisodeData.length; i++) {
+    //   const treatmentEpisode = treatmentEpisodeData[i];
 
-      const query = `CREATE (g: TreatmentEpisode { ${Object.keys(treatmentEpisode).map(key => `${key}: $${key}`).join(',')} })`;
+    //   const query = `CREATE (g: TreatmentEpisode { ${Object.keys(treatmentEpisode).map(key => `${key}: $${key}`).join(',')} })`;
 
-      const result = await session.run(query, treatmentEpisode);
+    //   const result = await session.run(query, treatmentEpisode);
 
-      console.log(result);
-    }
+    //   console.log(result);
+    // }
 
-    //for visitData
+    // //for visitData
 
-    for (let i = 0; i < visitData.length; i++) {
-      const visit = visitData[i];
+    // for (let i = 0; i < visitData.length; i++) {
+    //   const visit = visitData[i];
 
-      const query = `CREATE (h: Visit { ${Object.keys(visit).map(key => `${key}: $${key}`).join(',')} })`;
+    //   const query = `CREATE (h: Visit { ${Object.keys(visit).map(key => `${key}: $${key}`).join(',')} })`;
 
-      const result = await session.run(query, visit);
+    //   const result = await session.run(query, visit);
 
-      console.log(result);
-    }
+    //   console.log(result);
+    // }
 
 
 
