@@ -5,7 +5,7 @@ const randomiseWords = (array, minCount, maxCount) => {
 
   return Array(count)
     .fill(1)
-    .map(() => array[Math.round(Math.random() * array.length)])
+    .map(() => array[Math.round(Math.random() * (array.length - 1))])
     .join(' ');
 };
 
