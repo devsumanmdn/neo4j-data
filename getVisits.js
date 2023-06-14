@@ -19,6 +19,7 @@ const getVisits = (count) => {
       return {
         vId: index + 1,
         ptId: getOneRandom(personsData.map(({ id }) => id)),
+        complaintId: getOneRandom(personsData.map(({ id }) => id)),
         complained: loremIpsum({ count: getRandomNumberWithinRange(1, 7) }),
         trtEpId: getOneRandom(personsData.map(({ id }) => id)),
         visitType: getOneRandom(visitsDummyJson[0].visitType),
