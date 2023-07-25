@@ -5,13 +5,18 @@ const randomiseWords = require('./randomiseWords');
 
 const patientsDummyJson = require('./graph database/patient.json');
 
-const getPatients = (count) => {
+const getPatients = () => {
   const personsData = require('./json/persons.json');
-  return Array(count)
-    .fill(1)
-    .map((_, index) => ({
+
+
+  const personIdsWhoAreNotDoctor = personsData
+    .filter(({ occupation }) => occupation !== 'Doctor')
+    .map(({ id }) => id);
+
+  return personIdsWhoAreNotDoctor
+    .map((personId, index) => ({
       ptId: index + 1,
-      Id: getOneRandom(personsData.map(({ id }) => id)),
+      Id: personId,
       alternatePtIds: randomiseWords(
         personsData.map(({ id }) => id),
         1,
@@ -21,13 +26,13 @@ const getPatients = (count) => {
         .map((v) => parseInt(v)),
       ecpId: getOneRandom(personsData.map(({ id }) => id)),
       ecpRelation: getOneRandom(patientsDummyJson[0].ecpRelation),
-      cPAHomeId: Math.random(Math.random() * count * 2),
+      cPAHomeId: Math.random(Math.random() * personIdsWhoAreNotDoctor.length * 2),
       cPAHomeRelation: getOneRandom(patientsDummyJson[0].ecpRelation),
     }));
 };
 
-const generatePatient = (count) => {
-  const patients = getPatients(count);
+const generatePatient = () => {
+  const patients = getPatients();
   fs.writeFileSync('./json/patients.json', JSON.stringify(patients));
   console.log('Successfully created', patients.length, 'patients.');
 };

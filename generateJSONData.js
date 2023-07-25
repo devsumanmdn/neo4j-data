@@ -9,13 +9,13 @@ const generateVisit = require('./getVisits');
 
 const generateAllData = async (count) => {
   await generatePerson(count);
-  generateDoctor(count);
-  generatePatient(count);
-  generateComplaint(count);
-  generateHistory(count);
-  generateAllergyHistory(count);
-  generateTreatmentEpisode(count);
-  generateVisit(count);
+  generateDoctor();
+  generatePatient();
+  generateComplaint();
+  generateHistory();
+  generateAllergyHistory();
+  generateTreatmentEpisode();
+  generateVisit();
 };
 
-generateAllData(100);
+generateAllData(10000);
