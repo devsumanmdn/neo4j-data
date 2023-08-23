@@ -3,6 +3,7 @@ const getOneRandom = require('./getOneRandom');
 const personJson = require('./graph database/person.json');
 const statesJson = require('./states-and-districts.json');
 const randomiseWords = require('./randomiseWords');
+const writeJsonFile = require('./writeJsonFile');
 
 const getStateAndDistrict = () => {
   const [state, districts] = getOneRandom(
@@ -146,8 +147,8 @@ const getPerson = async (count) => {
 };
 
 const generatePerson = (count) => {
-  return getPerson(count).then((users) => {
-    fs.writeFileSync('./json/persons.json', JSON.stringify(users));
+  return getPerson(count).then(async (users) => {
+    await writeJsonFile({ file: './json/persons.json', data: users });
     console.log('Successfully created', users.length, 'users.');
   });
 };

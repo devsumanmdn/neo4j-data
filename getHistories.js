@@ -3,12 +3,13 @@ const { loremIpsum } = require('lorem-ipsum');
 
 const getRandomNumberWithinRange = require('./getRandomNumberWithinRange');
 const randomiseArray = require('./randomiseArray');
+const writeJsonFile = require('./writeJsonFile');
 
 const getHistories = () => {
-  const pateientsData = require('./json/patients.json');
+  const patientsData = JSON.parse(fs.readFileSync('./json/patients.json').toString());
 
   const historys = [];
-  pateientsData.forEach((pateient) => {
+  patientsData.forEach((pateient) => {
     const numberOfVisits = getRandomNumberWithinRange(1, 15);
     historys.push(
       ...Array(numberOfVisits)
@@ -38,10 +39,11 @@ const getHistories = () => {
   }));
 };
 
-const generateHistory = () => {
+const generateHistory = async () => {
   const histories = getHistories();
-  fs.writeFileSync('./json/histories.json', JSON.stringify(histories));
+  await writeJsonFile({ file: './json/histories.json', data: histories });
   console.log('Successfully created', histories.length, 'histories.');
+  return histories.length;
 };
 
 module.exports = generateHistory;

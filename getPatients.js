@@ -4,10 +4,10 @@ const getOneRandom = require('./getOneRandom');
 const randomiseWords = require('./randomiseWords');
 
 const patientsDummyJson = require('./graph database/patient.json');
+const writeJsonFile = require('./writeJsonFile');
 
 const getPatients = () => {
-  const personsData = require('./json/persons.json');
-
+  const personsData = JSON.parse(fs.readFileSync('./json/persons.json').toString());
 
   const personIdsWhoAreNotDoctor = personsData
     .filter(({ occupation }) => occupation !== 'Doctor')
@@ -31,10 +31,11 @@ const getPatients = () => {
     }));
 };
 
-const generatePatient = () => {
+const generatePatient = async () => {
   const patients = getPatients();
-  fs.writeFileSync('./json/patients.json', JSON.stringify(patients));
+  await writeJsonFile({ file: './json/patients.json', data: patients });
   console.log('Successfully created', patients.length, 'patients.');
+  return patients.length;
 };
 
 module.exports = generatePatient;

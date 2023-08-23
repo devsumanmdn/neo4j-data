@@ -6,9 +6,10 @@ const complaintsDummyJson = require('./graph database/complaint.json');
 const { loremIpsum } = require('lorem-ipsum');
 const getRandomNumberWithinRange = require('./getRandomNumberWithinRange');
 const randomiseArray = require('./randomiseArray');
+const writeJsonFile = require('./writeJsonFile');
 
 const getComplaints = (count) => {
-  const patientsData = require('./json/patients.json');
+  const patientsData = JSON.parse(fs.readFileSync('./json/patients.json').toString());
 
   const complaints = [];
   patientsData.forEach(({ ptId }) => {
@@ -34,10 +35,11 @@ const getComplaints = (count) => {
   }));
 };
 
-const generateComplaint = () => {
+const generateComplaint = async () => {
   const complaints = getComplaints();
-  fs.writeFileSync('./json/complaints.json', JSON.stringify(complaints));
+  await writeJsonFile({ file: './json/complaints.json', data: complaints });
   console.log('Successfully created', complaints.length, 'complaints.');
+  return complaints.length;
 };
 
 module.exports = generateComplaint;

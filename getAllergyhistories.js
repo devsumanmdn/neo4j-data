@@ -5,12 +5,13 @@ const getOneRandom = require('./getOneRandom');
 const allergyhistoriesDummyJson = require('./graph database/allergyhistory.json');
 const randomiseArray = require('./randomiseArray');
 const getRandomNumberWithinRange = require('./getRandomNumberWithinRange');
+const writeJsonFile = require('./writeJsonFile');
 
 const getAllergyhistories = () => {
-  const histriesData = require('./json/histories.json');
+  const historiesData = JSON.parse(fs.readFileSync('./json/histories.json').toString());
 
   const allergyhistories = [];
-  histriesData.forEach((history) => {
+  historiesData.forEach((history) => {
     const numberOfAllergyhistories = getRandomNumberWithinRange(1, 15);
     allergyhistories.push(
       ...Array(numberOfAllergyhistories)
@@ -36,17 +37,15 @@ const getAllergyhistories = () => {
 
 };
 
-const generateAllergyHistory = (count) => {
+const generateAllergyHistory = async (count) => {
   const allergyhistories = getAllergyhistories(count);
-  fs.writeFileSync(
-    './json/allergyhistories.json',
-    JSON.stringify(allergyhistories)
-  );
+  await writeJsonFile({ file: './json/allergyhistories.json', data: allergyhistories });
   console.log(
     'Successfully created',
     allergyhistories.length,
     'allergyhistories.'
   );
+  return allergyhistories.length;
 };
 
 module.exports = generateAllergyHistory;

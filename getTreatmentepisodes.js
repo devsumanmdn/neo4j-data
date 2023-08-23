@@ -5,13 +5,14 @@ const getOneRandom = require('./getOneRandom');
 const treatmentepisodesDummyJson = require('./graph database/treatmentepisode.json');
 const getRandomNumberWithinRange = require('./getRandomNumberWithinRange');
 const randomiseArray = require('./randomiseArray');
+const writeJsonFile = require('./writeJsonFile');
 
 const getMSFromHours = (hours) => {
   return hours * 60 * 60 * 1000;
 };
 
 const getTreatmentepisodes = () => {
-  const complaintsData = require('./json/complaints.json');
+  const complaintsData = JSON.parse(fs.readFileSync('./json/complaints.json').toString());
 
   const treatmentEpisodes = [];
   complaintsData.forEach((complaint) => {
@@ -49,17 +50,15 @@ const getTreatmentepisodes = () => {
   }));
 };
 
-const generateTreatmentEpisode = () => {
+const generateTreatmentEpisode = async () => {
   const treatmentepisodes = getTreatmentepisodes();
-  fs.writeFileSync(
-    './json/treatmentepisodes.json',
-    JSON.stringify(treatmentepisodes)
-  );
+  await writeJsonFile({ file: './json/treatmentepisodes.json', data: treatmentepisodes });
   console.log(
     'Successfully created',
     treatmentepisodes.length,
     'treatmentepisodes.'
   );
+  return treatmentepisodes.length;
 };
 
 module.exports = generateTreatmentEpisode;
