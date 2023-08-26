@@ -12,22 +12,34 @@ const writeToDB = ({ file, label }) => {
   const fileStream = fs.createReadStream(path.join(__dirname, file));
   const jsonStream = StreamArray.withParser();
 
+  const runQuery = (query) =>
+    session.run(query).catch((err) => {
+      console.log(err);
+      throw err;
+    });
+
+  let list = [];
   const processingStream = new Writable({
-    write({ key, value: data }, encoding, callback) {
+    write({ key, value }, encoding, callback) {
+      list.push(value);
 
-      const query = `CREATE (a: ${label} { ${Object.keys(data)
-        .map((key) => `${key}: $${key}`)
-        .join(',')} })`;
+      if (list.length === 100) {
+        const query = "CREATE " + list
+          .map(
+            (data, index) =>
+              `(a${index}: ${label} { ${Object.keys(data)
+                .map((key) => `${key}: "${data[key]}"`)
+                .join(',')} })`
+          )
+          .join(',');
 
-      session
-        .run(query, data)
-        .then(() => {
+        runQuery(query).then(() => {
           callback();
-        })
-        .catch((err) => {
-          console.log(err);
-          throw err;
         });
+        list = [];
+      } else {
+        callback();
+      }
     },
     //Don't skip this, as we need to operate with objects, not buffers
     objectMode: true,
@@ -41,12 +53,23 @@ const writeToDB = ({ file, label }) => {
 
   return new Promise((res, rej) => {
     processingStream.on('finish', async () => {
+      if (list.length) {
+        const query = "create " + list
+          .map(
+            (data, index) =>
+              `(a${index}: ${label} { ${Object.keys(data)
+                .map((key) => `${key}: "${data[key]}"`)
+                .join(',')} })`
+          )
+          .join(',');
+        await runQuery(query);
+      }
       await session.close();
       await driver.close();
       console.log(label, 'all done');
       res();
     });
-  })
+  });
 };
 
 module.exports = writeToDB;

@@ -10,7 +10,7 @@ const deleteAll = async () => {
     CALL {
         WITH n
         DETACH DELETE n
-    } IN TRANSACTIONS OF 100000 ROWS`;
+    } IN TRANSACTIONS OF 10000 ROWS`;
 
     await session.run(query);
     console.log('Deleted all records');
