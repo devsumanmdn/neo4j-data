@@ -4,7 +4,7 @@ const getOneRandom = require('./getOneRandom');
 const randomiseWords = require('./randomiseWords');
 
 const patientsDummyJson = require('./graph database/patient.json');
-const writeJsonFile = require('./writeJsonFile');
+const writeCSVFile = require('./writeCSVFile');
 
 const getPatients = () => {
   const personsData = JSON.parse(fs.readFileSync('./json/persons.json').toString());
@@ -33,7 +33,7 @@ const getPatients = () => {
 
 const generatePatient = async () => {
   const patients = getPatients();
-  await writeJsonFile({ file: './json/patients.json', data: patients });
+  await writeCSVFile({ file: './json/patients.csv', data: patients });
   console.log('Successfully created', patients.length, 'patients.');
   return patients.length;
 };

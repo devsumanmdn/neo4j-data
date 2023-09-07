@@ -3,7 +3,7 @@ const { loremIpsum } = require('lorem-ipsum');
 
 const getRandomNumberWithinRange = require('./getRandomNumberWithinRange');
 const randomiseArray = require('./randomiseArray');
-const writeJsonFile = require('./writeJsonFile');
+const writeCSVFile = require('./writeCSVFile');
 
 const getHistories = () => {
   const patientsData = JSON.parse(fs.readFileSync('./json/patients.json').toString());
@@ -41,7 +41,7 @@ const getHistories = () => {
 
 const generateHistory = async () => {
   const histories = getHistories();
-  await writeJsonFile({ file: './json/histories.json', data: histories });
+  await writeCSVFile({ file: './json/histories.csv', data: histories });
   console.log('Successfully created', histories.length, 'histories.');
   return histories.length;
 };

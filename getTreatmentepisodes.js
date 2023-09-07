@@ -5,7 +5,7 @@ const getOneRandom = require('./getOneRandom');
 const treatmentepisodesDummyJson = require('./graph database/treatmentepisode.json');
 const getRandomNumberWithinRange = require('./getRandomNumberWithinRange');
 const randomiseArray = require('./randomiseArray');
-const writeJsonFile = require('./writeJsonFile');
+const writeCSVFile = require('./writeCSVFile');
 
 const getMSFromHours = (hours) => {
   return hours * 60 * 60 * 1000;
@@ -52,7 +52,7 @@ const getTreatmentepisodes = () => {
 
 const generateTreatmentEpisode = async () => {
   const treatmentepisodes = getTreatmentepisodes();
-  await writeJsonFile({ file: './json/treatmentepisodes.json', data: treatmentepisodes });
+  await writeCSVFile({ file: './json/treatmentepisodes.csv', data: treatmentepisodes });
   console.log(
     'Successfully created',
     treatmentepisodes.length,

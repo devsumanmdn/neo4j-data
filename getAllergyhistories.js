@@ -5,7 +5,7 @@ const getOneRandom = require('./getOneRandom');
 const allergyhistoriesDummyJson = require('./graph database/allergyhistory.json');
 const randomiseArray = require('./randomiseArray');
 const getRandomNumberWithinRange = require('./getRandomNumberWithinRange');
-const writeJsonFile = require('./writeJsonFile');
+const writeCSVFile = require('./writeCSVFile');
 
 const getAllergyhistories = () => {
   const historiesData = JSON.parse(fs.readFileSync('./json/histories.json').toString());
@@ -39,7 +39,7 @@ const getAllergyhistories = () => {
 
 const generateAllergyHistory = async (count) => {
   const allergyhistories = getAllergyhistories(count);
-  await writeJsonFile({ file: './json/allergyhistories.json', data: allergyhistories });
+  await writeCSVFile({ file: './json/allergyhistories.csv', data: allergyhistories });
   console.log(
     'Successfully created',
     allergyhistories.length,

@@ -30,4 +30,6 @@ const generateAllData = async (count) => {
   return `${count}\t${countDoctor}\t${countPatient}\t${countHistory}\t${countAllergyHistory}\t${countComplaint}\t${countTreatmentEpisode}\t${countVisit}\t${personsStat.size/1024}\t${doctorsStat.size/1024}\t${patientsStat.size/1024}\t${historiesStat.size/1024}\t${allergyhistoriesStat.size/1024}\t${complaintsStat.size/1024}\t${treatmentepisodesStat.size/1024}\t${visitsStat.size/1024}`;
 };
 
+generateAllData(1000);
+
 module.exports = generateAllData;

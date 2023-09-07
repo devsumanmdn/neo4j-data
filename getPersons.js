@@ -3,7 +3,12 @@ const getOneRandom = require('./getOneRandom');
 const personJson = require('./graph database/person.json');
 const statesJson = require('./states-and-districts.json');
 const randomiseWords = require('./randomiseWords');
-const writeJsonFile = require('./writeJsonFile');
+const writeCSVFile = require('./writeCSVFile');
+const { Parser } = require('@json2csv/plainjs');
+const { Readable } = require('stream');
+
+const parser = new Parser();
+const parserWithoutHeader = new Parser({ header: false });
 
 const getStateAndDistrict = () => {
   const [state, districts] = getOneRandom(
@@ -42,10 +47,11 @@ const getAllUsers = async () => {
   return allUsers;
 };
 
-const getPerson = async (count) => {
+async function* getPerson(count) {
   const dummyUsers = await getAllUsers().then((users) => {
     return users.map((user) => ({
       id: user.id,
+      email: user.email,
       name: `${user.firstName} ${user.lastName}`,
       bloodGroup: user.bloodGroup,
       dateOfBirthage: user.age,
@@ -61,7 +67,6 @@ const getPerson = async (count) => {
       occupation: getOneRandom(personJson[0].occupation),
       socioEconomicStatus: getOneRandom(personJson[0].socioEconomicStatus),
       foodHabbit: getOneRandom(personJson[0].foodHabbit),
-      email: user.email,
       ...getStateAndDistrict(),
     }));
   });
@@ -72,85 +77,79 @@ const getPerson = async (count) => {
     count,
   });
 
-  const restNewUsers = Array(count - dummyUsers.length)
-    .fill(dummyUsers.length)
-    .map((length, index) => {
-      const name = randomiseWords(
-        dummyUsers
-          .map(({ name }) => name)
-          .join(' ')
-          .split(' '),
-        2,
-        2
-      );
+  yield parser.parse(dummyUsers);
 
-      const email =
-        name.replace(' ', '').toLowerCase() +
-        '@' +
-        getOneRandom([
-          'gmail',
-          'outlook',
-          'hotmail',
-          'yahoo',
-          'reddif',
-          'aol',
-        ]) +
-        '.com';
+  for (let index = 0; index < (count - dummyUsers.length); index++) {
+    const name = randomiseWords(
+      dummyUsers
+        .map(({ name }) => name)
+        .join(' ')
+        .split(' '),
+      2,
+      2
+    );
 
-      return {
-        id: index + length + 1,
-        email: email,
-        name: name,
-        bloodGroup: getOneRandom(personJson[0].bloodGroup),
-        dateOfBirthage: Math.round(Math.random() * 70),
-        gender: getOneRandom(personJson[0].gender),
-        pinCode: randomiseWords(
-          dummyUsers.map(({ pinCode }) => pinCode),
-          1,
-          1
-        ),
-        countryCode: '+91',
-        contactNo: randomiseWords(
-          dummyUsers.map(({ contactNo }) => contactNo),
-          1,
-          1
-        ),
-        cityTownVillagePoliceStation: randomiseWords(
-          dummyUsers.map(
-            ({ cityTownVillagePoliceStation }) => cityTownVillagePoliceStation
-          ),
-          1,
-          1
-        ),
-        addressLine1: randomiseWords(
-          dummyUsers.map(
-            ({ cityTownVillagePoliceStation }) => cityTownVillagePoliceStation
-          ),
-          1,
-          1
-        ),
-        addressLine2: randomiseWords(
-          dummyUsers.map(({ addressLine2 }) => addressLine2),
-          1,
-          1
-        ),
-        addressType: getOneRandom(personJson[0].addressType),
-        religion: getOneRandom(personJson[0].religion),
-        occupation: getOneRandom(personJson[0].occupation),
-        socioEconomicStatus: getOneRandom(personJson[0].socioEconomicStatus),
-        foodHabbit: getOneRandom(personJson[0].foodHabbit),
-        ...getStateAndDistrict(),
-      };
-    });
+    const email =
+      name.replace(' ', '').toLowerCase() +
+      '@' +
+      getOneRandom(['gmail', 'outlook', 'hotmail', 'yahoo', 'reddif', 'aol']) +
+      '.com';
 
-  return [...dummyUsers, ...restNewUsers];
-};
+    const user = {
+      id: dummyUsers.length + index + 1,
+      email: email,
+      name: name,
+      bloodGroup: getOneRandom(personJson[0].bloodGroup),
+      dateOfBirthage: Math.round(Math.random() * 70),
+      gender: getOneRandom(personJson[0].gender),
+      pinCode: randomiseWords(
+        dummyUsers.map(({ pinCode }) => pinCode),
+        1,
+        1
+      ),
+      countryCode: '+91',
+      contactNo: randomiseWords(
+        dummyUsers.map(({ contactNo }) => contactNo),
+        1,
+        1
+      ),
+      cityTownVillagePoliceStation: randomiseWords(
+        dummyUsers.map(
+          ({ cityTownVillagePoliceStation }) => cityTownVillagePoliceStation
+        ),
+        1,
+        1
+      ),
+      addressLine1: randomiseWords(
+        dummyUsers.map(
+          ({ cityTownVillagePoliceStation }) => cityTownVillagePoliceStation
+        ),
+        1,
+        1
+      ),
+      addressLine2: randomiseWords(
+        dummyUsers.map(({ addressLine2 }) => addressLine2),
+        1,
+        1
+      ),
+      addressType: getOneRandom(personJson[0].addressType),
+      religion: getOneRandom(personJson[0].religion),
+      occupation: getOneRandom(personJson[0].occupation),
+      socioEconomicStatus: getOneRandom(personJson[0].socioEconomicStatus),
+      foodHabbit: getOneRandom(personJson[0].foodHabbit),
+      ...getStateAndDistrict(),
+    };
 
-const generatePerson = (count) => {
-  return getPerson(count).then(async (users) => {
-    await writeJsonFile({ file: './json/persons.json', data: users });
-    console.log('Successfully created', users.length, 'users.');
-  });
+    yield '\n'+parserWithoutHeader.parse(user);
+  }
+}
+
+const generatePerson = async (count) => {
+  const readable = Readable.from(getPerson(count));
+
+  await writeCSVFile({ file: './json/persons.csv', readable });
+  console.log('Successfully created', 'users.');
+  return count;
 };
 
 module.exports = generatePerson;
