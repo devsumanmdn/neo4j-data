@@ -1,12 +1,13 @@
 const fs = require('fs');
+const { parse } = require("csv-parse/sync");
 const { loremIpsum } = require('lorem-ipsum');
 
 const getRandomNumberWithinRange = require('./getRandomNumberWithinRange');
 const randomiseArray = require('./randomiseArray');
-const writeJsonFile = require('./writeJsonFile');
+const writeJsonToCSVFile = require('./writeJsonToCSVFile');
 
-const getHistories = () => {
-  const patientsData = JSON.parse(fs.readFileSync('./json/patients.json').toString());
+const getHistories = (folder, lastCount) => {
+    const patientsData = parse(fs.readFileSync(`${folder}patients.csv`).toString(), { delimiter: ',', columns: true });
 
   const historys = [];
   patientsData.forEach((pateient) => {
@@ -35,13 +36,13 @@ const getHistories = () => {
   const shuffledVisits = randomiseArray(historys);
   return shuffledVisits.map((history, index) => ({
     ...history,
-    historyId: index + 1,
+    historyId: lastCount + index + 1,
   }));
 };
 
-const generateHistory = async () => {
-  const histories = getHistories();
-  await writeJsonFile({ file: './json/histories.json', data: histories });
+const generateHistory = async (folder, lastCount) => {
+  const histories = getHistories(folder, lastCount);
+  await writeJsonToCSVFile({ file: `${folder}histories.csv`, data: histories });
   console.log('Successfully created', histories.length, 'histories.');
   return histories.length;
 };

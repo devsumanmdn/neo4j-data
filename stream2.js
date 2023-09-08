@@ -3,6 +3,7 @@ const StreamArray = require('stream-json/streamers/StreamArray');
 const { Writable } = require('stream');
 const path = require('path');
 const fs = require('fs');
+const { parse } = require("csv-parse/sync");
 
 const writeToDB = ({ file, label }) => {
   const uri = 'bolt://127.0.0.1:7687';

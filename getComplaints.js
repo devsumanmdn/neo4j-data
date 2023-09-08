@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { parse } = require("csv-parse/sync");
 
 const getOneRandom = require('./getOneRandom');
 
@@ -6,10 +7,10 @@ const complaintsDummyJson = require('./graph database/complaint.json');
 const { loremIpsum } = require('lorem-ipsum');
 const getRandomNumberWithinRange = require('./getRandomNumberWithinRange');
 const randomiseArray = require('./randomiseArray');
-const writeJsonFile = require('./writeJsonFile');
+const writeJsonToCSVFile = require('./writeJsonToCSVFile');
 
-const getComplaints = (count) => {
-  const patientsData = JSON.parse(fs.readFileSync('./json/patients.json').toString());
+const getComplaints = (folder, lastCount) => {
+    const patientsData = parse(fs.readFileSync(`${folder}patients.csv`).toString(), { delimiter: ',', columns: true });
 
   const complaints = [];
   patientsData.forEach(({ ptId }) => {
@@ -31,13 +32,13 @@ const getComplaints = (count) => {
   const shuffledComplaints = randomiseArray(complaints);
   return shuffledComplaints.map((complaint, index) => ({
     ...complaint,
-    complaintId: index + 1,
+    complaintId: lastCount + index + 1,
   }));
 };
 
-const generateComplaint = async () => {
-  const complaints = getComplaints();
-  await writeJsonFile({ file: './json/complaints.json', data: complaints });
+const generateComplaint = async (folder, lastCount) => {
+  const complaints = getComplaints(folder, lastCount);
+  await writeJsonToCSVFile({ file: `${folder}complaints.csv`, data: complaints });
   console.log('Successfully created', complaints.length, 'complaints.');
   return complaints.length;
 };

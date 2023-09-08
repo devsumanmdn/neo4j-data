@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { parse } = require('csv-parse/sync');
 const generatePerson = require('./getPersons');
 const generateDoctor = require('./getDoctors');
 const generatePatient = require('./getPatients');
@@ -8,26 +9,99 @@ const generateAllergyHistory = require('./getAllergyhistories');
 const generateTreatmentEpisode = require('./getTreatmentepisodes');
 const generateVisit = require('./getVisits');
 
+const CHUNK_SIZE = 1000;
+
 const generateAllData = async (count) => {
-  await generatePerson(count);
-  const countDoctor = await generateDoctor();
-  const countPatient = await generatePatient();
-  const countComplaint = await generateComplaint();
-  const countHistory = await generateHistory();
-  const countAllergyHistory = await generateAllergyHistory();
-  const countTreatmentEpisode = await generateTreatmentEpisode();
-  const countVisit = await generateVisit();
-
-  const allergyhistoriesStat = fs.statSync('./json/allergyhistories.json');
-  const complaintsStat = fs.statSync('./json/complaints.json');
-  const doctorsStat = fs.statSync('./json/doctors.json');
-  const historiesStat = fs.statSync('./json/histories.json');
-  const patientsStat = fs.statSync('./json/patients.json');
-  const personsStat = fs.statSync('./json/persons.json');
-  const treatmentepisodesStat = fs.statSync('./json/treatmentepisodes.json');
-  const visitsStat = fs.statSync('./json/visits.json');
-
-  return `${count}\t${countDoctor}\t${countPatient}\t${countHistory}\t${countAllergyHistory}\t${countComplaint}\t${countTreatmentEpisode}\t${countVisit}\t${personsStat.size/1024}\t${doctorsStat.size/1024}\t${patientsStat.size/1024}\t${historiesStat.size/1024}\t${allergyhistoriesStat.size/1024}\t${complaintsStat.size/1024}\t${treatmentepisodesStat.size/1024}\t${visitsStat.size/1024}`;
+  if (count > CHUNK_SIZE) {
+    for (let start = 0; start < count; start += CHUNK_SIZE) {
+      if (start + CHUNK_SIZE > count) {
+        await generateChunk(start, count);
+      } else {
+        await generateChunk(start, start + CHUNK_SIZE);
+      }
+    }
+  } else {
+    await generateChunk(0, count);
+  }
 };
 
+let prevKey = '';
+
+const generateChunk = async (startCount, endCount) => {
+  const key = `${startCount}-${endCount}`;
+  const folder = `./csv/${key}/`;
+
+  if (!fs.existsSync(folder)) {
+    fs.mkdirSync(folder);
+  }
+
+  const statFile = './stats.json';
+  let stats = {};
+  try {
+    stats = JSON.parse(fs.readFileSync(statFile).toString());
+  } catch (_) {
+    console.log('No stats found');
+  }
+
+  await generatePerson(startCount, endCount, folder);
+  const countDoctor = await generateDoctor(
+    folder,
+    stats[prevKey]?.doctors || 0
+  );
+  const countPatient = await generatePatient(
+    folder,
+    stats[prevKey]?.patients || 0
+  );
+  const countComplaint = await generateComplaint(
+    folder,
+    stats[prevKey]?.complaints || 0
+  );
+  const countHistory = await generateHistory(
+    folder,
+    stats[prevKey]?.histories || 0
+  );
+  const countAllergyHistory = await generateAllergyHistory(
+    folder,
+    stats[prevKey]?.allergyhistories || 0
+  );
+  const countTreatmentEpisode = await generateTreatmentEpisode(
+    folder,
+    stats[prevKey]?.treatmentepisodes || 0
+  );
+  const countVisit = await generateVisit(folder, stats[prevKey]?.visits || 0);
+
+  const personsSize = fs.statSync(`${folder}persons.csv`);
+  const doctorsSize = fs.statSync(`${folder}doctors.csv`);
+  const patientsSize = fs.statSync(`${folder}patients.csv`);
+  const complaintsSize = fs.statSync(`${folder}complaints.csv`);
+  const historiesSize = fs.statSync(`${folder}histories.csv`);
+  const allergyhistoriesSize = fs.statSync(`${folder}allergyhistories.csv`);
+  const treatmentepisodesSize = fs.statSync(`${folder}treatmentepisodes.csv`);
+  const visitsSize = fs.statSync(`${folder}visits.csv`);
+
+  stats[key] = {
+    persons: personsSize,
+    doctors: doctorsSize,
+    patients: patientsSize,
+    complaints: complaintsSize,
+    histories: historiesSize,
+    allergyhistories: allergyhistoriesSize,
+    treatmentepisodes: treatmentepisodesSize,
+    visits: visitsSize,
+  };
+
+  fs.writeFileSync(statFile, JSON.stringify(stats));
+
+  prevKey = key;
+
+  return `${endCount}\t${countDoctor}\t${countPatient}\t${countHistory}\t${countAllergyHistory}\t${countComplaint}\t${countTreatmentEpisode}\t${countVisit}\t${
+    personsSize.size / 1024
+  }\t${doctorsSize.size / 1024}\t${patientsSize.size / 1024}\t${
+    historiesSize.size / 1024
+  }\t${allergyhistoriesSize.size / 1024}\t${complaintsSize.size / 1024}\t${
+    treatmentepisodesSize.size / 1024
+  }\t${visitsSize.size / 1024}`;
+};
+
+generateAllData(10000);
 module.exports = generateAllData;

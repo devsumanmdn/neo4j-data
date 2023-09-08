@@ -1,14 +1,15 @@
 const fs = require('fs');
+const { parse } = require("csv-parse/sync");
 
 const getOneRandom = require('./getOneRandom');
 
 const allergyhistoriesDummyJson = require('./graph database/allergyhistory.json');
 const randomiseArray = require('./randomiseArray');
 const getRandomNumberWithinRange = require('./getRandomNumberWithinRange');
-const writeJsonFile = require('./writeJsonFile');
+const writeJsonToCSVFile = require('./writeJsonToCSVFile');
 
-const getAllergyhistories = () => {
-  const historiesData = JSON.parse(fs.readFileSync('./json/histories.json').toString());
+const getAllergyhistories = (folder, lastCount) => {
+    const historiesData = parse(fs.readFileSync(`${folder}histories.csv`).toString(), { delimiter: ',', columns: true });
 
   const allergyhistories = [];
   historiesData.forEach((history) => {
@@ -32,14 +33,14 @@ const getAllergyhistories = () => {
   const shuffledAllergyhistories = randomiseArray(allergyhistories);
   return shuffledAllergyhistories.map((allergyhistorie, index) => ({
     ...allergyhistorie,
-    allergyHId: index + 1,
+    allergyHId: lastCount + index + 1,
   }));
 
 };
 
-const generateAllergyHistory = async (count) => {
-  const allergyhistories = getAllergyhistories(count);
-  await writeJsonFile({ file: './json/allergyhistories.json', data: allergyhistories });
+const generateAllergyHistory = async (folder, lastCount) => {
+  const allergyhistories = getAllergyhistories(folder, lastCount);
+  await writeJsonToCSVFile({ file: `${folder}allergyhistories.csv`, data: allergyhistories });
   console.log(
     'Successfully created',
     allergyhistories.length,

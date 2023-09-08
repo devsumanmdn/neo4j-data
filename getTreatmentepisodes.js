@@ -1,18 +1,19 @@
 const fs = require('fs');
+const { parse } = require("csv-parse/sync");
 
 const getOneRandom = require('./getOneRandom');
 
 const treatmentepisodesDummyJson = require('./graph database/treatmentepisode.json');
 const getRandomNumberWithinRange = require('./getRandomNumberWithinRange');
 const randomiseArray = require('./randomiseArray');
-const writeJsonFile = require('./writeJsonFile');
+const writeJsonToCSVFile = require('./writeJsonToCSVFile');
 
 const getMSFromHours = (hours) => {
   return hours * 60 * 60 * 1000;
 };
 
-const getTreatmentepisodes = () => {
-  const complaintsData = JSON.parse(fs.readFileSync('./json/complaints.json').toString());
+const getTreatmentepisodes = (folder, lastCount) => {
+    const complaintsData = parse(fs.readFileSync(`${folder}complaints.csv`).toString(), { delimiter: ',', columns: true });
 
   const treatmentEpisodes = [];
   complaintsData.forEach((complaint) => {
@@ -46,13 +47,13 @@ const getTreatmentepisodes = () => {
   const shuffledTreatmentEpisodes = randomiseArray(treatmentEpisodes);
   return shuffledTreatmentEpisodes.map((treatmentEpisode, index) => ({
     ...treatmentEpisode,
-    treatEpId: index + 1,
+    treatEpId: lastCount + index + 1,
   }));
 };
 
-const generateTreatmentEpisode = async () => {
-  const treatmentepisodes = getTreatmentepisodes();
-  await writeJsonFile({ file: './json/treatmentepisodes.json', data: treatmentepisodes });
+const generateTreatmentEpisode = async (folder, lastCount) => {
+  const treatmentepisodes = getTreatmentepisodes(folder, lastCount);
+  await writeJsonToCSVFile({ file: `${folder}treatmentepisodes.csv`, data: treatmentepisodes });
   console.log(
     'Successfully created',
     treatmentepisodes.length,

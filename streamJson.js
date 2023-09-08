@@ -2,6 +2,7 @@ const StreamArray = require('stream-json/streamers/StreamArray');
 const { batch } = require('stream-json/utils/Batch');
 
 const fs = require('fs');
+const { parse } = require("csv-parse/sync");
 
 const writeDataToDB = ({ file, label, session }) => {
   const pipeline = fs.createReadStream(file).pipe(StreamArray.withParser());
