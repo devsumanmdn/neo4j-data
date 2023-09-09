@@ -28,7 +28,7 @@ const generateAllData = async (count) => {
   if (!fs.existsSync('./csv')) {
     fs.mkdirSync('./csv');
   }
-  await deleteAllFilesInDir('./csv');
+  // await deleteAllFilesInDir('./csv');
 
   if (count > CHUNK_SIZE) {
     for (let start = 0; start < count; start += CHUNK_SIZE) {
