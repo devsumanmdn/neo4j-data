@@ -1,9 +1,10 @@
 const fs = require('fs');
+const { parse } = require('csv-parse/sync');
 const getOneRandom = require('./getOneRandom');
 const personJson = require('./graph database/person.json');
 const statesJson = require('./states-and-districts.json');
 const randomiseWords = require('./randomiseWords');
-const writeJsonFile = require('./writeJsonFile');
+const writeJsonToCSVFile = require('./writeJsonToCSVFile');
 
 const getStateAndDistrict = () => {
   const [state, districts] = getOneRandom(
@@ -42,10 +43,12 @@ const getAllUsers = async () => {
   return allUsers;
 };
 
-const getPerson = async (count) => {
+const getPerson = async (startCount, endCount) => {
+  const count = endCount - startCount;
   const dummyUsers = await getAllUsers().then((users) => {
     return users.map((user) => ({
       id: user.id,
+      email: user.email,
       name: `${user.firstName} ${user.lastName}`,
       bloodGroup: user.bloodGroup,
       dateOfBirthage: user.age,
@@ -61,20 +64,24 @@ const getPerson = async (count) => {
       occupation: getOneRandom(personJson[0].occupation),
       socioEconomicStatus: getOneRandom(personJson[0].socioEconomicStatus),
       foodHabbit: getOneRandom(personJson[0].foodHabbit),
-      email: user.email,
       ...getStateAndDistrict(),
     }));
   });
 
+  const restCount =
+    startCount > dummyUsers.length
+      ? count
+      : count - dummyUsers.length - startCount;
+
   console.log({
-    restCount: count - dummyUsers.length,
+    restCount,
     length: dummyUsers.length,
     count,
   });
 
-  const restNewUsers = Array(count - dummyUsers.length)
+  const restNewUsers = Array(restCount)
     .fill(dummyUsers.length)
-    .map((length, index) => {
+    .map((_, index) => {
       const name = randomiseWords(
         dummyUsers
           .map(({ name }) => name)
@@ -98,7 +105,7 @@ const getPerson = async (count) => {
         '.com';
 
       return {
-        id: index + length + 1,
+        id: index + startCount + 1,
         email: email,
         name: name,
         bloodGroup: getOneRandom(personJson[0].bloodGroup),
@@ -143,12 +150,15 @@ const getPerson = async (count) => {
       };
     });
 
-  return [...dummyUsers, ...restNewUsers];
+  return [
+    ...(startCount > dummyUsers.length ? [] : dummyUsers.slice(startCount)),
+    ...restNewUsers,
+  ];
 };
 
-const generatePerson = (count) => {
-  return getPerson(count).then(async (users) => {
-    await writeJsonFile({ file: './json/persons.json', data: users });
+const generatePerson = (startCount, endCount, folder) => {
+  return getPerson(startCount, endCount).then(async (users) => {
+    await writeJsonToCSVFile({ file: `${folder}persons.csv`, data: users });
     console.log('Successfully created', users.length, 'users.');
   });
 };

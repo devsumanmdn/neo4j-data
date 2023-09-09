@@ -2,26 +2,26 @@ const neo4j = require('neo4j-driver');
 const fs = require('fs');
 
 const getRelationshipQuery = require('./getRelationshipQuery');
-const deleteAll = require('./deleteAll');
-const testQuery = require('./testQuery');
-const generateAllData = require('./generateJSONData');
+const { getKeyAndFolder } = require('./generateJSONData');
 const writeToDB = require('./stream2');
 
-const runForCount = async (count) => {
+const addRecordsAndCreateRelationshipsForCount = async (skip) => {
   const uri = 'bolt://127.0.0.1:7687';
   const driver = neo4j.driver(uri, neo4j.auth.basic('neo4j', 'Mou@2997'));
   const session = driver.session();
   try {
-    let [_, stats] = await Promise.all([deleteAll(), generateAllData(count)]);
+    const stats = JSON.parse(fs.readFileSync('./stats.json'));
+
+    const { key, folder } = getKeyAndFolder(skip);
 
     await writeToDB({
-      file: './json/persons.json',
+      file: `${folder}persons.csv`,
       label: 'Person',
     });
 
     await writeToDB({
-      file: './json/doctors.json',
-      label: 'Doctor'
+      file: `${folder}doctors.csv`,
+      label: 'Doctor',
     });
 
     const doctorPersonRelQuery = getRelationshipQuery(
@@ -34,9 +34,8 @@ const runForCount = async (count) => {
     await session.run(doctorPersonRelQuery);
 
     await writeToDB({
-      file: './json/patients.json',
+      file: `${folder}patients.csv`,
       label: 'Patient',
-      session,
     });
     const patientPersonRelQuery = getRelationshipQuery(
       'Patient',
@@ -48,9 +47,8 @@ const runForCount = async (count) => {
     await session.run(patientPersonRelQuery);
 
     await writeToDB({
-      file: './json/histories.json',
+      file: `${folder}histories.csv`,
       label: 'History',
-      session,
     });
     const historyPatientRelQuery = getRelationshipQuery(
       'History',
@@ -62,9 +60,8 @@ const runForCount = async (count) => {
     await session.run(historyPatientRelQuery);
 
     await writeToDB({
-      file: './json/allergyhistories.json',
+      file: `${folder}allergyhistories.csv`,
       label: 'AllergyHistory',
-      session,
     });
     const allergyHistoryPatientRelQuery = getRelationshipQuery(
       'AllergyHistory',
@@ -76,9 +73,8 @@ const runForCount = async (count) => {
     await session.run(allergyHistoryPatientRelQuery);
 
     await writeToDB({
-      file: './json/complaints.json',
+      file: `${folder}complaints.csv`,
       label: 'Complaint',
-      session,
     });
     const complaintPatientRelQuery = getRelationshipQuery(
       'Complaint',
@@ -90,9 +86,8 @@ const runForCount = async (count) => {
     await session.run(complaintPatientRelQuery);
 
     await writeToDB({
-      file: './json/treatmentepisodes.json',
+      file: `${folder}treatmentepisodes.csv`,
       label: 'TreatmentEpisode',
-      session,
     });
     const treatmentEpisodePatientRelQuery = getRelationshipQuery(
       'TreatmentEpisode',
@@ -113,9 +108,8 @@ const runForCount = async (count) => {
     await session.run(treatmentEpisodeComplaintRelQuery);
 
     await writeToDB({
-      file: './json/visits.json',
+      file: `${folder}visits.csv`,
       label: 'Visit',
-      session,
     });
     const visitPatientRelQuery = getRelationshipQuery(
       'Visit',
@@ -144,12 +138,13 @@ const runForCount = async (count) => {
     );
     await session.run(visitTreatmentEpisodeRelQuery);
 
-    const timeInMS = await testQuery();
+    // const timeInMS = await testQuery();
 
-    stats += `\t${timeInMS}ms\n`;
-    console.log(stats);
+    // stats += `\t${timeInMS}ms\n`;
+    // console.log(stats);
 
-    fs.appendFileSync('./stats.txt', stats);
+    // fs.appendFileSync('./stats.txt', stats);
+    console.log('Successfully ran for');
   } finally {
     await session.close();
   }
@@ -158,4 +153,4 @@ const runForCount = async (count) => {
   await driver.close();
 };
 
-module.exports = runForCount;
+module.exports = addRecordsAndCreateRelationshipsForCount;
