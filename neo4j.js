@@ -2,14 +2,10 @@ const neo4j = require('neo4j-driver');
 const fs = require('fs');
 
 const getRelationshipQuery = require('./getRelationshipQuery');
-const deleteAll = require('./deleteAll');
-const testQuery = require('./testQuery');
-const { generateAllData, getKeyAndFolder } = require('./generateJSONData');
+const { getKeyAndFolder } = require('./generateJSONData');
 const writeToDB = require('./stream2');
 
-const runForCount = async (skip) => {
-  const [_, __] = await Promise.all([deleteAll(), generateAllData(count)]);
-
+const addRecordsAndCreateRelationshipsForCount = async (skip) => {
   const uri = 'bolt://127.0.0.1:7687';
   const driver = neo4j.driver(uri, neo4j.auth.basic('neo4j', 'Mou@2997'));
   const session = driver.session();
@@ -157,4 +153,4 @@ const runForCount = async (skip) => {
   await driver.close();
 };
 
-module.exports = runForCount;
+module.exports = addRecordsAndCreateRelationshipsForCount;

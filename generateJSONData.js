@@ -109,4 +109,4 @@ const generateChunk = async (startCount, endCount) => {
   }\t${visitsSize.size / 1024}`;
 };
 
-module.exports = { generateAllData, getKeyAndFolder };
+module.exports = { generateAllData, getKeyAndFolder, CHUNK_SIZE };
