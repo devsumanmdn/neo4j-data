@@ -11,6 +11,17 @@ const generateVisit = require('./getVisits');
 
 const CHUNK_SIZE = 1000;
 
+const getKeyAndFolder = (startCount) => {
+  const key = `${startCount}-${startCount + CHUNK_SIZE}`;
+  const folder = `./csv/${key}/`;
+
+  if (!fs.existsSync(folder)) {
+    fs.mkdirSync(folder);
+  }
+
+  return { key, folder };
+};
+
 const generateAllData = async (count) => {
   if (count > CHUNK_SIZE) {
     for (let start = 0; start < count; start += CHUNK_SIZE) {
@@ -28,12 +39,7 @@ const generateAllData = async (count) => {
 let prevKey = '';
 
 const generateChunk = async (startCount, endCount) => {
-  const key = `${startCount}-${endCount}`;
-  const folder = `./csv/${key}/`;
-
-  if (!fs.existsSync(folder)) {
-    fs.mkdirSync(folder);
-  }
+  const { key, folder } = getKeyAndFolder(startCount);
 
   const statFile = './stats.json';
   let stats = {};
@@ -103,5 +109,4 @@ const generateChunk = async (startCount, endCount) => {
   }\t${visitsSize.size / 1024}`;
 };
 
-generateAllData(10000);
-module.exports = generateAllData;
+module.exports = { generateAllData, getKeyAndFolder };
