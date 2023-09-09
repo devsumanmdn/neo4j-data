@@ -12,6 +12,7 @@ const generateVisit = require('./getVisits');
 const CHUNK_SIZE = 1000;
 
 const getKeyAndFolder = (startCount) => {
+
   const key = `${startCount}-${startCount + CHUNK_SIZE}`;
   const folder = `./csv/${key}/`;
 
@@ -39,6 +40,11 @@ const generateAllData = async (count) => {
 let prevKey = '';
 
 const generateChunk = async (startCount, endCount) => {
+  if (!fs.existsSync('./csv')) {
+    fs.mkdirSync('./csv');
+  }
+  await deleteAllFilesInDir('./csv');
+
   const { key, folder } = getKeyAndFolder(startCount);
 
   const statFile = './stats.json';
