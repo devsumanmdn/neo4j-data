@@ -8,6 +8,7 @@ const generateHistory = require('./getHistories');
 const generateAllergyHistory = require('./getAllergyhistories');
 const generateTreatmentEpisode = require('./getTreatmentepisodes');
 const generateVisit = require('./getVisits');
+const deleteAllFilesInDir = require('./fsUtils');
 
 const CHUNK_SIZE = 1000;
 
@@ -24,6 +25,11 @@ const getKeyAndFolder = (startCount) => {
 };
 
 const generateAllData = async (count) => {
+  if (!fs.existsSync('./csv')) {
+    fs.mkdirSync('./csv');
+  }
+  await deleteAllFilesInDir('./csv');
+
   if (count > CHUNK_SIZE) {
     for (let start = 0; start < count; start += CHUNK_SIZE) {
       if (start + CHUNK_SIZE > count) {
@@ -40,11 +46,6 @@ const generateAllData = async (count) => {
 let prevKey = '';
 
 const generateChunk = async (startCount, endCount) => {
-  if (!fs.existsSync('./csv')) {
-    fs.mkdirSync('./csv');
-  }
-  await deleteAllFilesInDir('./csv');
-
   const { key, folder } = getKeyAndFolder(startCount);
 
   const statFile = './stats.json';
