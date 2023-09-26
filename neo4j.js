@@ -38,7 +38,7 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       prevStat?.persons.count || 0
     );
     await session.run(doctorPersonRelQuery);
-    console.log('Done running rel query for table Doctor');
+    // console.log('Done running rel query for table Doctor');
 
     await writeDataToDB({
       file: `${folder}patients.csv`,
@@ -54,7 +54,7 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       prevStat?.persons.count || 0
     );
     await session.run(patientPersonRelQuery);
-    console.log('Done running rel query for table Patient');
+    // console.log('Done running rel query for table Patient');
 
     await writeDataToDB({
       file: `${folder}histories.csv`,
@@ -70,7 +70,7 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       prevStat?.patients.count || 0
     );
     await session.run(historyPatientRelQuery);
-    console.log('Done running rel query for table History');
+    // console.log('Done running rel query for table History');
 
     await writeDataToDB({
       file: `${folder}allergyhistories.csv`,
@@ -86,7 +86,7 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       prevStat?.patients.count || 0
     );
     await session.run(allergyHistoryPatientRelQuery);
-    console.log('Done running rel query for table AllergyHistory');
+    // console.log('Done running rel query for table AllergyHistory');
 
     await writeDataToDB({
       file: `${folder}complaints.csv`,
@@ -102,7 +102,7 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       prevStat?.patients.count || 0
     );
     await session.run(complaintPatientRelQuery);
-    console.log('Done running rel query for table Complaint');
+    // console.log('Done running rel query for table Complaint');
 
     await writeDataToDB({
       file: `${folder}treatmentEpisodes.csv`,
@@ -118,7 +118,7 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       prevStat?.patients.count || 0
     );
     await session.run(treatmentEpisodePatientRelQuery);
-    console.log('Done running rel query for table TreatmentEpisode');
+    // console.log('Done running rel query for table TreatmentEpisode');
 
     const treatmentEpisodeComplaintRelQuery = getRelationshipQuery(
       'TreatmentEpisode',
@@ -130,7 +130,7 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       prevStat?.complaints.count || 0
     );
     await session.run(treatmentEpisodeComplaintRelQuery);
-    console.log('Done running rel query for table TreatmentEpisode');
+    // console.log('Done running rel query for table TreatmentEpisode');
 
     await writeDataToDB({
       file: `${folder}visits.csv`,
@@ -146,7 +146,7 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       prevStat?.patients.count || 0
     );
     await session.run(visitPatientRelQuery);
-    console.log('Done running rel query for table Visit');
+    // console.log('Done running rel query for table Visit');
 
     const visitComplaintRelQuery = getRelationshipQuery(
       'Visit',
@@ -158,7 +158,7 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       prevStat?.complaints.count || 0
     );
     await session.run(visitComplaintRelQuery);
-    console.log('Done running rel query for table Visit');
+    // console.log('Done running rel query for table Visit');
 
     const visitTreatmentEpisodeRelQuery = getRelationshipQuery(
       'Visit',
@@ -172,7 +172,7 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
     await session.run(visitTreatmentEpisodeRelQuery);
 
     // const timeInMS = await testQuery();
-    console.log('Done running rel query for table Visit');
+    // console.log('Done running rel query for table Visit');
 
     // stats += `\t${timeInMS}ms\n`;
     // console.log(stats);
