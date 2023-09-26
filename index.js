@@ -1,5 +1,6 @@
 const deleteAll = require('./deleteAll');
 const { generateAllData, CHUNK_SIZE } = require('./generateJSONData');
+const addRecordsAndCreateRelationshipsForCount = require('./neo4j');
 const runForCount = require('./neo4j');
 const testQuery = require('./testQuery');
 
@@ -23,9 +24,9 @@ const countsArray = [
       startCount < count;
       startCount += CHUNK_SIZE
     ) {
-      addRecordsAndCreateRelationshipsForCount(startCount);
+      await addRecordsAndCreateRelationshipsForCount(startCount);
     }
-    const msTakenByTheQuery = testQuery();
+    const msTakenByTheQuery = await testQuery();
     console.log(
       `${lastEndCount}-${count}`,
       'Query took',

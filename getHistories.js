@@ -43,7 +43,7 @@ const getHistories = (folder, lastCount) => {
 const generateHistory = async (folder, lastCount) => {
   const histories = getHistories(folder, lastCount);
   await writeJsonToCSVFile({ file: `${folder}histories.csv`, data: histories });
-  console.log('Successfully created', histories.length, 'histories.');
+  //console.log('Successfully created', histories.length, 'histories.');
   return histories.length;
 };
 

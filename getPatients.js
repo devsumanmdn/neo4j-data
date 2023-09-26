@@ -37,7 +37,7 @@ const getPatients = (folder, lastCount) => {
 const generatePatient = async (folder, lastCount) => {
   const patients = getPatients(folder, lastCount);
   await writeJsonToCSVFile({ file: `${folder}patients.csv`, data: patients });
-  console.log('Successfully created', patients.length, 'patients.');
+  //console.log('Successfully created', patients.length, 'patients.');
   return patients.length;
 };
 

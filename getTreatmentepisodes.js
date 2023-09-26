@@ -54,11 +54,11 @@ const getTreatmentepisodes = (folder, lastCount) => {
 const generateTreatmentEpisode = async (folder, lastCount) => {
   const treatmentepisodes = getTreatmentepisodes(folder, lastCount);
   await writeJsonToCSVFile({ file: `${folder}treatmentepisodes.csv`, data: treatmentepisodes });
-  console.log(
-    'Successfully created',
-    treatmentepisodes.length,
-    'treatmentepisodes.'
-  );
+  // console.log(
+  //   'Successfully created',
+  //   treatmentepisodes.length,
+  //   'treatmentepisodes.'
+  // );
   return treatmentepisodes.length;
 };
 

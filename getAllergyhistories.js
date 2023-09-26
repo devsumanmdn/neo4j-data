@@ -41,11 +41,11 @@ const getAllergyhistories = (folder, lastCount) => {
 const generateAllergyHistory = async (folder, lastCount) => {
   const allergyhistories = getAllergyhistories(folder, lastCount);
   await writeJsonToCSVFile({ file: `${folder}allergyhistories.csv`, data: allergyhistories });
-  console.log(
-    'Successfully created',
-    allergyhistories.length,
-    'allergyhistories.'
-  );
+  //console.log(
+    //'Successfully created',
+    //allergyhistories.length,
+    //'allergyhistories.'
+  //);
   return allergyhistories.length;
 };
 

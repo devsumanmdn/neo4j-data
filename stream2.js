@@ -1,9 +1,7 @@
 const neo4j = require('neo4j-driver');
-const StreamArray = require('stream-json/streamers/StreamArray');
-const { Writable } = require('stream');
 const path = require('path');
 const fs = require('fs');
-const { parse } = require("csv-parse/sync");
+const { parse } = require("csv-parse");
 
 const writeToDB = ({ file, label }) => {
   const uri = 'bolt://127.0.0.1:7687';
@@ -11,7 +9,6 @@ const writeToDB = ({ file, label }) => {
   const session = driver.session();
 
   const fileStream = fs.createReadStream(path.join(__dirname, file));
-  const jsonStream = StreamArray.withParser();
 
   const runQuery = (query) =>
     session.run(query).catch((err) => {
@@ -47,7 +44,7 @@ const writeToDB = ({ file, label }) => {
   });
 
   //Pipe the streams as follows
-  fileStream.pipe(jsonStream.input);
+  fileStream.pipe(parse({ delimiter: ',', columns: true }));
   jsonStream.pipe(processingStream);
 
   //So we're waiting for the 'finish' event when everything is done.

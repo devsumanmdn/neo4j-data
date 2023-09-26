@@ -73,11 +73,11 @@ const getPerson = async (startCount, endCount) => {
       ? count
       : count - dummyUsers.length - startCount;
 
-  console.log({
-    restCount,
-    length: dummyUsers.length,
-    count,
-  });
+  //console.log({
+   // restCount,
+    //length: dummyUsers.length,
+    //count,
+  //});
 
   const restNewUsers = Array(restCount)
     .fill(dummyUsers.length)
@@ -156,11 +156,12 @@ const getPerson = async (startCount, endCount) => {
   ];
 };
 
-const generatePerson = (startCount, endCount, folder) => {
-  return getPerson(startCount, endCount).then(async (users) => {
+const generatePerson = async (startCount, endCount, folder) => {
+  await getPerson(startCount, endCount).then(async (users) => {
     await writeJsonToCSVFile({ file: `${folder}persons.csv`, data: users });
-    console.log('Successfully created', users.length, 'users.');
+    //console.log('Successfully created', users.length, 'users.');
   });
+  return endCount;
 };
 
 module.exports = generatePerson;

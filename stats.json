@@ -1,1 +1,3002 @@
-{"0-1000":{"persons":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161388743,"size":228438,"blocks":448,"atimeMs":1694278542532.3076,"mtimeMs":1694278542482.3499,"ctimeMs":1694278542482.3499,"birthtimeMs":1694153906227.892,"atime":"2023-09-09T16:55:42.532Z","mtime":"2023-09-09T16:55:42.482Z","ctime":"2023-09-09T16:55:42.482Z","birthtime":"2023-09-08T06:18:26.228Z"},"doctors":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161388744,"size":392,"blocks":8,"atimeMs":1694277593972.586,"mtimeMs":1694278542530.5354,"ctimeMs":1694278542530.5354,"birthtimeMs":1694153906262.629,"atime":"2023-09-09T16:39:53.973Z","mtime":"2023-09-09T16:55:42.531Z","ctime":"2023-09-09T16:55:42.531Z","birthtime":"2023-09-08T06:18:26.263Z"},"patients":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161388745,"size":71283,"blocks":144,"atimeMs":1694278542624.4653,"mtimeMs":1694278542622.9883,"ctimeMs":1694278542622.9883,"birthtimeMs":1694153906330.053,"atime":"2023-09-09T16:55:42.624Z","mtime":"2023-09-09T16:55:42.623Z","ctime":"2023-09-09T16:55:42.623Z","birthtime":"2023-09-08T06:18:26.330Z"},"complaints":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161388746,"size":1348964,"blocks":2640,"atimeMs":1694278543676.6194,"mtimeMs":1694278542683.216,"ctimeMs":1694278542683.216,"birthtimeMs":1694153906389.5369,"atime":"2023-09-09T16:55:43.677Z","mtime":"2023-09-09T16:55:42.683Z","ctime":"2023-09-09T16:55:42.683Z","birthtime":"2023-09-08T06:18:26.390Z"},"histories":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161388747,"size":13973122,"blocks":27296,"atimeMs":1694278543028.3284,"mtimeMs":1694278543022.693,"ctimeMs":1694278543022.693,"birthtimeMs":1694153906683.1265,"atime":"2023-09-09T16:55:43.028Z","mtime":"2023-09-09T16:55:43.023Z","ctime":"2023-09-09T16:55:43.023Z","birthtime":"2023-09-08T06:18:26.683Z"},"allergyhistories":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161388748,"size":2776397,"blocks":5424,"atimeMs":1694277594973.6362,"mtimeMs":1694278543674.0632,"ctimeMs":1694278543674.0632,"birthtimeMs":1694153907275.834,"atime":"2023-09-09T16:39:54.974Z","mtime":"2023-09-09T16:55:43.674Z","ctime":"2023-09-09T16:55:43.674Z","birthtime":"2023-09-08T06:18:27.276Z"},"treatmentepisodes":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161388749,"size":900253,"blocks":1760,"atimeMs":1694278543785.6062,"mtimeMs":1694278543784.538,"ctimeMs":1694278543784.538,"birthtimeMs":1694153907371.1853,"atime":"2023-09-09T16:55:43.786Z","mtime":"2023-09-09T16:55:43.785Z","ctime":"2023-09-09T16:55:43.785Z","birthtime":"2023-09-08T06:18:27.371Z"},"visits":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161388779,"size":38627815,"blocks":75448,"atimeMs":1694277595277.15,"mtimeMs":1694278544844.9526,"ctimeMs":1694278544844.9526,"birthtimeMs":1694153908286.2192,"atime":"2023-09-09T16:39:55.277Z","mtime":"2023-09-09T16:55:44.845Z","ctime":"2023-09-09T16:55:44.845Z","birthtime":"2023-09-08T06:18:28.286Z"}},"1000-2000":{"persons":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161388891,"size":228254,"blocks":448,"atimeMs":1694278546040.237,"mtimeMs":1694278546002.0552,"ctimeMs":1694278546002.0552,"birthtimeMs":1694153915255.2612,"atime":"2023-09-09T16:55:46.040Z","mtime":"2023-09-09T16:55:46.002Z","ctime":"2023-09-09T16:55:46.002Z","birthtime":"2023-09-08T06:18:35.255Z"},"doctors":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161388900,"size":574,"blocks":8,"atimeMs":1694278510395.8345,"mtimeMs":1694278546039.5437,"ctimeMs":1694278546039.5437,"birthtimeMs":1694153915294.112,"atime":"2023-09-09T16:55:10.396Z","mtime":"2023-09-09T16:55:46.040Z","ctime":"2023-09-09T16:55:46.040Z","birthtime":"2023-09-08T06:18:35.294Z"},"patients":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161388915,"size":94982,"blocks":192,"atimeMs":1694278546093.9165,"mtimeMs":1694278546091.0286,"ctimeMs":1694278546091.0286,"birthtimeMs":1694153915346.1611,"atime":"2023-09-09T16:55:46.094Z","mtime":"2023-09-09T16:55:46.091Z","ctime":"2023-09-09T16:55:46.091Z","birthtime":"2023-09-08T06:18:35.346Z"},"complaints":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161388928,"size":1458658,"blocks":2856,"atimeMs":1694278547166.4634,"mtimeMs":1694278546136.5754,"ctimeMs":1694278546136.5754,"birthtimeMs":1694153915390.3975,"atime":"2023-09-09T16:55:47.166Z","mtime":"2023-09-09T16:55:46.137Z","ctime":"2023-09-09T16:55:46.137Z","birthtime":"2023-09-08T06:18:35.390Z"},"histories":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389033,"size":14341889,"blocks":28016,"atimeMs":1694278546484.2373,"mtimeMs":1694278546476.7327,"ctimeMs":1694278546476.7327,"birthtimeMs":1694153915898.1123,"atime":"2023-09-09T16:55:46.484Z","mtime":"2023-09-09T16:55:46.477Z","ctime":"2023-09-09T16:55:46.477Z","birthtime":"2023-09-08T06:18:35.898Z"},"allergyhistories":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389046,"size":4971628,"blocks":9712,"atimeMs":1694278512349.8665,"mtimeMs":1694278547164.321,"ctimeMs":1694278547164.321,"birthtimeMs":1694153916693.5261,"atime":"2023-09-09T16:55:12.350Z","mtime":"2023-09-09T16:55:47.164Z","ctime":"2023-09-09T16:55:47.164Z","birthtime":"2023-09-08T06:18:36.694Z"},"treatmentepisodes":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389053,"size":1333647,"blocks":2608,"atimeMs":1694278547282.2427,"mtimeMs":1694278547281.115,"ctimeMs":1694278547281.115,"birthtimeMs":1694153916807.3342,"atime":"2023-09-09T16:55:47.282Z","mtime":"2023-09-09T16:55:47.281Z","ctime":"2023-09-09T16:55:47.281Z","birthtime":"2023-09-08T06:18:36.807Z"},"visits":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389054,"size":40284492,"blocks":78688,"atimeMs":1694278513397.9143,"mtimeMs":1694278548411.6814,"ctimeMs":1694278548411.6814,"birthtimeMs":1694153917873.9062,"atime":"2023-09-09T16:55:13.398Z","mtime":"2023-09-09T16:55:48.412Z","ctime":"2023-09-09T16:55:48.412Z","birthtime":"2023-09-08T06:18:37.874Z"}},"2000-3000":{"persons":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389056,"size":228227,"blocks":448,"atimeMs":1694278550029.2205,"mtimeMs":1694278549994.2305,"ctimeMs":1694278549994.2305,"birthtimeMs":1694153921425.4595,"atime":"2023-09-09T16:55:50.029Z","mtime":"2023-09-09T16:55:49.994Z","ctime":"2023-09-09T16:55:49.994Z","birthtime":"2023-09-08T06:18:41.425Z"},"doctors":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389057,"size":551,"blocks":8,"atimeMs":1694278514399.0215,"mtimeMs":1694278550028.709,"ctimeMs":1694278550028.709,"birthtimeMs":1694153921459.721,"atime":"2023-09-09T16:55:14.399Z","mtime":"2023-09-09T16:55:50.029Z","ctime":"2023-09-09T16:55:50.029Z","birthtime":"2023-09-08T06:18:41.460Z"},"patients":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389058,"size":94923,"blocks":192,"atimeMs":1694278550073.8306,"mtimeMs":1694278550073.168,"ctimeMs":1694278550073.168,"birthtimeMs":1694153921506.2954,"atime":"2023-09-09T16:55:50.074Z","mtime":"2023-09-09T16:55:50.073Z","ctime":"2023-09-09T16:55:50.073Z","birthtime":"2023-09-08T06:18:41.506Z"},"complaints":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389059,"size":1449979,"blocks":2832,"atimeMs":1694278551116.2485,"mtimeMs":1694278550111.8604,"ctimeMs":1694278550111.8604,"birthtimeMs":1694153921544.387,"atime":"2023-09-09T16:55:51.116Z","mtime":"2023-09-09T16:55:50.112Z","ctime":"2023-09-09T16:55:50.112Z","birthtime":"2023-09-08T06:18:41.544Z"},"histories":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389060,"size":14231599,"blocks":27800,"atimeMs":1694278550437.5432,"mtimeMs":1694278550430.1675,"ctimeMs":1694278550430.1675,"birthtimeMs":1694153921845.7585,"atime":"2023-09-09T16:55:50.438Z","mtime":"2023-09-09T16:55:50.430Z","ctime":"2023-09-09T16:55:50.430Z","birthtime":"2023-09-08T06:18:41.846Z"},"allergyhistories":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389061,"size":4956052,"blocks":9680,"atimeMs":1694278515399.9663,"mtimeMs":1694278551112.0996,"ctimeMs":1694278551112.0996,"birthtimeMs":1694153922570.5522,"atime":"2023-09-09T16:55:15.400Z","mtime":"2023-09-09T16:55:51.112Z","ctime":"2023-09-09T16:55:51.112Z","birthtime":"2023-09-08T06:18:42.571Z"},"treatmentepisodes":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389062,"size":1345048,"blocks":2632,"atimeMs":1694278551234.9746,"mtimeMs":1694278551231.8647,"ctimeMs":1694278551231.8647,"birthtimeMs":1694153922703.5908,"atime":"2023-09-09T16:55:51.235Z","mtime":"2023-09-09T16:55:51.232Z","ctime":"2023-09-09T16:55:51.232Z","birthtime":"2023-09-08T06:18:42.704Z"},"visits":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389069,"size":40434720,"blocks":78976,"atimeMs":1694278517418.4023,"mtimeMs":1694278552349.0317,"ctimeMs":1694278552349.0317,"birthtimeMs":1694153923736.6191,"atime":"2023-09-09T16:55:17.418Z","mtime":"2023-09-09T16:55:52.349Z","ctime":"2023-09-09T16:55:52.349Z","birthtime":"2023-09-08T06:18:43.737Z"}},"3000-4000":{"persons":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389075,"size":228492,"blocks":448,"atimeMs":1694153983088.8027,"mtimeMs":1694153983054.044,"ctimeMs":1694153983054.044,"birthtimeMs":1694153926425.0623,"atime":"2023-09-08T06:19:43.089Z","mtime":"2023-09-08T06:19:43.054Z","ctime":"2023-09-08T06:19:43.054Z","birthtime":"2023-09-08T06:18:46.425Z"},"doctors":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389076,"size":579,"blocks":8,"atimeMs":1694153926458.5857,"mtimeMs":1694153983088.2446,"ctimeMs":1694153983088.2446,"birthtimeMs":1694153926458.5857,"atime":"2023-09-08T06:18:46.459Z","mtime":"2023-09-08T06:19:43.088Z","ctime":"2023-09-08T06:19:43.088Z","birthtime":"2023-09-08T06:18:46.459Z"},"patients":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389077,"size":94778,"blocks":192,"atimeMs":1694153983139.1313,"mtimeMs":1694153983138.3052,"ctimeMs":1694153983138.3052,"birthtimeMs":1694153926504.0415,"atime":"2023-09-08T06:19:43.139Z","mtime":"2023-09-08T06:19:43.138Z","ctime":"2023-09-08T06:19:43.138Z","birthtime":"2023-09-08T06:18:46.504Z"},"complaints":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389078,"size":1455011,"blocks":2848,"atimeMs":1694153984244.698,"mtimeMs":1694153983177.1606,"ctimeMs":1694153983177.1606,"birthtimeMs":1694153926541.9434,"atime":"2023-09-08T06:19:44.245Z","mtime":"2023-09-08T06:19:43.177Z","ctime":"2023-09-08T06:19:43.177Z","birthtime":"2023-09-08T06:18:46.542Z"},"histories":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389079,"size":14524275,"blocks":28368,"atimeMs":1694153983543.9285,"mtimeMs":1694153983528.4482,"ctimeMs":1694153983528.4482,"birthtimeMs":1694153926841.2307,"atime":"2023-09-08T06:19:43.544Z","mtime":"2023-09-08T06:19:43.528Z","ctime":"2023-09-08T06:19:43.528Z","birthtime":"2023-09-08T06:18:46.841Z"},"allergyhistories":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389080,"size":5054056,"blocks":9872,"atimeMs":1694153927541.7468,"mtimeMs":1694153984241.0183,"ctimeMs":1694153984241.0183,"birthtimeMs":1694153927541.7468,"atime":"2023-09-08T06:18:47.542Z","mtime":"2023-09-08T06:19:44.241Z","ctime":"2023-09-08T06:19:44.241Z","birthtime":"2023-09-08T06:18:47.542Z"},"treatmentepisodes":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389081,"size":1346132,"blocks":2632,"atimeMs":1694153984359.652,"mtimeMs":1694153984357.254,"ctimeMs":1694153984357.254,"birthtimeMs":1694153927667.5776,"atime":"2023-09-08T06:19:44.360Z","mtime":"2023-09-08T06:19:44.357Z","ctime":"2023-09-08T06:19:44.357Z","birthtime":"2023-09-08T06:18:47.668Z"},"visits":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389082,"size":40164401,"blocks":78448,"atimeMs":1694153928746.0063,"mtimeMs":1694153985474.9138,"ctimeMs":1694153985474.9138,"birthtimeMs":1694153928746.0063,"atime":"2023-09-08T06:18:48.746Z","mtime":"2023-09-08T06:19:45.475Z","ctime":"2023-09-08T06:19:45.475Z","birthtime":"2023-09-08T06:18:48.746Z"}},"4000-5000":{"persons":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389084,"size":228080,"blocks":448,"atimeMs":1694153987107.0432,"mtimeMs":1694153987071.8867,"ctimeMs":1694153987071.8867,"birthtimeMs":1694153931781.8406,"atime":"2023-09-08T06:19:47.107Z","mtime":"2023-09-08T06:19:47.072Z","ctime":"2023-09-08T06:19:47.072Z","birthtime":"2023-09-08T06:18:51.782Z"},"doctors":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389085,"size":557,"blocks":8,"atimeMs":1694153931815.3914,"mtimeMs":1694153987106.476,"ctimeMs":1694153987106.476,"birthtimeMs":1694153931815.3914,"atime":"2023-09-08T06:18:51.815Z","mtime":"2023-09-08T06:19:47.106Z","ctime":"2023-09-08T06:19:47.106Z","birthtime":"2023-09-08T06:18:51.815Z"},"patients":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389086,"size":94813,"blocks":192,"atimeMs":1694153987154.0105,"mtimeMs":1694153987152.9211,"ctimeMs":1694153987152.9211,"birthtimeMs":1694153931860.3281,"atime":"2023-09-08T06:19:47.154Z","mtime":"2023-09-08T06:19:47.153Z","ctime":"2023-09-08T06:19:47.153Z","birthtime":"2023-09-08T06:18:51.860Z"},"complaints":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389087,"size":1419582,"blocks":2776,"atimeMs":1694153988202.4463,"mtimeMs":1694153987191.9014,"ctimeMs":1694153987191.9014,"birthtimeMs":1694153931899.0828,"atime":"2023-09-08T06:19:48.202Z","mtime":"2023-09-08T06:19:47.192Z","ctime":"2023-09-08T06:19:47.192Z","birthtime":"2023-09-08T06:18:51.899Z"},"histories":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389088,"size":13945105,"blocks":27240,"atimeMs":1694153987524.0222,"mtimeMs":1694153987508.6602,"ctimeMs":1694153987508.6602,"birthtimeMs":1694153932209.85,"atime":"2023-09-08T06:19:47.524Z","mtime":"2023-09-08T06:19:47.509Z","ctime":"2023-09-08T06:19:47.509Z","birthtime":"2023-09-08T06:18:52.210Z"},"allergyhistories":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389089,"size":4864700,"blocks":9504,"atimeMs":1694153932925.103,"mtimeMs":1694153988191.882,"ctimeMs":1694153988191.882,"birthtimeMs":1694153932925.103,"atime":"2023-09-08T06:18:52.925Z","mtime":"2023-09-08T06:19:48.192Z","ctime":"2023-09-08T06:19:48.192Z","birthtime":"2023-09-08T06:18:52.925Z"},"treatmentepisodes":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389090,"size":1305064,"blocks":2552,"atimeMs":1694153988320.3364,"mtimeMs":1694153988313.8372,"ctimeMs":1694153988313.8372,"birthtimeMs":1694153933107.1807,"atime":"2023-09-08T06:19:48.320Z","mtime":"2023-09-08T06:19:48.314Z","ctime":"2023-09-08T06:19:48.314Z","birthtime":"2023-09-08T06:18:53.107Z"},"visits":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389091,"size":39531782,"blocks":77216,"atimeMs":1694153934137.9746,"mtimeMs":1694153989635.4673,"ctimeMs":1694153989635.4673,"birthtimeMs":1694153934137.9746,"atime":"2023-09-08T06:18:54.138Z","mtime":"2023-09-08T06:19:49.635Z","ctime":"2023-09-08T06:19:49.635Z","birthtime":"2023-09-08T06:18:54.138Z"}},"5000-6000":{"persons":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389098,"size":227941,"blocks":448,"atimeMs":1694153992213.8318,"mtimeMs":1694153992174.8281,"ctimeMs":1694153992174.8281,"birthtimeMs":1694153936331.7524,"atime":"2023-09-08T06:19:52.214Z","mtime":"2023-09-08T06:19:52.175Z","ctime":"2023-09-08T06:19:52.175Z","birthtime":"2023-09-08T06:18:56.332Z"},"doctors":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389099,"size":569,"blocks":8,"atimeMs":1694153936365.417,"mtimeMs":1694153992211.7534,"ctimeMs":1694153992211.7534,"birthtimeMs":1694153936365.417,"atime":"2023-09-08T06:18:56.365Z","mtime":"2023-09-08T06:19:52.212Z","ctime":"2023-09-08T06:19:52.212Z","birthtime":"2023-09-08T06:18:56.365Z"},"patients":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389100,"size":95766,"blocks":192,"atimeMs":1694153992267.6406,"mtimeMs":1694153992264.9612,"ctimeMs":1694153992264.9612,"birthtimeMs":1694153936411.1318,"atime":"2023-09-08T06:19:52.268Z","mtime":"2023-09-08T06:19:52.265Z","ctime":"2023-09-08T06:19:52.265Z","birthtime":"2023-09-08T06:18:56.411Z"},"complaints":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389101,"size":1477523,"blocks":2888,"atimeMs":1694153993526.9868,"mtimeMs":1694153992326.0366,"ctimeMs":1694153992326.0366,"birthtimeMs":1694153936448.4368,"atime":"2023-09-08T06:19:53.527Z","mtime":"2023-09-08T06:19:52.326Z","ctime":"2023-09-08T06:19:52.326Z","birthtime":"2023-09-08T06:18:56.448Z"},"histories":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389102,"size":14621245,"blocks":28560,"atimeMs":1694153992749.7888,"mtimeMs":1694153992744.2466,"ctimeMs":1694153992744.2466,"birthtimeMs":1694153936745.543,"atime":"2023-09-08T06:19:52.750Z","mtime":"2023-09-08T06:19:52.744Z","ctime":"2023-09-08T06:19:52.744Z","birthtime":"2023-09-08T06:18:56.746Z"},"allergyhistories":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389103,"size":5098188,"blocks":9960,"atimeMs":1694153937465.0894,"mtimeMs":1694153993499.3513,"ctimeMs":1694153993499.3513,"birthtimeMs":1694153937465.0894,"atime":"2023-09-08T06:18:57.465Z","mtime":"2023-09-08T06:19:53.499Z","ctime":"2023-09-08T06:19:53.499Z","birthtime":"2023-09-08T06:18:57.465Z"},"treatmentepisodes":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389104,"size":1365001,"blocks":2672,"atimeMs":1694153993666.09,"mtimeMs":1694153993664.4985,"ctimeMs":1694153993664.4985,"birthtimeMs":1694153937620.7632,"atime":"2023-09-08T06:19:53.666Z","mtime":"2023-09-08T06:19:53.664Z","ctime":"2023-09-08T06:19:53.664Z","birthtime":"2023-09-08T06:18:57.621Z"},"visits":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389106,"size":41114477,"blocks":80304,"atimeMs":1694153938609.6306,"mtimeMs":1694153994767.0654,"ctimeMs":1694153994767.0654,"birthtimeMs":1694153938609.6306,"atime":"2023-09-08T06:18:58.610Z","mtime":"2023-09-08T06:19:54.767Z","ctime":"2023-09-08T06:19:54.767Z","birthtime":"2023-09-08T06:18:58.610Z"}},"6000-7000":{"persons":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389109,"size":227707,"blocks":448,"atimeMs":1694153996762.4773,"mtimeMs":1694153996727.056,"ctimeMs":1694153996727.056,"birthtimeMs":1694153941388.8027,"atime":"2023-09-08T06:19:56.762Z","mtime":"2023-09-08T06:19:56.727Z","ctime":"2023-09-08T06:19:56.727Z","birthtime":"2023-09-08T06:19:01.389Z"},"doctors":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389110,"size":569,"blocks":8,"atimeMs":1694153941404.7375,"mtimeMs":1694153996761.6472,"ctimeMs":1694153996761.6472,"birthtimeMs":1694153941404.7375,"atime":"2023-09-08T06:19:01.405Z","mtime":"2023-09-08T06:19:56.762Z","ctime":"2023-09-08T06:19:56.762Z","birthtime":"2023-09-08T06:19:01.405Z"},"patients":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389111,"size":94694,"blocks":192,"atimeMs":1694153996808.614,"mtimeMs":1694153996807.873,"ctimeMs":1694153996807.873,"birthtimeMs":1694153941450.0444,"atime":"2023-09-08T06:19:56.809Z","mtime":"2023-09-08T06:19:56.808Z","ctime":"2023-09-08T06:19:56.808Z","birthtime":"2023-09-08T06:19:01.450Z"},"complaints":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389112,"size":1486037,"blocks":2904,"atimeMs":1694153997816.494,"mtimeMs":1694153996848.3582,"ctimeMs":1694153996848.3582,"birthtimeMs":1694153941488.9644,"atime":"2023-09-08T06:19:57.816Z","mtime":"2023-09-08T06:19:56.848Z","ctime":"2023-09-08T06:19:56.848Z","birthtime":"2023-09-08T06:19:01.489Z"},"histories":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389113,"size":13837867,"blocks":27032,"atimeMs":1694153997157.665,"mtimeMs":1694153997153.1099,"ctimeMs":1694153997153.1099,"birthtimeMs":1694153941792.5042,"atime":"2023-09-08T06:19:57.158Z","mtime":"2023-09-08T06:19:57.153Z","ctime":"2023-09-08T06:19:57.153Z","birthtime":"2023-09-08T06:19:01.793Z"},"allergyhistories":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389114,"size":4877406,"blocks":9528,"atimeMs":1694153942499.127,"mtimeMs":1694153997814.7576,"ctimeMs":1694153997814.7576,"birthtimeMs":1694153942499.127,"atime":"2023-09-08T06:19:02.499Z","mtime":"2023-09-08T06:19:57.815Z","ctime":"2023-09-08T06:19:57.815Z","birthtime":"2023-09-08T06:19:02.499Z"},"treatmentepisodes":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389115,"size":1360601,"blocks":2664,"atimeMs":1694153997933.2441,"mtimeMs":1694153997930.907,"ctimeMs":1694153997930.907,"birthtimeMs":1694153942640.5261,"atime":"2023-09-08T06:19:57.933Z","mtime":"2023-09-08T06:19:57.931Z","ctime":"2023-09-08T06:19:57.931Z","birthtime":"2023-09-08T06:19:02.641Z"},"visits":{"dev":16777234,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":161389172,"size":40720557,"blocks":79536,"atimeMs":1694153999014.028,"mtimeMs":1694153999034.2678,"ctimeMs":1694153999034.2678,"birthtimeMs":1694153999014.028,"atime":"2023-09-08T06:19:59.014Z","mtime":"2023-09-08T06:19:59.034Z","ctime":"2023-09-08T06:19:59.034Z","birthtime":"2023-09-08T06:19:59.014Z"}}}
+{
+  "0-1000": {
+    "persons": { "size": 222.6162109375, "count": 1000 },
+    "doctors": { "size": 0.4375, "count": 14 },
+    "patients": { "size": 69.634765625, "count": 986 },
+    "complaints": { "size": 1329.6689453125, "count": 2959 },
+    "histories": { "size": 13509.263671875, "count": 7841 },
+    "allergyhistories": { "size": 2707.4931640625, "count": 62800 },
+    "treatmentepisodes": { "size": 870.6826171875, "count": 8744 },
+    "visits": { "size": 37681.9638671875, "count": 26459 }
+  },
+  "1000-2000": {
+    "persons": { "size": 222.49609375, "count": 2000 },
+    "doctors": { "size": 0.826171875, "count": 17 },
+    "patients": { "size": 92.16015625, "count": 983 },
+    "complaints": { "size": 1468.509765625, "count": 3034 },
+    "histories": { "size": 13862.349609375, "count": 7923 },
+    "allergyhistories": { "size": 4795.236328125, "count": 62826 },
+    "treatmentepisodes": { "size": 1349.037109375, "count": 9093 },
+    "visits": { "size": 40865.8603515625, "count": 27478 }
+  },
+  "2000-3000": {
+    "persons": { "size": 222.9609375, "count": 3000 },
+    "doctors": { "size": 0.4189453125, "count": 8 },
+    "patients": { "size": 93.7666015625, "count": 992 },
+    "complaints": { "size": 1468.3212890625, "count": 3027 },
+    "histories": { "size": 13844.34765625, "count": 7894 },
+    "allergyhistories": { "size": 4820.9150390625, "count": 63169 },
+    "treatmentepisodes": { "size": 1342.2802734375, "count": 9036 },
+    "visits": { "size": 40259.7646484375, "count": 27065 }
+  },
+  "3000-4000": {
+    "persons": { "size": 223.1650390625, "count": 4000 },
+    "doctors": { "size": 0.5693359375, "count": 11 },
+    "patients": { "size": 92.875, "count": 989 },
+    "complaints": { "size": 1415.3486328125, "count": 2952 },
+    "histories": { "size": 14061.3291015625, "count": 7997 },
+    "allergyhistories": { "size": 4849.486328125, "count": 63564 },
+    "treatmentepisodes": { "size": 1305.7392578125, "count": 8799 },
+    "visits": { "size": 39299.8955078125, "count": 26438 }
+  },
+  "4000-5000": {
+    "persons": { "size": 222.943359375, "count": 5000 },
+    "doctors": { "size": 0.71484375, "count": 14 },
+    "patients": { "size": 92.603515625, "count": 986 },
+    "complaints": { "size": 1430.091796875, "count": 2962 },
+    "histories": { "size": 13752.5400390625, "count": 7821 },
+    "allergyhistories": { "size": 4772.265625, "count": 62542 },
+    "treatmentepisodes": { "size": 1314.9501953125, "count": 8865 },
+    "visits": { "size": 39202.98046875, "count": 26384 }
+  },
+  "5000-6000": {
+    "persons": { "size": 222.5400390625, "count": 6000 },
+    "doctors": { "size": 0.6005859375, "count": 11 },
+    "patients": { "size": 92.845703125, "count": 989 },
+    "complaints": { "size": 1428.0986328125, "count": 2954 },
+    "histories": { "size": 14319.95703125, "count": 8143 },
+    "allergyhistories": { "size": 4919.091796875, "count": 64464 },
+    "treatmentepisodes": { "size": 1311.212890625, "count": 8830 },
+    "visits": { "size": 39466.662109375, "count": 26523 }
+  },
+  "6000-7000": {
+    "persons": { "size": 222.5791015625, "count": 7000 },
+    "doctors": { "size": 0.5224609375, "count": 10 },
+    "patients": { "size": 93.052734375, "count": 990 },
+    "complaints": { "size": 1464.33203125, "count": 3007 },
+    "histories": { "size": 13898.904296875, "count": 7901 },
+    "allergyhistories": { "size": 4841.583984375, "count": 63459 },
+    "treatmentepisodes": { "size": 1328.69921875, "count": 8951 },
+    "visits": { "size": 40148.384765625, "count": 27005 }
+  },
+  "7000-8000": {
+    "persons": { "size": 222.458984375, "count": 8000 },
+    "doctors": { "size": 0.7236328125, "count": 14 },
+    "patients": { "size": 92.8984375, "count": 986 },
+    "complaints": { "size": 1428.11328125, "count": 2947 },
+    "histories": { "size": 13715.7119140625, "count": 7799 },
+    "allergyhistories": { "size": 4777.08984375, "count": 62603 },
+    "treatmentepisodes": { "size": 1314.9033203125, "count": 8859 },
+    "visits": { "size": 39467.185546875, "count": 26518 }
+  },
+  "8000-9000": {
+    "persons": { "size": 222.7255859375, "count": 9000 },
+    "doctors": { "size": 1.0380859375, "count": 21 },
+    "patients": { "size": 92.1513671875, "count": 979 },
+    "complaints": { "size": 1416.3251953125, "count": 2948 },
+    "histories": { "size": 14009.8583984375, "count": 7952 },
+    "allergyhistories": { "size": 4874.1787109375, "count": 63872 },
+    "treatmentepisodes": { "size": 1315.0419921875, "count": 8855 },
+    "visits": { "size": 39356.7763671875, "count": 26472 }
+  },
+  "9000-10000": {
+    "persons": { "size": 222.9697265625, "count": 10000 },
+    "doctors": { "size": 0.509765625, "count": 10 },
+    "patients": { "size": 93.115234375, "count": 990 },
+    "complaints": { "size": 1448.4423828125, "count": 3006 },
+    "histories": { "size": 13777.248046875, "count": 7846 },
+    "allergyhistories": { "size": 4808.6708984375, "count": 63033 },
+    "treatmentepisodes": { "size": 1330.3095703125, "count": 8956 },
+    "visits": { "size": 40032.1513671875, "count": 26894 }
+  },
+  "10000-11000": {
+    "persons": { "size": 223.857421875, "count": 11000 },
+    "doctors": { "size": 0.7265625, "count": 14 },
+    "patients": { "size": 97.279296875, "count": 986 },
+    "complaints": { "size": 1405.892578125, "count": 2908 },
+    "histories": { "size": 13543.87890625, "count": 7716 },
+    "allergyhistories": { "size": 4702.9765625, "count": 61621 },
+    "treatmentepisodes": { "size": 1288.1181640625, "count": 8677 },
+    "visits": { "size": 38521.849609375, "count": 25943 }
+  },
+  "11000-12000": {
+    "persons": { "size": 223.5927734375, "count": 12000 },
+    "doctors": { "size": 0.63671875, "count": 12 },
+    "patients": { "size": 97.79296875, "count": 988 },
+    "complaints": { "size": 1441.3134765625, "count": 2947 },
+    "histories": { "size": 13502.9052734375, "count": 7702 },
+    "allergyhistories": { "size": 4739.1279296875, "count": 62118 },
+    "treatmentepisodes": { "size": 1313.97265625, "count": 8854 },
+    "visits": { "size": 39328.677734375, "count": 26429 }
+  },
+  "12000-13000": {
+    "persons": { "size": 224.3896484375, "count": 13000 },
+    "doctors": { "size": 0.4228515625, "count": 8 },
+    "patients": { "size": 98.4013671875, "count": 992 },
+    "complaints": { "size": 1430.177734375, "count": 2979 },
+    "histories": { "size": 13740.3623046875, "count": 7819 },
+    "allergyhistories": { "size": 4736.921875, "count": 62088 },
+    "treatmentepisodes": { "size": 1335.86328125, "count": 8998 },
+    "visits": { "size": 40185.38671875, "count": 27022 }
+  },
+  "13000-14000": {
+    "persons": { "size": 223.5546875, "count": 14000 },
+    "doctors": { "size": 0.4521484375, "count": 9 },
+    "patients": { "size": 97.869140625, "count": 991 },
+    "complaints": { "size": 1423.517578125, "count": 2969 },
+    "histories": { "size": 14223.833984375, "count": 8093 },
+    "allergyhistories": { "size": 4926.69921875, "count": 64560 },
+    "treatmentepisodes": { "size": 1334.974609375, "count": 8998 },
+    "visits": { "size": 40280.0732421875, "count": 27054 }
+  },
+  "14000-15000": {
+    "persons": { "size": 224.173828125, "count": 15000 },
+    "doctors": { "size": 0.587890625, "count": 10 },
+    "patients": { "size": 97.556640625, "count": 990 },
+    "complaints": { "size": 1454.1669921875, "count": 3010 },
+    "histories": { "size": 14001.603515625, "count": 7974 },
+    "allergyhistories": { "size": 4861.330078125, "count": 63709 },
+    "treatmentepisodes": { "size": 1347.53515625, "count": 9073 },
+    "visits": { "size": 40591.875, "count": 27322 }
+  },
+  "15000-16000": {
+    "persons": { "size": 224.345703125, "count": 16000 },
+    "doctors": { "size": 0.8388671875, "count": 16 },
+    "patients": { "size": 97.42578125, "count": 984 },
+    "complaints": { "size": 1445.2685546875, "count": 2999 },
+    "histories": { "size": 14050.8896484375, "count": 8029 },
+    "allergyhistories": { "size": 4913.4658203125, "count": 64412 },
+    "treatmentepisodes": { "size": 1332.7822265625, "count": 8981 },
+    "visits": { "size": 40173.1640625, "count": 27076 }
+  },
+  "16000-17000": {
+    "persons": { "size": 223.5029296875, "count": 17000 },
+    "doctors": { "size": 0.54296875, "count": 10 },
+    "patients": { "size": 98.3056640625, "count": 990 },
+    "complaints": { "size": 1433.7626953125, "count": 2981 },
+    "histories": { "size": 13461.6064453125, "count": 7701 },
+    "allergyhistories": { "size": 4738.41015625, "count": 62103 },
+    "treatmentepisodes": { "size": 1326.8935546875, "count": 8936 },
+    "visits": { "size": 39876.4609375, "count": 26808 }
+  },
+  "17000-18000": {
+    "persons": { "size": 224.18359375, "count": 18000 },
+    "doctors": { "size": 0.7958984375, "count": 15 },
+    "patients": { "size": 97.4423828125, "count": 985 },
+    "complaints": { "size": 1458.826171875, "count": 3007 },
+    "histories": { "size": 13848.2265625, "count": 7902 },
+    "allergyhistories": { "size": 4813.7099609375, "count": 63092 },
+    "treatmentepisodes": { "size": 1335.4931640625, "count": 8997 },
+    "visits": { "size": 39942.1826171875, "count": 26854 }
+  },
+  "18000-19000": {
+    "persons": { "size": 223.474609375, "count": 19000 },
+    "doctors": { "size": 1.10546875, "count": 22 },
+    "patients": { "size": 96.732421875, "count": 978 },
+    "complaints": { "size": 1426.0546875, "count": 2954 },
+    "histories": { "size": 13579.0947265625, "count": 7746 },
+    "allergyhistories": { "size": 4707.9990234375, "count": 61700 },
+    "treatmentepisodes": { "size": 1323.45703125, "count": 8918 },
+    "visits": { "size": 39850.5966796875, "count": 26820 }
+  },
+  "19000-20000": {
+    "persons": { "size": 223.541015625, "count": 20000 },
+    "doctors": { "size": 0.6474609375, "count": 13 },
+    "patients": { "size": 97.634765625, "count": 987 },
+    "complaints": { "size": 1459.767578125, "count": 2994 },
+    "histories": { "size": 13771.45703125, "count": 7826 },
+    "allergyhistories": { "size": 4787.869140625, "count": 62761 },
+    "treatmentepisodes": { "size": 1344.4033203125, "count": 9059 },
+    "visits": { "size": 40347.7646484375, "count": 27157 }
+  },
+  "20000-21000": {
+    "persons": { "size": 223.32421875, "count": 21000 },
+    "doctors": { "size": 0.59375, "count": 12 },
+    "patients": { "size": 97.8671875, "count": 988 },
+    "complaints": { "size": 1464.466796875, "count": 3018 },
+    "histories": { "size": 14131.982421875, "count": 8090 },
+    "allergyhistories": { "size": 4933.3857421875, "count": 64660 },
+    "treatmentepisodes": { "size": 1335.3330078125, "count": 9004 },
+    "visits": { "size": 40216.69140625, "count": 27084 }
+  },
+  "21000-22000": {
+    "persons": { "size": 223.89453125, "count": 22000 },
+    "doctors": { "size": 0.9248046875, "count": 18 },
+    "patients": { "size": 97.0048828125, "count": 982 },
+    "complaints": { "size": 1435.111328125, "count": 2975 },
+    "histories": { "size": 13568.0556640625, "count": 7737 },
+    "allergyhistories": { "size": 4686.279296875, "count": 61414 },
+    "treatmentepisodes": { "size": 1324.1328125, "count": 8924 },
+    "visits": { "size": 39697.2724609375, "count": 26691 }
+  },
+  "22000-23000": {
+    "persons": { "size": 223.79296875, "count": 23000 },
+    "doctors": { "size": 0.5595703125, "count": 11 },
+    "patients": { "size": 97.8369140625, "count": 989 },
+    "complaints": { "size": 1437.6953125, "count": 2986 },
+    "histories": { "size": 13960.0546875, "count": 7949 },
+    "allergyhistories": { "size": 4848.9296875, "count": 63556 },
+    "treatmentepisodes": { "size": 1297.3505859375, "count": 8746 },
+    "visits": { "size": 39151.9306640625, "count": 26337 }
+  },
+  "23000-24000": {
+    "persons": { "size": 223.54296875, "count": 24000 },
+    "doctors": { "size": 0.6015625, "count": 12 },
+    "patients": { "size": 97.802734375, "count": 988 },
+    "complaints": { "size": 1432.5009765625, "count": 2960 },
+    "histories": { "size": 13639.4619140625, "count": 7762 },
+    "allergyhistories": { "size": 4775.1005859375, "count": 62590 },
+    "treatmentepisodes": { "size": 1321.4404296875, "count": 8902 },
+    "visits": { "size": 39986.6767578125, "count": 26873 }
+  },
+  "24000-25000": {
+    "persons": { "size": 223.546875, "count": 25000 },
+    "doctors": { "size": 0.505859375, "count": 10 },
+    "patients": { "size": 97.5458984375, "count": 990 },
+    "complaints": { "size": 1461.486328125, "count": 3037 },
+    "histories": { "size": 14115.7138671875, "count": 8022 },
+    "allergyhistories": { "size": 4906.2783203125, "count": 64302 },
+    "treatmentepisodes": { "size": 1347.748046875, "count": 9082 },
+    "visits": { "size": 40540.2099609375, "count": 27270 }
+  },
+  "25000-26000": {
+    "persons": { "size": 223.806640625, "count": 26000 },
+    "doctors": { "size": 0.5517578125, "count": 11 },
+    "patients": { "size": 97.84765625, "count": 989 },
+    "complaints": { "size": 1421.986328125, "count": 2953 },
+    "histories": { "size": 14423.2158203125, "count": 8205 },
+    "allergyhistories": { "size": 5023.5380859375, "count": 65844 },
+    "treatmentepisodes": { "size": 1309.52734375, "count": 8825 },
+    "visits": { "size": 39559.662109375, "count": 26590 }
+  },
+  "26000-27000": {
+    "persons": { "size": 223.9990234375, "count": 27000 },
+    "doctors": { "size": 0.853515625, "count": 17 },
+    "patients": { "size": 97.15625, "count": 983 },
+    "complaints": { "size": 1434.3251953125, "count": 2960 },
+    "histories": { "size": 13819.1142578125, "count": 7870 },
+    "allergyhistories": { "size": 4825.1455078125, "count": 63227 },
+    "treatmentepisodes": { "size": 1307.1796875, "count": 8805 },
+    "visits": { "size": 39756.1494140625, "count": 26783 }
+  },
+  "27000-28000": {
+    "persons": { "size": 224.1337890625, "count": 28000 },
+    "doctors": { "size": 0.41796875, "count": 8 },
+    "patients": { "size": 98.0712890625, "count": 992 },
+    "complaints": { "size": 1432.216796875, "count": 2978 },
+    "histories": { "size": 13817.0595703125, "count": 7886 },
+    "allergyhistories": { "size": 4788.09375, "count": 62744 },
+    "treatmentepisodes": { "size": 1326.67578125, "count": 8942 },
+    "visits": { "size": 39811.669921875, "count": 26732 }
+  },
+  "28000-29000": {
+    "persons": { "size": 224.4951171875, "count": 29000 },
+    "doctors": { "size": 0.7001953125, "count": 14 },
+    "patients": { "size": 97.6376953125, "count": 986 },
+    "complaints": { "size": 1436.580078125, "count": 2970 },
+    "histories": { "size": 13738.9892578125, "count": 7808 },
+    "allergyhistories": { "size": 4744.755859375, "count": 62186 },
+    "treatmentepisodes": { "size": 1321.95703125, "count": 8908 },
+    "visits": { "size": 39687.298828125, "count": 26752 }
+  },
+  "29000-30000": {
+    "persons": { "size": 223.46875, "count": 30000 },
+    "doctors": { "size": 0.8232421875, "count": 16 },
+    "patients": { "size": 97.650390625, "count": 984 },
+    "complaints": { "size": 1430.330078125, "count": 2970 },
+    "histories": { "size": 13728.0361328125, "count": 7809 },
+    "allergyhistories": { "size": 4789.68359375, "count": 62769 },
+    "treatmentepisodes": { "size": 1340.80859375, "count": 9031 },
+    "visits": { "size": 40226.4189453125, "count": 27038 }
+  },
+  "30000-31000": {
+    "persons": { "size": 223.7353515625, "count": 31000 },
+    "doctors": { "size": 0.5498046875, "count": 11 },
+    "patients": { "size": 97.578125, "count": 989 },
+    "complaints": { "size": 1470.8603515625, "count": 3030 },
+    "histories": { "size": 13766.375, "count": 7866 },
+    "allergyhistories": { "size": 4807.296875, "count": 62996 },
+    "treatmentepisodes": { "size": 1327.716796875, "count": 8948 },
+    "visits": { "size": 39904.451171875, "count": 26822 }
+  },
+  "31000-32000": {
+    "persons": { "size": 223.8642578125, "count": 32000 },
+    "doctors": { "size": 0.6240234375, "count": 12 },
+    "patients": { "size": 97.658203125, "count": 988 },
+    "complaints": { "size": 1434.1953125, "count": 2968 },
+    "histories": { "size": 13419.357421875, "count": 7643 },
+    "allergyhistories": { "size": 4727.1142578125, "count": 61970 },
+    "treatmentepisodes": { "size": 1315.2138671875, "count": 8863 },
+    "visits": { "size": 39436.3603515625, "count": 26541 }
+  },
+  "32000-33000": {
+    "persons": { "size": 223.5625, "count": 33000 },
+    "doctors": { "size": 0.490234375, "count": 9 },
+    "patients": { "size": 98.08203125, "count": 991 },
+    "complaints": { "size": 1444.4150390625, "count": 2977 },
+    "histories": { "size": 13714.4130859375, "count": 7810 },
+    "allergyhistories": { "size": 4776.8291015625, "count": 62630 },
+    "treatmentepisodes": { "size": 1303.9345703125, "count": 8783 },
+    "visits": { "size": 39358.4248046875, "count": 26469 }
+  },
+  "33000-34000": {
+    "persons": { "size": 223.8466796875, "count": 34000 },
+    "doctors": { "size": 0.8486328125, "count": 16 },
+    "patients": { "size": 97.30078125, "count": 984 },
+    "complaints": { "size": 1438.5224609375, "count": 2959 },
+    "histories": { "size": 14057.111328125, "count": 8003 },
+    "allergyhistories": { "size": 4845.8125, "count": 63502 },
+    "treatmentepisodes": { "size": 1320.1962890625, "count": 8887 },
+    "visits": { "size": 39788.640625, "count": 26735 }
+  },
+  "34000-35000": {
+    "persons": { "size": 223.951171875, "count": 35000 },
+    "doctors": { "size": 0.5751953125, "count": 11 },
+    "patients": { "size": 97.75, "count": 989 },
+    "complaints": { "size": 1409.3798828125, "count": 2920 },
+    "histories": { "size": 14005.392578125, "count": 7981 },
+    "allergyhistories": { "size": 4858.96875, "count": 63683 },
+    "treatmentepisodes": { "size": 1315.009765625, "count": 8861 },
+    "visits": { "size": 39621.048828125, "count": 26642 }
+  },
+  "35000-36000": {
+    "persons": { "size": 224.4912109375, "count": 36000 },
+    "doctors": { "size": 1.11328125, "count": 21 },
+    "patients": { "size": 96.1376953125, "count": 979 },
+    "complaints": { "size": 1417.4111328125, "count": 2913 },
+    "histories": { "size": 13016.890625, "count": 7418 },
+    "allergyhistories": { "size": 4527.7138671875, "count": 59340 },
+    "treatmentepisodes": { "size": 1291.5947265625, "count": 8705 },
+    "visits": { "size": 38574.8916015625, "count": 25984 }
+  },
+  "36000-37000": {
+    "persons": { "size": 224.251953125, "count": 37000 },
+    "doctors": { "size": 0.5830078125, "count": 11 },
+    "patients": { "size": 97.6904296875, "count": 989 },
+    "complaints": { "size": 1407.66015625, "count": 2925 },
+    "histories": { "size": 14008.1376953125, "count": 7972 },
+    "allergyhistories": { "size": 4830.201171875, "count": 63336 },
+    "treatmentepisodes": { "size": 1301.4052734375, "count": 8768 },
+    "visits": { "size": 39036.8623046875, "count": 26267 }
+  },
+  "37000-38000": {
+    "persons": { "size": 223.3544921875, "count": 38000 },
+    "doctors": { "size": 0.7333984375, "count": 14 },
+    "patients": { "size": 97.6357421875, "count": 986 },
+    "complaints": { "size": 1456.125, "count": 2993 },
+    "histories": { "size": 13697.3203125, "count": 7802 },
+    "allergyhistories": { "size": 4735.9580078125, "count": 62069 },
+    "treatmentepisodes": { "size": 1316.3935546875, "count": 8875 },
+    "visits": { "size": 39664.3212890625, "count": 26682 }
+  },
+  "38000-39000": {
+    "persons": { "size": 223.6923828125, "count": 39000 },
+    "doctors": { "size": 0.9892578125, "count": 19 },
+    "patients": { "size": 97.2216796875, "count": 981 },
+    "complaints": { "size": 1405.6552734375, "count": 2919 },
+    "histories": { "size": 14076.240234375, "count": 8013 },
+    "allergyhistories": { "size": 4867.384765625, "count": 63780 },
+    "treatmentepisodes": { "size": 1291.5068359375, "count": 8705 },
+    "visits": { "size": 38718.8359375, "count": 26026 }
+  },
+  "39000-40000": {
+    "persons": { "size": 223.2236328125, "count": 40000 },
+    "doctors": { "size": 0.6005859375, "count": 12 },
+    "patients": { "size": 97.8173828125, "count": 988 },
+    "complaints": { "size": 1451.3837890625, "count": 3000 },
+    "histories": { "size": 14040.833984375, "count": 7997 },
+    "allergyhistories": { "size": 4879.2265625, "count": 63950 },
+    "treatmentepisodes": { "size": 1345.33203125, "count": 9063 },
+    "visits": { "size": 40291.7275390625, "count": 27044 }
+  },
+  "40000-41000": {
+    "persons": { "size": 223.9833984375, "count": 41000 },
+    "doctors": { "size": 0.9130859375, "count": 18 },
+    "patients": { "size": 97.5966796875, "count": 982 },
+    "complaints": { "size": 1418.0546875, "count": 2942 },
+    "histories": { "size": 13804.6982421875, "count": 7845 },
+    "allergyhistories": { "size": 4832.84375, "count": 63339 },
+    "treatmentepisodes": { "size": 1324.55078125, "count": 8925 },
+    "visits": { "size": 39810.5478515625, "count": 26776 }
+  },
+  "41000-42000": {
+    "persons": { "size": 223.7958984375, "count": 42000 },
+    "doctors": { "size": 0.595703125, "count": 11 },
+    "patients": { "size": 97.626953125, "count": 989 },
+    "complaints": { "size": 1443.9638671875, "count": 3017 },
+    "histories": { "size": 13762.2880859375, "count": 7824 },
+    "allergyhistories": { "size": 4762.33203125, "count": 62416 },
+    "treatmentepisodes": { "size": 1337.2734375, "count": 9016 },
+    "visits": { "size": 40586.375, "count": 27239 }
+  },
+  "42000-43000": {
+    "persons": { "size": 223.7099609375, "count": 43000 },
+    "doctors": { "size": 0.5234375, "count": 10 },
+    "patients": { "size": 98.21875, "count": 990 },
+    "complaints": { "size": 1430.7255859375, "count": 2983 },
+    "histories": { "size": 13998.5283203125, "count": 7952 },
+    "allergyhistories": { "size": 4855.5576171875, "count": 63632 },
+    "treatmentepisodes": { "size": 1310.7041015625, "count": 8826 },
+    "visits": { "size": 39177.328125, "count": 26335 }
+  },
+  "43000-44000": {
+    "persons": { "size": 223.6220703125, "count": 44000 },
+    "doctors": { "size": 0.7568359375, "count": 14 },
+    "patients": { "size": 97.4853515625, "count": 986 },
+    "complaints": { "size": 1433.7958984375, "count": 2980 },
+    "histories": { "size": 13964.890625, "count": 7949 },
+    "allergyhistories": { "size": 4903.9853515625, "count": 64261 },
+    "treatmentepisodes": { "size": 1314.5244140625, "count": 8861 },
+    "visits": { "size": 39351.4404296875, "count": 26440 }
+  },
+  "44000-45000": {
+    "persons": { "size": 223.693359375, "count": 45000 },
+    "doctors": { "size": 0.7666015625, "count": 14 },
+    "patients": { "size": 97.353515625, "count": 986 },
+    "complaints": { "size": 1413.8486328125, "count": 2932 },
+    "histories": { "size": 13662.0126953125, "count": 7767 },
+    "allergyhistories": { "size": 4705.7705078125, "count": 61686 },
+    "treatmentepisodes": { "size": 1293.3056640625, "count": 8714 },
+    "visits": { "size": 39027.9384765625, "count": 26235 }
+  },
+  "45000-46000": {
+    "persons": { "size": 224.0517578125, "count": 46000 },
+    "doctors": { "size": 0.751953125, "count": 14 },
+    "patients": { "size": 97.01953125, "count": 986 },
+    "complaints": { "size": 1371.310546875, "count": 2859 },
+    "histories": { "size": 13793.73046875, "count": 7856 },
+    "allergyhistories": { "size": 4745.4423828125, "count": 62194 },
+    "treatmentepisodes": { "size": 1269.14453125, "count": 8550 },
+    "visits": { "size": 38147.732421875, "count": 25683 }
+  },
+  "46000-47000": {
+    "persons": { "size": 223.9404296875, "count": 47000 },
+    "doctors": { "size": 0.275390625, "count": 5 },
+    "patients": { "size": 98.5517578125, "count": 995 },
+    "complaints": { "size": 1413.3564453125, "count": 2950 },
+    "histories": { "size": 13875.921875, "count": 7907 },
+    "allergyhistories": { "size": 4811.201171875, "count": 63070 },
+    "treatmentepisodes": { "size": 1321.998046875, "count": 8907 },
+    "visits": { "size": 39962.509765625, "count": 26863 }
+  },
+  "47000-48000": {
+    "persons": { "size": 223.4248046875, "count": 48000 },
+    "doctors": { "size": 0.6533203125, "count": 13 },
+    "patients": { "size": 97.4931640625, "count": 987 },
+    "complaints": { "size": 1409.1845703125, "count": 2899 },
+    "histories": { "size": 13701.705078125, "count": 7790 },
+    "allergyhistories": { "size": 4754.2802734375, "count": 62319 },
+    "treatmentepisodes": { "size": 1302.205078125, "count": 8775 },
+    "visits": { "size": 39500.4384765625, "count": 26548 }
+  },
+  "48000-49000": {
+    "persons": { "size": 224.0263671875, "count": 49000 },
+    "doctors": { "size": 0.7236328125, "count": 14 },
+    "patients": { "size": 97.4228515625, "count": 986 },
+    "complaints": { "size": 1400.1201171875, "count": 2908 },
+    "histories": { "size": 13759.5263671875, "count": 7856 },
+    "allergyhistories": { "size": 4802.580078125, "count": 62949 },
+    "treatmentepisodes": { "size": 1311.623046875, "count": 8832 },
+    "visits": { "size": 39366.611328125, "count": 26421 }
+  },
+  "49000-50000": {
+    "persons": { "size": 223.6611328125, "count": 50000 },
+    "doctors": { "size": 0.8125, "count": 16 },
+    "patients": { "size": 97.1025390625, "count": 984 },
+    "complaints": { "size": 1422.11328125, "count": 2941 },
+    "histories": { "size": 13786.2216796875, "count": 7870 },
+    "allergyhistories": { "size": 4802.3359375, "count": 62932 },
+    "treatmentepisodes": { "size": 1314.333984375, "count": 8854 },
+    "visits": { "size": 39445.2529296875, "count": 26524 }
+  },
+  "50000-51000": {
+    "persons": { "size": 224.3271484375, "count": 51000 },
+    "doctors": { "size": 0.8291015625, "count": 16 },
+    "patients": { "size": 97.15625, "count": 984 },
+    "complaints": { "size": 1429.2890625, "count": 2958 },
+    "histories": { "size": 13442.3408203125, "count": 7657 },
+    "allergyhistories": { "size": 4654.75390625, "count": 61011 },
+    "treatmentepisodes": { "size": 1331.6298828125, "count": 8968 },
+    "visits": { "size": 39776.4453125, "count": 26789 }
+  },
+  "51000-52000": {
+    "persons": { "size": 224.125, "count": 52000 },
+    "doctors": { "size": 1.1357421875, "count": 23 },
+    "patients": { "size": 96.4873046875, "count": 977 },
+    "complaints": { "size": 1454.2373046875, "count": 3007 },
+    "histories": { "size": 13399.2861328125, "count": 7609 },
+    "allergyhistories": { "size": 4657.8115234375, "count": 61038 },
+    "treatmentepisodes": { "size": 1328.7900390625, "count": 8957 },
+    "visits": { "size": 39709.3837890625, "count": 26662 }
+  },
+  "52000-53000": {
+    "persons": { "size": 223.626953125, "count": 53000 },
+    "doctors": { "size": 0.962890625, "count": 18 },
+    "patients": { "size": 97.2646484375, "count": 982 },
+    "complaints": { "size": 1433.4306640625, "count": 2992 },
+    "histories": { "size": 13538.197265625, "count": 7699 },
+    "allergyhistories": { "size": 4695.990234375, "count": 61556 },
+    "treatmentepisodes": { "size": 1342.203125, "count": 9042 },
+    "visits": { "size": 40038.5751953125, "count": 26882 }
+  },
+  "53000-54000": {
+    "persons": { "size": 223.8310546875, "count": 54000 },
+    "doctors": { "size": 0.744140625, "count": 15 },
+    "patients": { "size": 97.40625, "count": 985 },
+    "complaints": { "size": 1439.5322265625, "count": 2957 },
+    "histories": { "size": 13901.7080078125, "count": 7891 },
+    "allergyhistories": { "size": 4823.2294921875, "count": 63230 },
+    "treatmentepisodes": { "size": 1308.5791015625, "count": 8817 },
+    "visits": { "size": 39284.6220703125, "count": 26427 }
+  },
+  "54000-55000": {
+    "persons": { "size": 223.6396484375, "count": 55000 },
+    "doctors": { "size": 1.0517578125, "count": 20 },
+    "patients": { "size": 97.2646484375, "count": 980 },
+    "complaints": { "size": 1440.26953125, "count": 2986 },
+    "histories": { "size": 13999.236328125, "count": 7984 },
+    "allergyhistories": { "size": 4880.1650390625, "count": 63959 },
+    "treatmentepisodes": { "size": 1321.78515625, "count": 8910 },
+    "visits": { "size": 39612.5732421875, "count": 26608 }
+  },
+  "55000-56000": {
+    "persons": { "size": 224.29296875, "count": 56000 },
+    "doctors": { "size": 0.3798828125, "count": 7 },
+    "patients": { "size": 97.8515625, "count": 993 },
+    "complaints": { "size": 1435.07421875, "count": 2979 },
+    "histories": { "size": 13838.8076171875, "count": 7903 },
+    "allergyhistories": { "size": 4846.5458984375, "count": 63537 },
+    "treatmentepisodes": { "size": 1333.2294921875, "count": 8978 },
+    "visits": { "size": 39888.9228515625, "count": 26846 }
+  },
+  "56000-57000": {
+    "persons": { "size": 223.5107421875, "count": 57000 },
+    "doctors": { "size": 0.91015625, "count": 18 },
+    "patients": { "size": 96.998046875, "count": 982 },
+    "complaints": { "size": 1443.4716796875, "count": 2965 },
+    "histories": { "size": 13765.2197265625, "count": 7856 },
+    "allergyhistories": { "size": 4814.587890625, "count": 63108 },
+    "treatmentepisodes": { "size": 1334.91015625, "count": 8998 },
+    "visits": { "size": 40102.1328125, "count": 26971 }
+  },
+  "57000-58000": {
+    "persons": { "size": 223.48828125, "count": 58000 },
+    "doctors": { "size": 0.7919921875, "count": 15 },
+    "patients": { "size": 97.7177734375, "count": 985 },
+    "complaints": { "size": 1446.7177734375, "count": 2966 },
+    "histories": { "size": 14009.125, "count": 7973 },
+    "allergyhistories": { "size": 4823.76953125, "count": 63224 },
+    "treatmentepisodes": { "size": 1321.84765625, "count": 8906 },
+    "visits": { "size": 39563.1982421875, "count": 26576 }
+  },
+  "58000-59000": {
+    "persons": { "size": 223.8212890625, "count": 59000 },
+    "doctors": { "size": 0.4140625, "count": 8 },
+    "patients": { "size": 98.357421875, "count": 992 },
+    "complaints": { "size": 1439.3095703125, "count": 2977 },
+    "histories": { "size": 13964.794921875, "count": 7973 },
+    "allergyhistories": { "size": 4878.259765625, "count": 63928 },
+    "treatmentepisodes": { "size": 1324.1787109375, "count": 8922 },
+    "visits": { "size": 39755.6123046875, "count": 26715 }
+  },
+  "59000-60000": {
+    "persons": { "size": 223.654296875, "count": 60000 },
+    "doctors": { "size": 0.720703125, "count": 14 },
+    "patients": { "size": 97.3525390625, "count": 986 },
+    "complaints": { "size": 1411.44140625, "count": 2922 },
+    "histories": { "size": 13610.6298828125, "count": 7752 },
+    "allergyhistories": { "size": 4733.8544921875, "count": 62045 },
+    "treatmentepisodes": { "size": 1296.6015625, "count": 8738 },
+    "visits": { "size": 39044.8974609375, "count": 26229 }
+  },
+  "60000-61000": {
+    "persons": { "size": 223.875, "count": 61000 },
+    "doctors": { "size": 0.755859375, "count": 14 },
+    "patients": { "size": 97.4677734375, "count": 986 },
+    "complaints": { "size": 1408.3115234375, "count": 2944 },
+    "histories": { "size": 13710.908203125, "count": 7811 },
+    "allergyhistories": { "size": 4757.423828125, "count": 62359 },
+    "treatmentepisodes": { "size": 1317.05078125, "count": 8877 },
+    "visits": { "size": 39863.04296875, "count": 26779 }
+  },
+  "61000-62000": {
+    "persons": { "size": 224.0400390625, "count": 62000 },
+    "doctors": { "size": 0.51953125, "count": 10 },
+    "patients": { "size": 97.8388671875, "count": 990 },
+    "complaints": { "size": 1430.2587890625, "count": 2955 },
+    "histories": { "size": 14347.78515625, "count": 8161 },
+    "allergyhistories": { "size": 4948.5244140625, "count": 64843 },
+    "treatmentepisodes": { "size": 1330.498046875, "count": 8961 },
+    "visits": { "size": 39737.9013671875, "count": 26763 }
+  },
+  "62000-63000": {
+    "persons": { "size": 223.8388671875, "count": 63000 },
+    "doctors": { "size": 0.5771484375, "count": 11 },
+    "patients": { "size": 97.6904296875, "count": 989 },
+    "complaints": { "size": 1426.048828125, "count": 2950 },
+    "histories": { "size": 14001.876953125, "count": 7966 },
+    "allergyhistories": { "size": 4835.525390625, "count": 63380 },
+    "treatmentepisodes": { "size": 1335.4462890625, "count": 8997 },
+    "visits": { "size": 39844.90234375, "count": 26771 }
+  },
+  "63000-64000": {
+    "persons": { "size": 224.19140625, "count": 64000 },
+    "doctors": { "size": 0.5693359375, "count": 11 },
+    "patients": { "size": 97.8603515625, "count": 989 },
+    "complaints": { "size": 1437.8994140625, "count": 2983 },
+    "histories": { "size": 14211.5927734375, "count": 8098 },
+    "allergyhistories": { "size": 4966.5771484375, "count": 65092 },
+    "treatmentepisodes": { "size": 1334.212890625, "count": 8983 },
+    "visits": { "size": 40092.6015625, "count": 27009 }
+  },
+  "64000-65000": {
+    "persons": { "size": 224.11328125, "count": 65000 },
+    "doctors": { "size": 0.7353515625, "count": 13 },
+    "patients": { "size": 97.662109375, "count": 987 },
+    "complaints": { "size": 1422.4541015625, "count": 2932 },
+    "histories": { "size": 13859.6982421875, "count": 7875 },
+    "allergyhistories": { "size": 4848.275390625, "count": 63542 },
+    "treatmentepisodes": { "size": 1307.9990234375, "count": 8807 },
+    "visits": { "size": 39027.212890625, "count": 26246 }
+  },
+  "65000-66000": {
+    "persons": { "size": 223.5205078125, "count": 66000 },
+    "doctors": { "size": 0.30859375, "count": 5 },
+    "patients": { "size": 98.341796875, "count": 995 },
+    "complaints": { "size": 1443.7744140625, "count": 3011 },
+    "histories": { "size": 13872.607421875, "count": 7905 },
+    "allergyhistories": { "size": 4805.8037109375, "count": 62985 },
+    "treatmentepisodes": { "size": 1358.6689453125, "count": 9155 },
+    "visits": { "size": 40847.3203125, "count": 27483 }
+  },
+  "66000-67000": {
+    "persons": { "size": 223.978515625, "count": 67000 },
+    "doctors": { "size": 0.65625, "count": 13 },
+    "patients": { "size": 97.6328125, "count": 987 },
+    "complaints": { "size": 1445.7216796875, "count": 2999 },
+    "histories": { "size": 14321.2841796875, "count": 8221 },
+    "allergyhistories": { "size": 5050.3095703125, "count": 66189 },
+    "treatmentepisodes": { "size": 1342.064453125, "count": 9039 },
+    "visits": { "size": 40195.2744140625, "count": 27037 }
+  },
+  "67000-68000": {
+    "persons": { "size": 223.7177734375, "count": 68000 },
+    "doctors": { "size": 0.93359375, "count": 19 },
+    "patients": { "size": 97.0625, "count": 981 },
+    "complaints": { "size": 1464.068359375, "count": 2998 },
+    "histories": { "size": 13479.0078125, "count": 7669 },
+    "allergyhistories": { "size": 4705.2373046875, "count": 61660 },
+    "treatmentepisodes": { "size": 1340.1181640625, "count": 9027 },
+    "visits": { "size": 40372.8408203125, "count": 27174 }
+  },
+  "68000-69000": {
+    "persons": { "size": 223.876953125, "count": 69000 },
+    "doctors": { "size": 0.6767578125, "count": 13 },
+    "patients": { "size": 97.9970703125, "count": 987 },
+    "complaints": { "size": 1416.1357421875, "count": 2919 },
+    "histories": { "size": 14192.0888671875, "count": 8072 },
+    "allergyhistories": { "size": 4908.97265625, "count": 64332 },
+    "treatmentepisodes": { "size": 1294.9716796875, "count": 8731 },
+    "visits": { "size": 38956.6435546875, "count": 26194 }
+  },
+  "69000-70000": {
+    "persons": { "size": 223.8984375, "count": 70000 },
+    "doctors": { "size": 0.708984375, "count": 14 },
+    "patients": { "size": 96.904296875, "count": 986 },
+    "complaints": { "size": 1402.0517578125, "count": 2889 },
+    "histories": { "size": 13985.5283203125, "count": 7963 },
+    "allergyhistories": { "size": 4925.498046875, "count": 64541 },
+    "treatmentepisodes": { "size": 1281.974609375, "count": 8643 },
+    "visits": { "size": 38775.6630859375, "count": 26110 }
+  },
+  "70000-71000": {
+    "persons": { "size": 223.96484375, "count": 71000 },
+    "doctors": { "size": 0.576171875, "count": 11 },
+    "patients": { "size": 97.7734375, "count": 989 },
+    "complaints": { "size": 1430.201171875, "count": 2986 },
+    "histories": { "size": 13839.2890625, "count": 7873 },
+    "allergyhistories": { "size": 4771.2841796875, "count": 62540 },
+    "treatmentepisodes": { "size": 1315.26953125, "count": 8865 },
+    "visits": { "size": 39435.587890625, "count": 26529 }
+  },
+  "71000-72000": {
+    "persons": { "size": 223.6572265625, "count": 72000 },
+    "doctors": { "size": 0.388671875, "count": 7 },
+    "patients": { "size": 97.8076171875, "count": 993 },
+    "complaints": { "size": 1416.8037109375, "count": 2937 },
+    "histories": { "size": 14094.9580078125, "count": 8017 },
+    "allergyhistories": { "size": 4863.591796875, "count": 63733 },
+    "treatmentepisodes": { "size": 1315.7109375, "count": 8859 },
+    "visits": { "size": 39662.55078125, "count": 26693 }
+  },
+  "72000-73000": {
+    "persons": { "size": 224.369140625, "count": 73000 },
+    "doctors": { "size": 0.625, "count": 12 },
+    "patients": { "size": 97.3388671875, "count": 988 },
+    "complaints": { "size": 1407.83984375, "count": 2936 },
+    "histories": { "size": 13985.10546875, "count": 7983 },
+    "allergyhistories": { "size": 4869.6337890625, "count": 63821 },
+    "treatmentepisodes": { "size": 1298.9052734375, "count": 8750 },
+    "visits": { "size": 39108.599609375, "count": 26373 }
+  },
+  "73000-74000": {
+    "persons": { "size": 223.705078125, "count": 74000 },
+    "doctors": { "size": 0.7666015625, "count": 15 },
+    "patients": { "size": 97.556640625, "count": 985 },
+    "complaints": { "size": 1451.8974609375, "count": 2977 },
+    "histories": { "size": 13798.9443359375, "count": 7876 },
+    "allergyhistories": { "size": 4794.2958984375, "count": 62842 },
+    "treatmentepisodes": { "size": 1342.1689453125, "count": 9045 },
+    "visits": { "size": 40430.4482421875, "count": 27218 }
+  },
+  "74000-75000": {
+    "persons": { "size": 224.224609375, "count": 75000 },
+    "doctors": { "size": 0.638671875, "count": 12 },
+    "patients": { "size": 97.7060546875, "count": 988 },
+    "complaints": { "size": 1424.33984375, "count": 2962 },
+    "histories": { "size": 13689.9482421875, "count": 7813 },
+    "allergyhistories": { "size": 4809.6865234375, "count": 63034 },
+    "treatmentepisodes": { "size": 1324, "count": 8922 },
+    "visits": { "size": 39818.8466796875, "count": 26758 }
+  },
+  "75000-76000": {
+    "persons": { "size": 223.7939453125, "count": 76000 },
+    "doctors": { "size": 0.4794921875, "count": 9 },
+    "patients": { "size": 98.2626953125, "count": 991 },
+    "complaints": { "size": 1448.8505859375, "count": 2982 },
+    "histories": { "size": 13953.814453125, "count": 7946 },
+    "allergyhistories": { "size": 4823.2900390625, "count": 63212 },
+    "treatmentepisodes": { "size": 1349.3056640625, "count": 9088 },
+    "visits": { "size": 40163.8623046875, "count": 27012 }
+  },
+  "76000-77000": {
+    "persons": { "size": 224.642578125, "count": 77000 },
+    "doctors": { "size": 0.6162109375, "count": 12 },
+    "patients": { "size": 98.1123046875, "count": 988 },
+    "complaints": { "size": 1400.1181640625, "count": 2890 },
+    "histories": { "size": 13759.193359375, "count": 7855 },
+    "allergyhistories": { "size": 4815.947265625, "count": 63111 },
+    "treatmentepisodes": { "size": 1275.0546875, "count": 8590 },
+    "visits": { "size": 38340.7890625, "count": 25798 }
+  },
+  "77000-78000": {
+    "persons": { "size": 223.59375, "count": 78000 },
+    "doctors": { "size": 0.7177734375, "count": 14 },
+    "patients": { "size": 97.4140625, "count": 986 },
+    "complaints": { "size": 1446.9091796875, "count": 2974 },
+    "histories": { "size": 14212.740234375, "count": 8088 },
+    "allergyhistories": { "size": 4961.1142578125, "count": 65015 },
+    "treatmentepisodes": { "size": 1320.6240234375, "count": 8898 },
+    "visits": { "size": 39800.3837890625, "count": 26749 }
+  },
+  "78000-79000": {
+    "persons": { "size": 223.873046875, "count": 79000 },
+    "doctors": { "size": 0.5458984375, "count": 10 },
+    "patients": { "size": 97.85546875, "count": 990 },
+    "complaints": { "size": 1425.7001953125, "count": 2968 },
+    "histories": { "size": 13803.0126953125, "count": 7853 },
+    "allergyhistories": { "size": 4820.2041015625, "count": 63181 },
+    "treatmentepisodes": { "size": 1306.638671875, "count": 8803 },
+    "visits": { "size": 39376.0205078125, "count": 26449 }
+  },
+  "79000-80000": {
+    "persons": { "size": 223.8828125, "count": 80000 },
+    "doctors": { "size": 0.728515625, "count": 14 },
+    "patients": { "size": 97.9189453125, "count": 986 },
+    "complaints": { "size": 1398.2470703125, "count": 2902 },
+    "histories": { "size": 14179.578125, "count": 8050 },
+    "allergyhistories": { "size": 4884.4248046875, "count": 64015 },
+    "treatmentepisodes": { "size": 1295.5712890625, "count": 8724 },
+    "visits": { "size": 38741.2685546875, "count": 26114 }
+  },
+  "80000-81000": {
+    "persons": { "size": 223.40625, "count": 81000 },
+    "doctors": { "size": 0.7958984375, "count": 15 },
+    "patients": { "size": 97.7919921875, "count": 985 },
+    "complaints": { "size": 1421.0625, "count": 2949 },
+    "histories": { "size": 13723.5693359375, "count": 7802 },
+    "allergyhistories": { "size": 4742.1962890625, "count": 62160 },
+    "treatmentepisodes": { "size": 1317.25, "count": 8871 },
+    "visits": { "size": 39519.6328125, "count": 26626 }
+  },
+  "81000-82000": {
+    "persons": { "size": 223.2099609375, "count": 82000 },
+    "doctors": { "size": 0.8388671875, "count": 17 },
+    "patients": { "size": 97.1044921875, "count": 983 },
+    "complaints": { "size": 1447.5888671875, "count": 2975 },
+    "histories": { "size": 13739.203125, "count": 7839 },
+    "allergyhistories": { "size": 4827.98046875, "count": 63291 },
+    "treatmentepisodes": { "size": 1335.44921875, "count": 8994 },
+    "visits": { "size": 40010.3544921875, "count": 26913 }
+  },
+  "82000-83000": {
+    "persons": { "size": 223.8759765625, "count": 83000 },
+    "doctors": { "size": 0.478515625, "count": 9 },
+    "patients": { "size": 98.361328125, "count": 991 },
+    "complaints": { "size": 1417.2177734375, "count": 2943 },
+    "histories": { "size": 13480.568359375, "count": 7692 },
+    "allergyhistories": { "size": 4746.33203125, "count": 62214 },
+    "treatmentepisodes": { "size": 1306.1640625, "count": 8797 },
+    "visits": { "size": 39134.966796875, "count": 26329 }
+  },
+  "83000-84000": {
+    "persons": { "size": 223.5517578125, "count": 84000 },
+    "doctors": { "size": 0.43359375, "count": 8 },
+    "patients": { "size": 98.3837890625, "count": 992 },
+    "complaints": { "size": 1433.5771484375, "count": 2965 },
+    "histories": { "size": 13575.8544921875, "count": 7732 },
+    "allergyhistories": { "size": 4709.21484375, "count": 61724 },
+    "treatmentepisodes": { "size": 1319.541015625, "count": 8892 },
+    "visits": { "size": 39640.4873046875, "count": 26636 }
+  },
+  "84000-85000": {
+    "persons": { "size": 223.193359375, "count": 85000 },
+    "doctors": { "size": 0.953125, "count": 19 },
+    "patients": { "size": 97.28125, "count": 981 },
+    "complaints": { "size": 1434.8134765625, "count": 2971 },
+    "histories": { "size": 13825.1279296875, "count": 7851 },
+    "allergyhistories": { "size": 4778.22265625, "count": 62626 },
+    "treatmentepisodes": { "size": 1329.7021484375, "count": 8961 },
+    "visits": { "size": 40224.40234375, "count": 27070 }
+  },
+  "85000-86000": {
+    "persons": { "size": 224.1083984375, "count": 86000 },
+    "doctors": { "size": 0.5244140625, "count": 10 },
+    "patients": { "size": 97.6689453125, "count": 990 },
+    "complaints": { "size": 1384.0888671875, "count": 2878 },
+    "histories": { "size": 13932.4638671875, "count": 7922 },
+    "allergyhistories": { "size": 4830.59765625, "count": 63331 },
+    "treatmentepisodes": { "size": 1268.7978515625, "count": 8562 },
+    "visits": { "size": 38145.384765625, "count": 25659 }
+  },
+  "86000-87000": {
+    "persons": { "size": 223.5390625, "count": 87000 },
+    "doctors": { "size": 0.4833984375, "count": 9 },
+    "patients": { "size": 97.7490234375, "count": 991 },
+    "complaints": { "size": 1433.0615234375, "count": 2967 },
+    "histories": { "size": 13689.3935546875, "count": 7806 },
+    "allergyhistories": { "size": 4761.466796875, "count": 62401 },
+    "treatmentepisodes": { "size": 1320.0478515625, "count": 8891 },
+    "visits": { "size": 39209.1435546875, "count": 26377 }
+  },
+  "87000-88000": {
+    "persons": { "size": 223.9189453125, "count": 88000 },
+    "doctors": { "size": 0.421875, "count": 8 },
+    "patients": { "size": 98.2255859375, "count": 992 },
+    "complaints": { "size": 1426.728515625, "count": 2939 },
+    "histories": { "size": 13860.685546875, "count": 7871 },
+    "allergyhistories": { "size": 4805.1708984375, "count": 62978 },
+    "treatmentepisodes": { "size": 1317.1455078125, "count": 8874 },
+    "visits": { "size": 39261.734375, "count": 26399 }
+  },
+  "88000-89000": {
+    "persons": { "size": 223.34765625, "count": 89000 },
+    "doctors": { "size": 0.4873046875, "count": 9 },
+    "patients": { "size": 97.625, "count": 991 },
+    "complaints": { "size": 1419.154296875, "count": 2954 },
+    "histories": { "size": 14106.931640625, "count": 8057 },
+    "allergyhistories": { "size": 4903.0400390625, "count": 64258 },
+    "treatmentepisodes": { "size": 1320.86328125, "count": 8896 },
+    "visits": { "size": 39570.95703125, "count": 26642 }
+  },
+  "89000-90000": {
+    "persons": { "size": 223.7568359375, "count": 90000 },
+    "doctors": { "size": 1.009765625, "count": 19 },
+    "patients": { "size": 96.6826171875, "count": 981 },
+    "complaints": { "size": 1416.3232421875, "count": 2948 },
+    "histories": { "size": 13644.30078125, "count": 7785 },
+    "allergyhistories": { "size": 4780.4814453125, "count": 62668 },
+    "treatmentepisodes": { "size": 1299.7216796875, "count": 8752 },
+    "visits": { "size": 38882.0224609375, "count": 26142 }
+  },
+  "90000-91000": {
+    "persons": { "size": 223.5908203125, "count": 91000 },
+    "doctors": { "size": 0.9296875, "count": 18 },
+    "patients": { "size": 97.5029296875, "count": 982 },
+    "complaints": { "size": 1437.5595703125, "count": 2975 },
+    "histories": { "size": 13918.9091796875, "count": 7933 },
+    "allergyhistories": { "size": 4869.80859375, "count": 63832 },
+    "treatmentepisodes": { "size": 1338.4033203125, "count": 9022 },
+    "visits": { "size": 40224.4833984375, "count": 27067 }
+  },
+  "91000-92000": {
+    "persons": { "size": 223.712890625, "count": 92000 },
+    "doctors": { "size": 0.4775390625, "count": 9 },
+    "patients": { "size": 98.126953125, "count": 991 },
+    "complaints": { "size": 1400.306640625, "count": 2906 },
+    "histories": { "size": 13729.6396484375, "count": 7827 },
+    "allergyhistories": { "size": 4789.5771484375, "count": 62770 },
+    "treatmentepisodes": { "size": 1303.953125, "count": 8789 },
+    "visits": { "size": 39661.6552734375, "count": 26543 }
+  },
+  "92000-93000": {
+    "persons": { "size": 223.93359375, "count": 93000 },
+    "doctors": { "size": 0.6015625, "count": 12 },
+    "patients": { "size": 97.603515625, "count": 988 },
+    "complaints": { "size": 1476.9248046875, "count": 3022 },
+    "histories": { "size": 13518.0341796875, "count": 7717 },
+    "allergyhistories": { "size": 4672.59375, "count": 61245 },
+    "treatmentepisodes": { "size": 1345.5185546875, "count": 9060 },
+    "visits": { "size": 40339.291015625, "count": 27088 }
+  },
+  "93000-94000": {
+    "persons": { "size": 223.6591796875, "count": 94000 },
+    "doctors": { "size": 0.6171875, "count": 11 },
+    "patients": { "size": 97.7177734375, "count": 989 },
+    "complaints": { "size": 1411.3017578125, "count": 2944 },
+    "histories": { "size": 13811.982421875, "count": 7857 },
+    "allergyhistories": { "size": 4764.455078125, "count": 62452 },
+    "treatmentepisodes": { "size": 1312.14453125, "count": 8843 },
+    "visits": { "size": 39282.2353515625, "count": 26374 }
+  },
+  "94000-95000": {
+    "persons": { "size": 223.2685546875, "count": 95000 },
+    "doctors": { "size": 0.474609375, "count": 9 },
+    "patients": { "size": 97.7548828125, "count": 991 },
+    "complaints": { "size": 1398.68359375, "count": 2902 },
+    "histories": { "size": 14151.9638671875, "count": 8057 },
+    "allergyhistories": { "size": 4964.595703125, "count": 65067 },
+    "treatmentepisodes": { "size": 1291.017578125, "count": 8698 },
+    "visits": { "size": 38975.318359375, "count": 26152 }
+  },
+  "95000-96000": {
+    "persons": { "size": 223.814453125, "count": 96000 },
+    "doctors": { "size": 0.458984375, "count": 9 },
+    "patients": { "size": 97.7177734375, "count": 991 },
+    "complaints": { "size": 1448.42578125, "count": 2999 },
+    "histories": { "size": 13681.8759765625, "count": 7794 },
+    "allergyhistories": { "size": 4822.7080078125, "count": 63189 },
+    "treatmentepisodes": { "size": 1322.1298828125, "count": 8902 },
+    "visits": { "size": 39758.228515625, "count": 26691 }
+  },
+  "96000-97000": {
+    "persons": { "size": 223.6171875, "count": 97000 },
+    "doctors": { "size": 0.7548828125, "count": 14 },
+    "patients": { "size": 97.54296875, "count": 986 },
+    "complaints": { "size": 1455.431640625, "count": 2993 },
+    "histories": { "size": 13427.90625, "count": 7647 },
+    "allergyhistories": { "size": 4684.7158203125, "count": 61392 },
+    "treatmentepisodes": { "size": 1337.103515625, "count": 9008 },
+    "visits": { "size": 40336.1123046875, "count": 27082 }
+  },
+  "97000-98000": {
+    "persons": { "size": 223.7705078125, "count": 98000 },
+    "doctors": { "size": 0.62109375, "count": 12 },
+    "patients": { "size": 97.52734375, "count": 988 },
+    "complaints": { "size": 1463.0458984375, "count": 3033 },
+    "histories": { "size": 14093.1552734375, "count": 8018 },
+    "allergyhistories": { "size": 4896.943359375, "count": 64164 },
+    "treatmentepisodes": { "size": 1359.1728515625, "count": 9159 },
+    "visits": { "size": 40965.5810546875, "count": 27586 }
+  },
+  "98000-99000": {
+    "persons": { "size": 224.2109375, "count": 99000 },
+    "doctors": { "size": 0.9111328125, "count": 17 },
+    "patients": { "size": 96.8232421875, "count": 983 },
+    "complaints": { "size": 1447.3427734375, "count": 3013 },
+    "histories": { "size": 13532.185546875, "count": 7682 },
+    "allergyhistories": { "size": 4599.064453125, "count": 60285 },
+    "treatmentepisodes": { "size": 1339.7041015625, "count": 9023 },
+    "visits": { "size": 40293.6328125, "count": 27140 }
+  },
+  "99000-100000": {
+    "persons": { "size": 224.1259765625, "count": 100000 },
+    "doctors": { "size": 0.5595703125, "count": 11 },
+    "patients": { "size": 97.4423828125, "count": 989 },
+    "complaints": { "size": 1435.529296875, "count": 2983 },
+    "histories": { "size": 14172.8642578125, "count": 8072 },
+    "allergyhistories": { "size": 4956.57421875, "count": 64976 },
+    "treatmentepisodes": { "size": 1339.93359375, "count": 9029 },
+    "visits": { "size": 40313.419921875, "count": 27141 }
+  },
+  "100000-101000": {
+    "persons": { "size": 224.23828125, "count": 101000 },
+    "doctors": { "size": 0.7734375, "count": 15 },
+    "patients": { "size": 101.880859375, "count": 985 },
+    "complaints": { "size": 1403.4111328125, "count": 2926 },
+    "histories": { "size": 14087.9697265625, "count": 8042 },
+    "allergyhistories": { "size": 4902.5966796875, "count": 64238 },
+    "treatmentepisodes": { "size": 1316.087890625, "count": 8866 },
+    "visits": { "size": 39787.9453125, "count": 26747 }
+  },
+  "101000-102000": {
+    "persons": { "size": 225.1748046875, "count": 102000 },
+    "doctors": { "size": 0.6103515625, "count": 11 },
+    "patients": { "size": 102.8740234375, "count": 989 },
+    "complaints": { "size": 1464.26953125, "count": 3016 },
+    "histories": { "size": 14005.9072265625, "count": 7993 },
+    "allergyhistories": { "size": 4914.73046875, "count": 64411 },
+    "treatmentepisodes": { "size": 1353.6416015625, "count": 9117 },
+    "visits": { "size": 40382.5986328125, "count": 27161 }
+  },
+  "102000-103000": {
+    "persons": { "size": 225.1171875, "count": 103000 },
+    "doctors": { "size": 0.677734375, "count": 13 },
+    "patients": { "size": 102.5224609375, "count": 987 },
+    "complaints": { "size": 1435.1552734375, "count": 2957 },
+    "histories": { "size": 13751.072265625, "count": 7837 },
+    "allergyhistories": { "size": 4777.1513671875, "count": 62619 },
+    "treatmentepisodes": { "size": 1314.9365234375, "count": 8859 },
+    "visits": { "size": 39594.0498046875, "count": 26663 }
+  },
+  "103000-104000": {
+    "persons": { "size": 224.505859375, "count": 104000 },
+    "doctors": { "size": 0.2451171875, "count": 4 },
+    "patients": { "size": 103.5107421875, "count": 996 },
+    "complaints": { "size": 1449.9921875, "count": 2976 },
+    "histories": { "size": 13917.3251953125, "count": 7927 },
+    "allergyhistories": { "size": 4820.5595703125, "count": 63178 },
+    "treatmentepisodes": { "size": 1323.8896484375, "count": 8925 },
+    "visits": { "size": 39981.4775390625, "count": 26907 }
+  },
+  "104000-105000": {
+    "persons": { "size": 225.1484375, "count": 105000 },
+    "doctors": { "size": 0.240234375, "count": 4 },
+    "patients": { "size": 103.51171875, "count": 996 },
+    "complaints": { "size": 1445.65625, "count": 2975 },
+    "histories": { "size": 14096.8837890625, "count": 8041 },
+    "allergyhistories": { "size": 4890.037109375, "count": 64079 },
+    "treatmentepisodes": { "size": 1339.6083984375, "count": 9024 },
+    "visits": { "size": 40332.8916015625, "count": 27090 }
+  },
+  "105000-106000": {
+    "persons": { "size": 224.3173828125, "count": 106000 },
+    "doctors": { "size": 0.4833984375, "count": 9 },
+    "patients": { "size": 102.7138671875, "count": 991 },
+    "complaints": { "size": 1437.5693359375, "count": 2977 },
+    "histories": { "size": 13973.6025390625, "count": 8000 },
+    "allergyhistories": { "size": 4906.8291015625, "count": 64299 },
+    "treatmentepisodes": { "size": 1341.9208984375, "count": 9041 },
+    "visits": { "size": 40634.1318359375, "count": 27338 }
+  },
+  "106000-107000": {
+    "persons": { "size": 224.55859375, "count": 107000 },
+    "doctors": { "size": 0.5390625, "count": 10 },
+    "patients": { "size": 102.8603515625, "count": 990 },
+    "complaints": { "size": 1459.5947265625, "count": 3031 },
+    "histories": { "size": 13924.96875, "count": 7945 },
+    "allergyhistories": { "size": 4845.1240234375, "count": 63494 },
+    "treatmentepisodes": { "size": 1356.96875, "count": 9145 },
+    "visits": { "size": 40617.5947265625, "count": 27257 }
+  },
+  "107000-108000": {
+    "persons": { "size": 225.3466796875, "count": 108000 },
+    "doctors": { "size": 0.599609375, "count": 12 },
+    "patients": { "size": 102.501953125, "count": 988 },
+    "complaints": { "size": 1435.41796875, "count": 2972 },
+    "histories": { "size": 13855.51953125, "count": 7864 },
+    "allergyhistories": { "size": 4800.3173828125, "count": 62913 },
+    "treatmentepisodes": { "size": 1322.0234375, "count": 8903 },
+    "visits": { "size": 39571.3017578125, "count": 26636 }
+  },
+  "108000-109000": {
+    "persons": { "size": 224.7685546875, "count": 109000 },
+    "doctors": { "size": 0.650390625, "count": 13 },
+    "patients": { "size": 102.37890625, "count": 987 },
+    "complaints": { "size": 1440.7099609375, "count": 2983 },
+    "histories": { "size": 13696.6357421875, "count": 7790 },
+    "allergyhistories": { "size": 4710.4501953125, "count": 61729 },
+    "treatmentepisodes": { "size": 1333.302734375, "count": 8983 },
+    "visits": { "size": 40366.9931640625, "count": 27154 }
+  },
+  "109000-110000": {
+    "persons": { "size": 224.7998046875, "count": 110000 },
+    "doctors": { "size": 0.5322265625, "count": 10 },
+    "patients": { "size": 102.931640625, "count": 990 },
+    "complaints": { "size": 1446.677734375, "count": 3021 },
+    "histories": { "size": 13865.380859375, "count": 7884 },
+    "allergyhistories": { "size": 4791.326171875, "count": 62798 },
+    "treatmentepisodes": { "size": 1337.890625, "count": 9011 },
+    "visits": { "size": 40285.4287109375, "count": 27122 }
+  },
+  "110000-111000": {
+    "persons": { "size": 225.20703125, "count": 111000 },
+    "doctors": { "size": 0.701171875, "count": 13 },
+    "patients": { "size": 102.0205078125, "count": 987 },
+    "complaints": { "size": 1434.09765625, "count": 2939 },
+    "histories": { "size": 13833.5791015625, "count": 7865 },
+    "allergyhistories": { "size": 4826.4267578125, "count": 63257 },
+    "treatmentepisodes": { "size": 1317.806640625, "count": 8876 },
+    "visits": { "size": 39642.2568359375, "count": 26672 }
+  },
+  "111000-112000": {
+    "persons": { "size": 225.2724609375, "count": 112000 },
+    "doctors": { "size": 0.5556640625, "count": 10 },
+    "patients": { "size": 102.4091796875, "count": 990 },
+    "complaints": { "size": 1440.705078125, "count": 3004 },
+    "histories": { "size": 14157.20703125, "count": 8072 },
+    "allergyhistories": { "size": 4899.6708984375, "count": 64225 },
+    "treatmentepisodes": { "size": 1339.14453125, "count": 9031 },
+    "visits": { "size": 40009.43359375, "count": 26962 }
+  },
+  "112000-113000": {
+    "persons": { "size": 224.8349609375, "count": 113000 },
+    "doctors": { "size": 0.7333984375, "count": 14 },
+    "patients": { "size": 102.1005859375, "count": 986 },
+    "complaints": { "size": 1424.283203125, "count": 2938 },
+    "histories": { "size": 13924.7939453125, "count": 7934 },
+    "allergyhistories": { "size": 4873.6005859375, "count": 63872 },
+    "treatmentepisodes": { "size": 1306.87109375, "count": 8809 },
+    "visits": { "size": 39355.8173828125, "count": 26491 }
+  },
+  "113000-114000": {
+    "persons": { "size": 224.9599609375, "count": 114000 },
+    "doctors": { "size": 0.927734375, "count": 18 },
+    "patients": { "size": 102.02734375, "count": 982 },
+    "complaints": { "size": 1395.7412109375, "count": 2892 },
+    "histories": { "size": 13811.1015625, "count": 7874 },
+    "allergyhistories": { "size": 4803.23046875, "count": 62952 },
+    "treatmentepisodes": { "size": 1275.9794921875, "count": 8593 },
+    "visits": { "size": 38308.5458984375, "count": 25751 }
+  },
+  "114000-115000": {
+    "persons": { "size": 224.724609375, "count": 115000 },
+    "doctors": { "size": 0.75390625, "count": 14 },
+    "patients": { "size": 102.33203125, "count": 986 },
+    "complaints": { "size": 1453.3173828125, "count": 3016 },
+    "histories": { "size": 13605.6318359375, "count": 7762 },
+    "allergyhistories": { "size": 4740.810546875, "count": 62141 },
+    "treatmentepisodes": { "size": 1320.04296875, "count": 8896 },
+    "visits": { "size": 39647.7685546875, "count": 26674 }
+  },
+  "115000-116000": {
+    "persons": { "size": 225.18359375, "count": 116000 },
+    "doctors": { "size": 0.857421875, "count": 17 },
+    "patients": { "size": 102.009765625, "count": 983 },
+    "complaints": { "size": 1431.1103515625, "count": 2969 },
+    "histories": { "size": 13700.810546875, "count": 7797 },
+    "allergyhistories": { "size": 4811.39453125, "count": 63059 },
+    "treatmentepisodes": { "size": 1307.107421875, "count": 8801 },
+    "visits": { "size": 39211.9638671875, "count": 26372 }
+  },
+  "116000-117000": {
+    "persons": { "size": 225.1064453125, "count": 117000 },
+    "doctors": { "size": 0.6025390625, "count": 11 },
+    "patients": { "size": 102.63671875, "count": 989 },
+    "complaints": { "size": 1434.35546875, "count": 2960 },
+    "histories": { "size": 13978.90625, "count": 7974 },
+    "allergyhistories": { "size": 4896.53515625, "count": 64182 },
+    "treatmentepisodes": { "size": 1326.6884765625, "count": 8936 },
+    "visits": { "size": 39729.0869140625, "count": 26710 }
+  },
+  "117000-118000": {
+    "persons": { "size": 224.330078125, "count": 118000 },
+    "doctors": { "size": 0.7041015625, "count": 13 },
+    "patients": { "size": 102.337890625, "count": 987 },
+    "complaints": { "size": 1428.4130859375, "count": 2948 },
+    "histories": { "size": 13617.9287109375, "count": 7751 },
+    "allergyhistories": { "size": 4745.4736328125, "count": 62201 },
+    "treatmentepisodes": { "size": 1302.9296875, "count": 8775 },
+    "visits": { "size": 39251.16015625, "count": 26407 }
+  },
+  "118000-119000": {
+    "persons": { "size": 225.626953125, "count": 119000 },
+    "doctors": { "size": 0.5380859375, "count": 10 },
+    "patients": { "size": 102.5712890625, "count": 990 },
+    "complaints": { "size": 1458.0087890625, "count": 3014 },
+    "histories": { "size": 14029.44140625, "count": 7993 },
+    "allergyhistories": { "size": 4860.3154296875, "count": 63709 },
+    "treatmentepisodes": { "size": 1333.5185546875, "count": 8983 },
+    "visits": { "size": 40140.884765625, "count": 27008 }
+  },
+  "119000-120000": {
+    "persons": { "size": 223.8642578125, "count": 120000 },
+    "doctors": { "size": 0.4365234375, "count": 8 },
+    "patients": { "size": 102.8896484375, "count": 992 },
+    "complaints": { "size": 1446.630859375, "count": 3007 },
+    "histories": { "size": 13883.591796875, "count": 7922 },
+    "allergyhistories": { "size": 4870.5556640625, "count": 63840 },
+    "treatmentepisodes": { "size": 1347.703125, "count": 9087 },
+    "visits": { "size": 40741.337890625, "count": 27381 }
+  },
+  "120000-121000": {
+    "persons": { "size": 224.8349609375, "count": 121000 },
+    "doctors": { "size": 0.7783203125, "count": 15 },
+    "patients": { "size": 102.9345703125, "count": 985 },
+    "complaints": { "size": 1402.783203125, "count": 2890 },
+    "histories": { "size": 14116.87890625, "count": 8069 },
+    "allergyhistories": { "size": 4883.556640625, "count": 63990 },
+    "treatmentepisodes": { "size": 1279.412109375, "count": 8622 },
+    "visits": { "size": 38415.5263671875, "count": 25808 }
+  },
+  "121000-122000": {
+    "persons": { "size": 224.994140625, "count": 122000 },
+    "doctors": { "size": 0.833984375, "count": 15 },
+    "patients": { "size": 101.7890625, "count": 985 },
+    "complaints": { "size": 1393.326171875, "count": 2878 },
+    "histories": { "size": 13692.13671875, "count": 7806 },
+    "allergyhistories": { "size": 4806.4091796875, "count": 63010 },
+    "treatmentepisodes": { "size": 1292.0107421875, "count": 8704 },
+    "visits": { "size": 38761.80859375, "count": 26049 }
+  },
+  "122000-123000": {
+    "persons": { "size": 224.6572265625, "count": 123000 },
+    "doctors": { "size": 0.2041015625, "count": 3 },
+    "patients": { "size": 102.7353515625, "count": 997 },
+    "complaints": { "size": 1417.3134765625, "count": 2925 },
+    "histories": { "size": 14093.048828125, "count": 8006 },
+    "allergyhistories": { "size": 4898.19140625, "count": 64200 },
+    "treatmentepisodes": { "size": 1300.7587890625, "count": 8765 },
+    "visits": { "size": 38960.84765625, "count": 26214 }
+  },
+  "123000-124000": {
+    "persons": { "size": 224.4052734375, "count": 124000 },
+    "doctors": { "size": 0.8359375, "count": 16 },
+    "patients": { "size": 102.8642578125, "count": 984 },
+    "complaints": { "size": 1420.0673828125, "count": 2952 },
+    "histories": { "size": 13816.6923828125, "count": 7877 },
+    "allergyhistories": { "size": 4835.0498046875, "count": 63357 },
+    "treatmentepisodes": { "size": 1307.1455078125, "count": 8810 },
+    "visits": { "size": 39127.685546875, "count": 26270 }
+  },
+  "124000-125000": {
+    "persons": { "size": 224.4541015625, "count": 125000 },
+    "doctors": { "size": 1.123046875, "count": 22 },
+    "patients": { "size": 101.609375, "count": 978 },
+    "complaints": { "size": 1415.576171875, "count": 2913 },
+    "histories": { "size": 13559.005859375, "count": 7727 },
+    "allergyhistories": { "size": 4761.087890625, "count": 62405 },
+    "treatmentepisodes": { "size": 1298.0400390625, "count": 8752 },
+    "visits": { "size": 38927.697265625, "count": 26237 }
+  },
+  "125000-126000": {
+    "persons": { "size": 224.5830078125, "count": 126000 },
+    "doctors": { "size": 0.6962890625, "count": 13 },
+    "patients": { "size": 102.4609375, "count": 987 },
+    "complaints": { "size": 1414.9716796875, "count": 2945 },
+    "histories": { "size": 13964.470703125, "count": 7942 },
+    "allergyhistories": { "size": 4838.1513671875, "count": 63409 },
+    "treatmentepisodes": { "size": 1309.853515625, "count": 8828 },
+    "visits": { "size": 39279.6953125, "count": 26421 }
+  },
+  "126000-127000": {
+    "persons": { "size": 224.44140625, "count": 127000 },
+    "doctors": { "size": 0.6318359375, "count": 12 },
+    "patients": { "size": 102.2021484375, "count": 988 },
+    "complaints": { "size": 1443.849609375, "count": 2987 },
+    "histories": { "size": 13704.0673828125, "count": 7800 },
+    "allergyhistories": { "size": 4760.6171875, "count": 62420 },
+    "treatmentepisodes": { "size": 1315.787109375, "count": 8863 },
+    "visits": { "size": 39392.9248046875, "count": 26560 }
+  },
+  "127000-128000": {
+    "persons": { "size": 224.529296875, "count": 128000 },
+    "doctors": { "size": 0.68359375, "count": 13 },
+    "patients": { "size": 102.1845703125, "count": 987 },
+    "complaints": { "size": 1420.5693359375, "count": 2917 },
+    "histories": { "size": 14232.740234375, "count": 8081 },
+    "allergyhistories": { "size": 4903.4814453125, "count": 64268 },
+    "treatmentepisodes": { "size": 1309.1142578125, "count": 8818 },
+    "visits": { "size": 39235.123046875, "count": 26371 }
+  },
+  "128000-129000": {
+    "persons": { "size": 225.1142578125, "count": 129000 },
+    "doctors": { "size": 0.6865234375, "count": 13 },
+    "patients": { "size": 102.248046875, "count": 987 },
+    "complaints": { "size": 1449.20703125, "count": 2956 },
+    "histories": { "size": 14124.548828125, "count": 8057 },
+    "allergyhistories": { "size": 4872.5361328125, "count": 63873 },
+    "treatmentepisodes": { "size": 1321.9912109375, "count": 8907 },
+    "visits": { "size": 39693.67578125, "count": 26651 }
+  },
+  "129000-130000": {
+    "persons": { "size": 225.150390625, "count": 130000 },
+    "doctors": { "size": 0.4375, "count": 8 },
+    "patients": { "size": 103.5263671875, "count": 992 },
+    "complaints": { "size": 1457.3681640625, "count": 3014 },
+    "histories": { "size": 13973.2314453125, "count": 7952 },
+    "allergyhistories": { "size": 4833.130859375, "count": 63339 },
+    "treatmentepisodes": { "size": 1340.09375, "count": 9028 },
+    "visits": { "size": 40213.3388671875, "count": 27069 }
+  },
+  "130000-131000": {
+    "persons": { "size": 224.2353515625, "count": 131000 },
+    "doctors": { "size": 0.6708984375, "count": 13 },
+    "patients": { "size": 102.1884765625, "count": 987 },
+    "complaints": { "size": 1442.296875, "count": 2978 },
+    "histories": { "size": 14076.34375, "count": 8015 },
+    "allergyhistories": { "size": 4870.0439453125, "count": 63820 },
+    "treatmentepisodes": { "size": 1342.2119140625, "count": 9041 },
+    "visits": { "size": 40148.1455078125, "count": 27002 }
+  },
+  "131000-132000": {
+    "persons": { "size": 225.3583984375, "count": 132000 },
+    "doctors": { "size": 0.623046875, "count": 12 },
+    "patients": { "size": 102.4990234375, "count": 988 },
+    "complaints": { "size": 1408.5634765625, "count": 2924 },
+    "histories": { "size": 14164.0576171875, "count": 8068 },
+    "allergyhistories": { "size": 4924.84765625, "count": 64541 },
+    "treatmentepisodes": { "size": 1293.3974609375, "count": 8717 },
+    "visits": { "size": 39123.2373046875, "count": 26317 }
+  },
+  "132000-133000": {
+    "persons": { "size": 225.4189453125, "count": 133000 },
+    "doctors": { "size": 0.8984375, "count": 17 },
+    "patients": { "size": 101.9248046875, "count": 983 },
+    "complaints": { "size": 1431.2412109375, "count": 2938 },
+    "histories": { "size": 14192.9140625, "count": 8097 },
+    "allergyhistories": { "size": 4909.90625, "count": 64356 },
+    "treatmentepisodes": { "size": 1320.9169921875, "count": 8904 },
+    "visits": { "size": 39582.4365234375, "count": 26600 }
+  },
+  "133000-134000": {
+    "persons": { "size": 225.796875, "count": 134000 },
+    "doctors": { "size": 0.4736328125, "count": 8 },
+    "patients": { "size": 102.6474609375, "count": 992 },
+    "complaints": { "size": 1470.6904296875, "count": 3038 },
+    "histories": { "size": 14029.771484375, "count": 7987 },
+    "allergyhistories": { "size": 4835.8515625, "count": 63390 },
+    "treatmentepisodes": { "size": 1347.671875, "count": 9085 },
+    "visits": { "size": 40895.775390625, "count": 27463 }
+  },
+  "134000-135000": {
+    "persons": { "size": 224.498046875, "count": 135000 },
+    "doctors": { "size": 0.7724609375, "count": 14 },
+    "patients": { "size": 102.3720703125, "count": 986 },
+    "complaints": { "size": 1425.947265625, "count": 2961 },
+    "histories": { "size": 13814.140625, "count": 7878 },
+    "allergyhistories": { "size": 4793.6640625, "count": 62827 },
+    "treatmentepisodes": { "size": 1318.609375, "count": 8880 },
+    "visits": { "size": 39632.279296875, "count": 26690 }
+  },
+  "135000-136000": {
+    "persons": { "size": 224.501953125, "count": 136000 },
+    "doctors": { "size": 0.6865234375, "count": 12 },
+    "patients": { "size": 102.783203125, "count": 988 },
+    "complaints": { "size": 1421.7705078125, "count": 2947 },
+    "histories": { "size": 13942.046875, "count": 7936 },
+    "allergyhistories": { "size": 4852.537109375, "count": 63608 },
+    "treatmentepisodes": { "size": 1308.654296875, "count": 8815 },
+    "visits": { "size": 39432.2939453125, "count": 26541 }
+  },
+  "136000-137000": {
+    "persons": { "size": 224.6181640625, "count": 137000 },
+    "doctors": { "size": 0.642578125, "count": 12 },
+    "patients": { "size": 102.4931640625, "count": 988 },
+    "complaints": { "size": 1421.90234375, "count": 2962 },
+    "histories": { "size": 13971.87890625, "count": 7958 },
+    "allergyhistories": { "size": 4881.6474609375, "count": 63977 },
+    "treatmentepisodes": { "size": 1320.4228515625, "count": 8901 },
+    "visits": { "size": 39889.482421875, "count": 26801 }
+  },
+  "137000-138000": {
+    "persons": { "size": 224.873046875, "count": 138000 },
+    "doctors": { "size": 0.623046875, "count": 11 },
+    "patients": { "size": 102.9833984375, "count": 989 },
+    "complaints": { "size": 1413.3505859375, "count": 2923 },
+    "histories": { "size": 13721.8076171875, "count": 7803 },
+    "allergyhistories": { "size": 4768.8876953125, "count": 62507 },
+    "treatmentepisodes": { "size": 1317.0703125, "count": 8873 },
+    "visits": { "size": 39360.111328125, "count": 26504 }
+  },
+  "138000-139000": {
+    "persons": { "size": 224.0078125, "count": 139000 },
+    "doctors": { "size": 0.513671875, "count": 10 },
+    "patients": { "size": 103.0078125, "count": 990 },
+    "complaints": { "size": 1408.7998046875, "count": 2926 },
+    "histories": { "size": 13300.0712890625, "count": 7578 },
+    "allergyhistories": { "size": 4638.724609375, "count": 60818 },
+    "treatmentepisodes": { "size": 1316.4453125, "count": 8871 },
+    "visits": { "size": 39592.8203125, "count": 26641 }
+  },
+  "139000-140000": {
+    "persons": { "size": 224.7587890625, "count": 140000 },
+    "doctors": { "size": 0.8310546875, "count": 16 },
+    "patients": { "size": 103.0029296875, "count": 984 },
+    "complaints": { "size": 1439.375, "count": 2969 },
+    "histories": { "size": 13735.671875, "count": 7787 },
+    "allergyhistories": { "size": 4762.8798828125, "count": 62441 },
+    "treatmentepisodes": { "size": 1335.3212890625, "count": 8996 },
+    "visits": { "size": 40033.2939453125, "count": 26954 }
+  },
+  "140000-141000": {
+    "persons": { "size": 225.2548828125, "count": 141000 },
+    "doctors": { "size": 0.884765625, "count": 16 },
+    "patients": { "size": 102.279296875, "count": 984 },
+    "complaints": { "size": 1436.3935546875, "count": 2949 },
+    "histories": { "size": 13350.02734375, "count": 7590 },
+    "allergyhistories": { "size": 4670.0859375, "count": 61212 },
+    "treatmentepisodes": { "size": 1311.0625, "count": 8831 },
+    "visits": { "size": 39286.1591796875, "count": 26470 }
+  },
+  "141000-142000": {
+    "persons": { "size": 224.33984375, "count": 142000 },
+    "doctors": { "size": 0.6533203125, "count": 13 },
+    "patients": { "size": 102.3291015625, "count": 987 },
+    "complaints": { "size": 1463.2451171875, "count": 3042 },
+    "histories": { "size": 13856.4462890625, "count": 7905 },
+    "allergyhistories": { "size": 4879.470703125, "count": 63958 },
+    "treatmentepisodes": { "size": 1353.8291015625, "count": 9119 },
+    "visits": { "size": 40557.642578125, "count": 27272 }
+  },
+  "142000-143000": {
+    "persons": { "size": 224.861328125, "count": 143000 },
+    "doctors": { "size": 0.501953125, "count": 9 },
+    "patients": { "size": 103.052734375, "count": 991 },
+    "complaints": { "size": 1440.2666015625, "count": 2982 },
+    "histories": { "size": 14024.599609375, "count": 8001 },
+    "allergyhistories": { "size": 4855.9453125, "count": 63635 },
+    "treatmentepisodes": { "size": 1348.6484375, "count": 9091 },
+    "visits": { "size": 40296.228515625, "count": 27083 }
+  },
+  "143000-144000": {
+    "persons": { "size": 224.5068359375, "count": 144000 },
+    "doctors": { "size": 0.6708984375, "count": 13 },
+    "patients": { "size": 102.220703125, "count": 987 },
+    "complaints": { "size": 1446.419921875, "count": 3013 },
+    "histories": { "size": 14107.9111328125, "count": 8018 },
+    "allergyhistories": { "size": 4881.7763671875, "count": 63994 },
+    "treatmentepisodes": { "size": 1354.287109375, "count": 9127 },
+    "visits": { "size": 40232.1044921875, "count": 27136 }
+  },
+  "144000-145000": {
+    "persons": { "size": 225.3818359375, "count": 145000 },
+    "doctors": { "size": 0.650390625, "count": 12 },
+    "patients": { "size": 102.337890625, "count": 988 },
+    "complaints": { "size": 1430.2607421875, "count": 2956 },
+    "histories": { "size": 13810.28125, "count": 7851 },
+    "allergyhistories": { "size": 4792.90234375, "count": 62819 },
+    "treatmentepisodes": { "size": 1299.9736328125, "count": 8757 },
+    "visits": { "size": 38842.1318359375, "count": 26178 }
+  },
+  "145000-146000": {
+    "persons": { "size": 224.9599609375, "count": 146000 },
+    "doctors": { "size": 0.5205078125, "count": 10 },
+    "patients": { "size": 102.9091796875, "count": 990 },
+    "complaints": { "size": 1467.771484375, "count": 3047 },
+    "histories": { "size": 13990.400390625, "count": 7977 },
+    "allergyhistories": { "size": 4873.9501953125, "count": 63880 },
+    "treatmentepisodes": { "size": 1351.8701171875, "count": 9101 },
+    "visits": { "size": 40317.0556640625, "count": 27163 }
+  },
+  "146000-147000": {
+    "persons": { "size": 224.962890625, "count": 147000 },
+    "doctors": { "size": 0.796875, "count": 15 },
+    "patients": { "size": 102.232421875, "count": 985 },
+    "complaints": { "size": 1416.6533203125, "count": 2932 },
+    "histories": { "size": 13714.072265625, "count": 7809 },
+    "allergyhistories": { "size": 4774.001953125, "count": 62565 },
+    "treatmentepisodes": { "size": 1315.54296875, "count": 8859 },
+    "visits": { "size": 39179.6103515625, "count": 26370 }
+  },
+  "147000-148000": {
+    "persons": { "size": 225.39453125, "count": 148000 },
+    "doctors": { "size": 0.9423828125, "count": 17 },
+    "patients": { "size": 102.4873046875, "count": 983 },
+    "complaints": { "size": 1428.783203125, "count": 2941 },
+    "histories": { "size": 13495.486328125, "count": 7698 },
+    "allergyhistories": { "size": 4701.109375, "count": 61630 },
+    "treatmentepisodes": { "size": 1310.845703125, "count": 8829 },
+    "visits": { "size": 39130.7041015625, "count": 26359 }
+  },
+  "148000-149000": {
+    "persons": { "size": 224.90234375, "count": 149000 },
+    "doctors": { "size": 0.6337890625, "count": 12 },
+    "patients": { "size": 102.7509765625, "count": 988 },
+    "complaints": { "size": 1451.208984375, "count": 3011 },
+    "histories": { "size": 14046.3837890625, "count": 7984 },
+    "allergyhistories": { "size": 4867.54296875, "count": 63797 },
+    "treatmentepisodes": { "size": 1347.94140625, "count": 9081 },
+    "visits": { "size": 40434.3046875, "count": 27211 }
+  },
+  "149000-150000": {
+    "persons": { "size": 224.779296875, "count": 150000 },
+    "doctors": { "size": 0.8115234375, "count": 16 },
+    "patients": { "size": 102.220703125, "count": 984 },
+    "complaints": { "size": 1407.5048828125, "count": 2920 },
+    "histories": { "size": 14036.271484375, "count": 7970 },
+    "allergyhistories": { "size": 4855.8173828125, "count": 63637 },
+    "treatmentepisodes": { "size": 1300.28515625, "count": 8764 },
+    "visits": { "size": 39186.447265625, "count": 26401 }
+  },
+  "150000-151000": {
+    "persons": { "size": 224.7080078125, "count": 151000 },
+    "doctors": { "size": 1.1015625, "count": 21 },
+    "patients": { "size": 101.5009765625, "count": 979 },
+    "complaints": { "size": 1389.2978515625, "count": 2901 },
+    "histories": { "size": 13696.12890625, "count": 7786 },
+    "allergyhistories": { "size": 4762.7529296875, "count": 62425 },
+    "treatmentepisodes": { "size": 1296.19921875, "count": 8734 },
+    "visits": { "size": 39060.58984375, "count": 26247 }
+  },
+  "151000-152000": {
+    "persons": { "size": 224.94921875, "count": 152000 },
+    "doctors": { "size": 0.5986328125, "count": 11 },
+    "patients": { "size": 102.3203125, "count": 989 },
+    "complaints": { "size": 1418.1298828125, "count": 2942 },
+    "histories": { "size": 14125.123046875, "count": 8060 },
+    "allergyhistories": { "size": 4916.3583984375, "count": 64443 },
+    "treatmentepisodes": { "size": 1299.884765625, "count": 8759 },
+    "visits": { "size": 39163.1689453125, "count": 26370 }
+  },
+  "152000-153000": {
+    "persons": { "size": 224.25390625, "count": 153000 },
+    "doctors": { "size": 0.5771484375, "count": 11 },
+    "patients": { "size": 103.083984375, "count": 989 },
+    "complaints": { "size": 1459.6484375, "count": 3006 },
+    "histories": { "size": 13785.40234375, "count": 7850 },
+    "allergyhistories": { "size": 4822.71875, "count": 63197 },
+    "treatmentepisodes": { "size": 1326.087890625, "count": 8927 },
+    "visits": { "size": 39683.7236328125, "count": 26698 }
+  },
+  "153000-154000": {
+    "persons": { "size": 224.7509765625, "count": 154000 },
+    "doctors": { "size": 0.6396484375, "count": 12 },
+    "patients": { "size": 102.46875, "count": 988 },
+    "complaints": { "size": 1424.939453125, "count": 2962 },
+    "histories": { "size": 14044.62890625, "count": 8022 },
+    "allergyhistories": { "size": 4859.06640625, "count": 63663 },
+    "treatmentepisodes": { "size": 1335.0732421875, "count": 8989 },
+    "visits": { "size": 40053.96875, "count": 26922 }
+  },
+  "154000-155000": {
+    "persons": { "size": 224.5009765625, "count": 155000 },
+    "doctors": { "size": 0.8076171875, "count": 15 },
+    "patients": { "size": 102.40234375, "count": 985 },
+    "complaints": { "size": 1443.91015625, "count": 2965 },
+    "histories": { "size": 14040.5615234375, "count": 7994 },
+    "allergyhistories": { "size": 4834.3994140625, "count": 63347 },
+    "treatmentepisodes": { "size": 1332.3955078125, "count": 8968 },
+    "visits": { "size": 39890.3349609375, "count": 26860 }
+  },
+  "155000-156000": {
+    "persons": { "size": 225.7626953125, "count": 156000 },
+    "doctors": { "size": 0.51953125, "count": 9 },
+    "patients": { "size": 103.0361328125, "count": 991 },
+    "complaints": { "size": 1432.2900390625, "count": 2963 },
+    "histories": { "size": 13964.7392578125, "count": 7934 },
+    "allergyhistories": { "size": 4865.2275390625, "count": 63760 },
+    "treatmentepisodes": { "size": 1326.1630859375, "count": 8934 },
+    "visits": { "size": 39591.29296875, "count": 26636 }
+  },
+  "156000-157000": {
+    "persons": { "size": 224.197265625, "count": 157000 },
+    "doctors": { "size": 1.2138671875, "count": 24 },
+    "patients": { "size": 101.48828125, "count": 976 },
+    "complaints": { "size": 1443.1748046875, "count": 2971 },
+    "histories": { "size": 13749.615234375, "count": 7827 },
+    "allergyhistories": { "size": 4782.173828125, "count": 62678 },
+    "treatmentepisodes": { "size": 1330.966796875, "count": 8962 },
+    "visits": { "size": 39819.8408203125, "count": 26786 }
+  },
+  "157000-158000": {
+    "persons": { "size": 224.77734375, "count": 158000 },
+    "doctors": { "size": 0.4814453125, "count": 9 },
+    "patients": { "size": 103.505859375, "count": 991 },
+    "complaints": { "size": 1414.3935546875, "count": 2921 },
+    "histories": { "size": 14386.6015625, "count": 8193 },
+    "allergyhistories": { "size": 4964.587890625, "count": 65063 },
+    "treatmentepisodes": { "size": 1308.7861328125, "count": 8820 },
+    "visits": { "size": 39584.0908203125, "count": 26632 }
+  },
+  "158000-159000": {
+    "persons": { "size": 224.701171875, "count": 159000 },
+    "doctors": { "size": 0.51171875, "count": 9 },
+    "patients": { "size": 102.935546875, "count": 991 },
+    "complaints": { "size": 1423.4619140625, "count": 2974 },
+    "histories": { "size": 14117.517578125, "count": 8048 },
+    "allergyhistories": { "size": 4922.0009765625, "count": 64508 },
+    "treatmentepisodes": { "size": 1320.3837890625, "count": 8893 },
+    "visits": { "size": 39757.6826171875, "count": 26695 }
+  },
+  "159000-160000": {
+    "persons": { "size": 225.181640625, "count": 160000 },
+    "doctors": { "size": 1.1728515625, "count": 23 },
+    "patients": { "size": 101.328125, "count": 977 },
+    "complaints": { "size": 1447.171875, "count": 3005 },
+    "histories": { "size": 13815.439453125, "count": 7871 },
+    "allergyhistories": { "size": 4836.677734375, "count": 63409 },
+    "treatmentepisodes": { "size": 1333.5908203125, "count": 8988 },
+    "visits": { "size": 39855.5927734375, "count": 26845 }
+  },
+  "160000-161000": {
+    "persons": { "size": 224.908203125, "count": 161000 },
+    "doctors": { "size": 1.2451171875, "count": 24 },
+    "patients": { "size": 101.693359375, "count": 976 },
+    "complaints": { "size": 1444.78515625, "count": 2995 },
+    "histories": { "size": 13663.591796875, "count": 7779 },
+    "allergyhistories": { "size": 4751.431640625, "count": 62263 },
+    "treatmentepisodes": { "size": 1346.1689453125, "count": 9064 },
+    "visits": { "size": 40282.4287109375, "count": 27080 }
+  },
+  "161000-162000": {
+    "persons": { "size": 224.6845703125, "count": 162000 },
+    "doctors": { "size": 0.8369140625, "count": 17 },
+    "patients": { "size": 101.9091796875, "count": 983 },
+    "complaints": { "size": 1447.578125, "count": 2988 },
+    "histories": { "size": 14268.267578125, "count": 8097 },
+    "allergyhistories": { "size": 4959.8740234375, "count": 64999 },
+    "treatmentepisodes": { "size": 1326.166015625, "count": 8931 },
+    "visits": { "size": 39865.4248046875, "count": 26807 }
+  },
+  "162000-163000": {
+    "persons": { "size": 224.8310546875, "count": 163000 },
+    "doctors": { "size": 0.7255859375, "count": 14 },
+    "patients": { "size": 101.9130859375, "count": 986 },
+    "complaints": { "size": 1438.4736328125, "count": 2985 },
+    "histories": { "size": 13823.1357421875, "count": 7870 },
+    "allergyhistories": { "size": 4753.1474609375, "count": 62296 },
+    "treatmentepisodes": { "size": 1322.4306640625, "count": 8911 },
+    "visits": { "size": 39996.2119140625, "count": 26867 }
+  },
+  "163000-164000": {
+    "persons": { "size": 224.9013671875, "count": 164000 },
+    "doctors": { "size": 0.5322265625, "count": 10 },
+    "patients": { "size": 103.001953125, "count": 990 },
+    "complaints": { "size": 1430.0205078125, "count": 2923 },
+    "histories": { "size": 13749.681640625, "count": 7816 },
+    "allergyhistories": { "size": 4791.560546875, "count": 62785 },
+    "treatmentepisodes": { "size": 1295.0126953125, "count": 8728 },
+    "visits": { "size": 38911.033203125, "count": 26149 }
+  },
+  "164000-165000": {
+    "persons": { "size": 224.4912109375, "count": 165000 },
+    "doctors": { "size": 0.8359375, "count": 15 },
+    "patients": { "size": 102.6962890625, "count": 985 },
+    "complaints": { "size": 1450.333984375, "count": 3000 },
+    "histories": { "size": 13549.880859375, "count": 7717 },
+    "allergyhistories": { "size": 4690.109375, "count": 61486 },
+    "treatmentepisodes": { "size": 1348.75390625, "count": 9086 },
+    "visits": { "size": 40512.3759765625, "count": 27280 }
+  },
+  "165000-166000": {
+    "persons": { "size": 225.0625, "count": 166000 },
+    "doctors": { "size": 0.552734375, "count": 10 },
+    "patients": { "size": 103.048828125, "count": 990 },
+    "complaints": { "size": 1463.19140625, "count": 3013 },
+    "histories": { "size": 13663.349609375, "count": 7763 },
+    "allergyhistories": { "size": 4764.4912109375, "count": 62450 },
+    "treatmentepisodes": { "size": 1365.62109375, "count": 9204 },
+    "visits": { "size": 41182.841796875, "count": 27660 }
+  },
+  "166000-167000": {
+    "persons": { "size": 225.283203125, "count": 167000 },
+    "doctors": { "size": 0.8310546875, "count": 16 },
+    "patients": { "size": 101.9462890625, "count": 984 },
+    "complaints": { "size": 1459.130859375, "count": 2998 },
+    "histories": { "size": 14027.3310546875, "count": 7963 },
+    "allergyhistories": { "size": 4832.623046875, "count": 63338 },
+    "treatmentepisodes": { "size": 1324.689453125, "count": 8924 },
+    "visits": { "size": 39810.55859375, "count": 26756 }
+  },
+  "167000-168000": {
+    "persons": { "size": 224.255859375, "count": 168000 },
+    "doctors": { "size": 0.873046875, "count": 17 },
+    "patients": { "size": 102.0712890625, "count": 983 },
+    "complaints": { "size": 1396.935546875, "count": 2887 },
+    "histories": { "size": 13783.357421875, "count": 7855 },
+    "allergyhistories": { "size": 4814.4375, "count": 63096 },
+    "treatmentepisodes": { "size": 1274.345703125, "count": 8588 },
+    "visits": { "size": 38117.4306640625, "count": 25667 }
+  },
+  "168000-169000": {
+    "persons": { "size": 224.470703125, "count": 169000 },
+    "doctors": { "size": 0.8330078125, "count": 16 },
+    "patients": { "size": 102.544921875, "count": 984 },
+    "complaints": { "size": 1466.6630859375, "count": 3026 },
+    "histories": { "size": 14136.7216796875, "count": 8064 },
+    "allergyhistories": { "size": 4897.017578125, "count": 64186 },
+    "treatmentepisodes": { "size": 1359.5068359375, "count": 9158 },
+    "visits": { "size": 41032.228515625, "count": 27594 }
+  },
+  "169000-170000": {
+    "persons": { "size": 225.134765625, "count": 170000 },
+    "doctors": { "size": 0.7138671875, "count": 13 },
+    "patients": { "size": 102.7158203125, "count": 987 },
+    "complaints": { "size": 1420.298828125, "count": 2960 },
+    "histories": { "size": 13545.80859375, "count": 7718 },
+    "allergyhistories": { "size": 4652.34375, "count": 60972 },
+    "treatmentepisodes": { "size": 1315.2880859375, "count": 8857 },
+    "visits": { "size": 39385.6640625, "count": 26438 }
+  },
+  "170000-171000": {
+    "persons": { "size": 225.390625, "count": 171000 },
+    "doctors": { "size": 0.8564453125, "count": 17 },
+    "patients": { "size": 102.216796875, "count": 983 },
+    "complaints": { "size": 1401.650390625, "count": 2908 },
+    "histories": { "size": 13658.541015625, "count": 7781 },
+    "allergyhistories": { "size": 4763.154296875, "count": 62421 },
+    "treatmentepisodes": { "size": 1299.1376953125, "count": 8752 },
+    "visits": { "size": 39138.2255859375, "count": 26329 }
+  },
+  "171000-172000": {
+    "persons": { "size": 225.0283203125, "count": 172000 },
+    "doctors": { "size": 0.66796875, "count": 13 },
+    "patients": { "size": 103.1318359375, "count": 987 },
+    "complaints": { "size": 1374.228515625, "count": 2864 },
+    "histories": { "size": 13895.03125, "count": 7911 },
+    "allergyhistories": { "size": 4825.4453125, "count": 63244 },
+    "treatmentepisodes": { "size": 1277.40234375, "count": 8612 },
+    "visits": { "size": 38671.31640625, "count": 26009 }
+  },
+  "172000-173000": {
+    "persons": { "size": 225.3720703125, "count": 173000 },
+    "doctors": { "size": 0.837890625, "count": 16 },
+    "patients": { "size": 102.45703125, "count": 984 },
+    "complaints": { "size": 1413.5283203125, "count": 2957 },
+    "histories": { "size": 13808.2041015625, "count": 7857 },
+    "allergyhistories": { "size": 4815.810546875, "count": 63112 },
+    "treatmentepisodes": { "size": 1329.990234375, "count": 8956 },
+    "visits": { "size": 39772.2353515625, "count": 26764 }
+  },
+  "173000-174000": {
+    "persons": { "size": 225.013671875, "count": 174000 },
+    "doctors": { "size": 0.4892578125, "count": 9 },
+    "patients": { "size": 103.123046875, "count": 991 },
+    "complaints": { "size": 1490.90234375, "count": 3078 },
+    "histories": { "size": 13859.228515625, "count": 7893 },
+    "allergyhistories": { "size": 4810.080078125, "count": 63067 },
+    "treatmentepisodes": { "size": 1357.1044921875, "count": 9142 },
+    "visits": { "size": 40624.275390625, "count": 27384 }
+  },
+  "174000-175000": {
+    "persons": { "size": 224.634765625, "count": 175000 },
+    "doctors": { "size": 0.771484375, "count": 15 },
+    "patients": { "size": 102.0341796875, "count": 985 },
+    "complaints": { "size": 1382.798828125, "count": 2897 },
+    "histories": { "size": 13749.326171875, "count": 7856 },
+    "allergyhistories": { "size": 4794.21875, "count": 62819 },
+    "treatmentepisodes": { "size": 1297.77734375, "count": 8742 },
+    "visits": { "size": 39134.4052734375, "count": 26289 }
+  },
+  "175000-176000": {
+    "persons": { "size": 225.388671875, "count": 176000 },
+    "doctors": { "size": 0.5439453125, "count": 10 },
+    "patients": { "size": 103.287109375, "count": 990 },
+    "complaints": { "size": 1423.1005859375, "count": 2966 },
+    "histories": { "size": 13698.7998046875, "count": 7802 },
+    "allergyhistories": { "size": 4761.888671875, "count": 62418 },
+    "treatmentepisodes": { "size": 1317.798828125, "count": 8874 },
+    "visits": { "size": 39621.8828125, "count": 26658 }
+  },
+  "176000-177000": {
+    "persons": { "size": 225.05859375, "count": 177000 },
+    "doctors": { "size": 0.8876953125, "count": 17 },
+    "patients": { "size": 102.224609375, "count": 983 },
+    "complaints": { "size": 1431.4873046875, "count": 2944 },
+    "histories": { "size": 13818.6728515625, "count": 7861 },
+    "allergyhistories": { "size": 4808.9853515625, "count": 63028 },
+    "treatmentepisodes": { "size": 1297.1650390625, "count": 8737 },
+    "visits": { "size": 39188.44140625, "count": 26407 }
+  },
+  "177000-178000": {
+    "persons": { "size": 224.3935546875, "count": 178000 },
+    "doctors": { "size": 0.8955078125, "count": 17 },
+    "patients": { "size": 102.3115234375, "count": 983 },
+    "complaints": { "size": 1411.29296875, "count": 2929 },
+    "histories": { "size": 14244.990234375, "count": 8098 },
+    "allergyhistories": { "size": 4956.603515625, "count": 64963 },
+    "treatmentepisodes": { "size": 1296.236328125, "count": 8731 },
+    "visits": { "size": 38801.8310546875, "count": 26132 }
+  },
+  "178000-179000": {
+    "persons": { "size": 224.6552734375, "count": 179000 },
+    "doctors": { "size": 0.4736328125, "count": 9 },
+    "patients": { "size": 103.44140625, "count": 991 },
+    "complaints": { "size": 1438.40625, "count": 2971 },
+    "histories": { "size": 13822.3369140625, "count": 7886 },
+    "allergyhistories": { "size": 4790.0615234375, "count": 62774 },
+    "treatmentepisodes": { "size": 1325.4990234375, "count": 8932 },
+    "visits": { "size": 39769.796875, "count": 26778 }
+  },
+  "179000-180000": {
+    "persons": { "size": 224.8076171875, "count": 180000 },
+    "doctors": { "size": 0.83203125, "count": 16 },
+    "patients": { "size": 102.0966796875, "count": 984 },
+    "complaints": { "size": 1391.0966796875, "count": 2878 },
+    "histories": { "size": 13876.4228515625, "count": 7889 },
+    "allergyhistories": { "size": 4786.7216796875, "count": 62722 },
+    "treatmentepisodes": { "size": 1274.7080078125, "count": 8591 },
+    "visits": { "size": 38327.5869140625, "count": 25748 }
+  },
+  "180000-181000": {
+    "persons": { "size": 225.203125, "count": 181000 },
+    "doctors": { "size": 0.943359375, "count": 18 },
+    "patients": { "size": 101.6669921875, "count": 982 },
+    "complaints": { "size": 1461.1064453125, "count": 3011 },
+    "histories": { "size": 14191.708984375, "count": 8071 },
+    "allergyhistories": { "size": 4925.650390625, "count": 64564 },
+    "treatmentepisodes": { "size": 1346.1025390625, "count": 9072 },
+    "visits": { "size": 40041.1767578125, "count": 26975 }
+  },
+  "181000-182000": {
+    "persons": { "size": 225.2216796875, "count": 182000 },
+    "doctors": { "size": 0.4794921875, "count": 9 },
+    "patients": { "size": 102.455078125, "count": 991 },
+    "complaints": { "size": 1417.6552734375, "count": 2898 },
+    "histories": { "size": 14228.6171875, "count": 8092 },
+    "allergyhistories": { "size": 4916.0869140625, "count": 64413 },
+    "treatmentepisodes": { "size": 1316.404296875, "count": 8866 },
+    "visits": { "size": 39801.1787109375, "count": 26750 }
+  },
+  "182000-183000": {
+    "persons": { "size": 224.984375, "count": 183000 },
+    "doctors": { "size": 0.6708984375, "count": 13 },
+    "patients": { "size": 102.01171875, "count": 987 },
+    "complaints": { "size": 1390.53125, "count": 2902 },
+    "histories": { "size": 13631.6513671875, "count": 7752 },
+    "allergyhistories": { "size": 4715.2890625, "count": 61801 },
+    "treatmentepisodes": { "size": 1289.8486328125, "count": 8693 },
+    "visits": { "size": 38408.796875, "count": 25837 }
+  },
+  "183000-184000": {
+    "persons": { "size": 225.419921875, "count": 184000 },
+    "doctors": { "size": 0.95703125, "count": 18 },
+    "patients": { "size": 101.6181640625, "count": 982 },
+    "complaints": { "size": 1425.04296875, "count": 2954 },
+    "histories": { "size": 14040.076171875, "count": 8010 },
+    "allergyhistories": { "size": 4874.9033203125, "count": 63891 },
+    "treatmentepisodes": { "size": 1314.1669921875, "count": 8854 },
+    "visits": { "size": 39733.2548828125, "count": 26705 }
+  },
+  "184000-185000": {
+    "persons": { "size": 224.5400390625, "count": 185000 },
+    "doctors": { "size": 0.900390625, "count": 18 },
+    "patients": { "size": 102.236328125, "count": 982 },
+    "complaints": { "size": 1386.671875, "count": 2876 },
+    "histories": { "size": 13606.8330078125, "count": 7736 },
+    "allergyhistories": { "size": 4726.62109375, "count": 61953 },
+    "treatmentepisodes": { "size": 1297.5146484375, "count": 8746 },
+    "visits": { "size": 38695.8408203125, "count": 26012 }
+  },
+  "185000-186000": {
+    "persons": { "size": 224.3837890625, "count": 186000 },
+    "doctors": { "size": 1.07421875, "count": 21 },
+    "patients": { "size": 101.935546875, "count": 979 },
+    "complaints": { "size": 1391.8310546875, "count": 2875 },
+    "histories": { "size": 14016.02734375, "count": 7977 },
+    "allergyhistories": { "size": 4904.1650390625, "count": 64294 },
+    "treatmentepisodes": { "size": 1263.5009765625, "count": 8514 },
+    "visits": { "size": 38046.974609375, "count": 25625 }
+  },
+  "186000-187000": {
+    "persons": { "size": 224.7998046875, "count": 187000 },
+    "doctors": { "size": 0.78515625, "count": 15 },
+    "patients": { "size": 102.5927734375, "count": 985 },
+    "complaints": { "size": 1435.01171875, "count": 2993 },
+    "histories": { "size": 13848.26953125, "count": 7884 },
+    "allergyhistories": { "size": 4813.1943359375, "count": 63092 },
+    "treatmentepisodes": { "size": 1350.369140625, "count": 9093 },
+    "visits": { "size": 40618.9560546875, "count": 27307 }
+  },
+  "187000-188000": {
+    "persons": { "size": 225.3251953125, "count": 188000 },
+    "doctors": { "size": 0.7314453125, "count": 14 },
+    "patients": { "size": 101.7412109375, "count": 986 },
+    "complaints": { "size": 1435.123046875, "count": 2985 },
+    "histories": { "size": 14169.23828125, "count": 8068 },
+    "allergyhistories": { "size": 4938.9833984375, "count": 64705 },
+    "treatmentepisodes": { "size": 1318.7333984375, "count": 8883 },
+    "visits": { "size": 39453.2626953125, "count": 26544 }
+  },
+  "188000-189000": {
+    "persons": { "size": 225.291015625, "count": 189000 },
+    "doctors": { "size": 0.5380859375, "count": 10 },
+    "patients": { "size": 103.0517578125, "count": 990 },
+    "complaints": { "size": 1401.8505859375, "count": 2918 },
+    "histories": { "size": 13766.927734375, "count": 7831 },
+    "allergyhistories": { "size": 4800.7900390625, "count": 62914 },
+    "treatmentepisodes": { "size": 1290.9404296875, "count": 8698 },
+    "visits": { "size": 38690.9423828125, "count": 25996 }
+  },
+  "189000-190000": {
+    "persons": { "size": 224.6943359375, "count": 190000 },
+    "doctors": { "size": 0.8583984375, "count": 16 },
+    "patients": { "size": 101.982421875, "count": 984 },
+    "complaints": { "size": 1437.9169921875, "count": 2980 },
+    "histories": { "size": 14054.04296875, "count": 8001 },
+    "allergyhistories": { "size": 4894.7626953125, "count": 64151 },
+    "treatmentepisodes": { "size": 1308.1767578125, "count": 8810 },
+    "visits": { "size": 38988.79296875, "count": 26247 }
+  },
+  "190000-191000": {
+    "persons": { "size": 225.1259765625, "count": 191000 },
+    "doctors": { "size": 0.853515625, "count": 16 },
+    "patients": { "size": 102.7216796875, "count": 984 },
+    "complaints": { "size": 1443.458984375, "count": 2999 },
+    "histories": { "size": 13762.560546875, "count": 7844 },
+    "allergyhistories": { "size": 4777.33984375, "count": 62635 },
+    "treatmentepisodes": { "size": 1336.138671875, "count": 8996 },
+    "visits": { "size": 39718.00390625, "count": 26722 }
+  },
+  "191000-192000": {
+    "persons": { "size": 224.9990234375, "count": 192000 },
+    "doctors": { "size": 0.8603515625, "count": 16 },
+    "patients": { "size": 102.2744140625, "count": 984 },
+    "complaints": { "size": 1452.9765625, "count": 2988 },
+    "histories": { "size": 13473.431640625, "count": 7667 },
+    "allergyhistories": { "size": 4683.4140625, "count": 61396 },
+    "treatmentepisodes": { "size": 1327.7255859375, "count": 8948 },
+    "visits": { "size": 39793.955078125, "count": 26748 }
+  },
+  "192000-193000": {
+    "persons": { "size": 224.75, "count": 193000 },
+    "doctors": { "size": 0.8076171875, "count": 15 },
+    "patients": { "size": 102.4130859375, "count": 985 },
+    "complaints": { "size": 1443.1787109375, "count": 2957 },
+    "histories": { "size": 14153.0498046875, "count": 8064 },
+    "allergyhistories": { "size": 4876.2265625, "count": 63901 },
+    "treatmentepisodes": { "size": 1309.9697265625, "count": 8827 },
+    "visits": { "size": 39185.8916015625, "count": 26338 }
+  },
+  "193000-194000": {
+    "persons": { "size": 224.9716796875, "count": 194000 },
+    "doctors": { "size": 0.5966796875, "count": 11 },
+    "patients": { "size": 103.0068359375, "count": 989 },
+    "complaints": { "size": 1421.1982421875, "count": 2947 },
+    "histories": { "size": 14007.509765625, "count": 7976 },
+    "allergyhistories": { "size": 4826.15234375, "count": 63251 },
+    "treatmentepisodes": { "size": 1320.7392578125, "count": 8895 },
+    "visits": { "size": 39733.05078125, "count": 26725 }
+  },
+  "194000-195000": {
+    "persons": { "size": 224.9111328125, "count": 195000 },
+    "doctors": { "size": 0.7314453125, "count": 14 },
+    "patients": { "size": 102.01953125, "count": 986 },
+    "complaints": { "size": 1433.9873046875, "count": 2971 },
+    "histories": { "size": 13667.404296875, "count": 7782 },
+    "allergyhistories": { "size": 4786.4072265625, "count": 62744 },
+    "treatmentepisodes": { "size": 1344.078125, "count": 9055 },
+    "visits": { "size": 40107.4326171875, "count": 26979 }
+  },
+  "195000-196000": {
+    "persons": { "size": 224.3720703125, "count": 196000 },
+    "doctors": { "size": 0.783203125, "count": 15 },
+    "patients": { "size": 101.9765625, "count": 985 },
+    "complaints": { "size": 1438.72265625, "count": 2987 },
+    "histories": { "size": 14199.1103515625, "count": 8104 },
+    "allergyhistories": { "size": 4970.126953125, "count": 65135 },
+    "treatmentepisodes": { "size": 1328.6474609375, "count": 8951 },
+    "visits": { "size": 39763.6708984375, "count": 26780 }
+  },
+  "196000-197000": {
+    "persons": { "size": 224.4755859375, "count": 197000 },
+    "doctors": { "size": 0.65234375, "count": 12 },
+    "patients": { "size": 102.751953125, "count": 988 },
+    "complaints": { "size": 1434.8876953125, "count": 2997 },
+    "histories": { "size": 13909.5810546875, "count": 7932 },
+    "allergyhistories": { "size": 4866.685546875, "count": 63773 },
+    "treatmentepisodes": { "size": 1346.2919921875, "count": 9069 },
+    "visits": { "size": 40569.8427734375, "count": 27186 }
+  },
+  "197000-198000": {
+    "persons": { "size": 224.9326171875, "count": 198000 },
+    "doctors": { "size": 0.5830078125, "count": 11 },
+    "patients": { "size": 103.06640625, "count": 989 },
+    "complaints": { "size": 1434.3642578125, "count": 2969 },
+    "histories": { "size": 14149.1474609375, "count": 8065 },
+    "allergyhistories": { "size": 4975.302734375, "count": 65216 },
+    "treatmentepisodes": { "size": 1307.7607421875, "count": 8803 },
+    "visits": { "size": 39323.8798828125, "count": 26416 }
+  },
+  "198000-199000": {
+    "persons": { "size": 224.7158203125, "count": 199000 },
+    "doctors": { "size": 0.345703125, "count": 6 },
+    "patients": { "size": 103.3916015625, "count": 994 },
+    "complaints": { "size": 1467.37890625, "count": 3027 },
+    "histories": { "size": 13890.833984375, "count": 7912 },
+    "allergyhistories": { "size": 4788.849609375, "count": 62769 },
+    "treatmentepisodes": { "size": 1333.8583984375, "count": 8989 },
+    "visits": { "size": 40324.0556640625, "count": 27117 }
+  },
+  "199000-200000": {
+    "persons": { "size": 224.7353515625, "count": 200000 },
+    "doctors": { "size": 0.76171875, "count": 14 },
+    "patients": { "size": 102.46875, "count": 986 },
+    "complaints": { "size": 1413.0615234375, "count": 2945 },
+    "histories": { "size": 13911.4169921875, "count": 7921 },
+    "allergyhistories": { "size": 4845.9228515625, "count": 63522 },
+    "treatmentepisodes": { "size": 1311.189453125, "count": 8837 },
+    "visits": { "size": 39479.974609375, "count": 26553 }
+  },
+  "200000-201000": {
+    "persons": { "size": 224.71484375, "count": 201000 },
+    "doctors": { "size": 0.83203125, "count": 16 },
+    "patients": { "size": 102.1953125, "count": 984 },
+    "complaints": { "size": 1438.9521484375, "count": 2963 },
+    "histories": { "size": 13838.8720703125, "count": 7869 },
+    "allergyhistories": { "size": 4786.1884765625, "count": 62710 },
+    "treatmentepisodes": { "size": 1317.9267578125, "count": 8878 },
+    "visits": { "size": 39812.1396484375, "count": 26739 }
+  },
+  "201000-202000": {
+    "persons": { "size": 224.7939453125, "count": 202000 },
+    "doctors": { "size": 0.8916015625, "count": 17 },
+    "patients": { "size": 102.44140625, "count": 983 },
+    "complaints": { "size": 1442.30078125, "count": 3009 },
+    "histories": { "size": 14026.9423828125, "count": 7998 },
+    "allergyhistories": { "size": 4891.5830078125, "count": 64109 },
+    "treatmentepisodes": { "size": 1340.9697265625, "count": 9033 },
+    "visits": { "size": 40545.025390625, "count": 27249 }
+  },
+  "202000-203000": {
+    "persons": { "size": 224.859375, "count": 203000 },
+    "doctors": { "size": 0.908203125, "count": 17 },
+    "patients": { "size": 101.4619140625, "count": 983 },
+    "complaints": { "size": 1430.26953125, "count": 2977 },
+    "histories": { "size": 13771.330078125, "count": 7838 },
+    "allergyhistories": { "size": 4795.7265625, "count": 62840 },
+    "treatmentepisodes": { "size": 1313.9697265625, "count": 8851 },
+    "visits": { "size": 39290.5322265625, "count": 26397 }
+  },
+  "203000-204000": {
+    "persons": { "size": 224.2568359375, "count": 204000 },
+    "doctors": { "size": 0.6875, "count": 13 },
+    "patients": { "size": 102.7255859375, "count": 987 },
+    "complaints": { "size": 1403.4638671875, "count": 2930 },
+    "histories": { "size": 13831.3017578125, "count": 7860 },
+    "allergyhistories": { "size": 4800.24609375, "count": 62909 },
+    "treatmentepisodes": { "size": 1305.1640625, "count": 8795 },
+    "visits": { "size": 39167.1513671875, "count": 26381 }
+  },
+  "204000-205000": {
+    "persons": { "size": 224.6455078125, "count": 205000 },
+    "doctors": { "size": 0.80859375, "count": 16 },
+    "patients": { "size": 102.15234375, "count": 984 },
+    "complaints": { "size": 1430.7109375, "count": 3010 },
+    "histories": { "size": 14063.310546875, "count": 8020 },
+    "allergyhistories": { "size": 4847.5859375, "count": 63538 },
+    "treatmentepisodes": { "size": 1335.79296875, "count": 9003 },
+    "visits": { "size": 40116.08984375, "count": 26964 }
+  },
+  "205000-206000": {
+    "persons": { "size": 225.158203125, "count": 206000 },
+    "doctors": { "size": 0.751953125, "count": 14 },
+    "patients": { "size": 102.5546875, "count": 986 },
+    "complaints": { "size": 1433.90234375, "count": 2957 },
+    "histories": { "size": 13451.0419921875, "count": 7677 },
+    "allergyhistories": { "size": 4704.1142578125, "count": 61665 },
+    "treatmentepisodes": { "size": 1310.1044921875, "count": 8829 },
+    "visits": { "size": 39700.9794921875, "count": 26665 }
+  },
+  "206000-207000": {
+    "persons": { "size": 224.125, "count": 207000 },
+    "doctors": { "size": 1.2421875, "count": 24 },
+    "patients": { "size": 101.5009765625, "count": 976 },
+    "complaints": { "size": 1414.0625, "count": 2939 },
+    "histories": { "size": 13636.7724609375, "count": 7757 },
+    "allergyhistories": { "size": 4739.7939453125, "count": 62131 },
+    "treatmentepisodes": { "size": 1297.044921875, "count": 8743 },
+    "visits": { "size": 38875.0908203125, "count": 26160 }
+  },
+  "207000-208000": {
+    "persons": { "size": 224.7275390625, "count": 208000 },
+    "doctors": { "size": 0.69921875, "count": 13 },
+    "patients": { "size": 102.9404296875, "count": 987 },
+    "complaints": { "size": 1391.8125, "count": 2890 },
+    "histories": { "size": 13951.203125, "count": 7944 },
+    "allergyhistories": { "size": 4806.57421875, "count": 63007 },
+    "treatmentepisodes": { "size": 1300.8974609375, "count": 8767 },
+    "visits": { "size": 39313.556640625, "count": 26444 }
+  },
+  "208000-209000": {
+    "persons": { "size": 224.8583984375, "count": 209000 },
+    "doctors": { "size": 0.6171875, "count": 11 },
+    "patients": { "size": 102.427734375, "count": 989 },
+    "complaints": { "size": 1426.529296875, "count": 2939 },
+    "histories": { "size": 13618.3583984375, "count": 7763 },
+    "allergyhistories": { "size": 4815.75390625, "count": 63106 },
+    "treatmentepisodes": { "size": 1304.5673828125, "count": 8793 },
+    "visits": { "size": 39014.166015625, "count": 26280 }
+  },
+  "209000-210000": {
+    "persons": { "size": 224.638671875, "count": 210000 },
+    "doctors": { "size": 0.8740234375, "count": 17 },
+    "patients": { "size": 101.7666015625, "count": 983 },
+    "complaints": { "size": 1458.3837890625, "count": 3003 },
+    "histories": { "size": 13789.6845703125, "count": 7837 },
+    "allergyhistories": { "size": 4743.6396484375, "count": 62170 },
+    "treatmentepisodes": { "size": 1324.4921875, "count": 8926 },
+    "visits": { "size": 39333.09765625, "count": 26464 }
+  },
+  "210000-211000": {
+    "persons": { "size": 225.4052734375, "count": 211000 },
+    "doctors": { "size": 0.546875, "count": 10 },
+    "patients": { "size": 102.9912109375, "count": 990 },
+    "complaints": { "size": 1476.955078125, "count": 3040 },
+    "histories": { "size": 13814.4130859375, "count": 7883 },
+    "allergyhistories": { "size": 4820.7548828125, "count": 63204 },
+    "treatmentepisodes": { "size": 1367.423828125, "count": 9209 },
+    "visits": { "size": 40786.9130859375, "count": 27494 }
+  },
+  "211000-212000": {
+    "persons": { "size": 224.703125, "count": 212000 },
+    "doctors": { "size": 0.7705078125, "count": 15 },
+    "patients": { "size": 101.9716796875, "count": 985 },
+    "complaints": { "size": 1433.9677734375, "count": 2945 },
+    "histories": { "size": 13542.7763671875, "count": 7726 },
+    "allergyhistories": { "size": 4726.6845703125, "count": 61951 },
+    "treatmentepisodes": { "size": 1295.8115234375, "count": 8736 },
+    "visits": { "size": 38880.3330078125, "count": 26159 }
+  },
+  "212000-213000": {
+    "persons": { "size": 225.0849609375, "count": 213000 },
+    "doctors": { "size": 0.7451171875, "count": 14 },
+    "patients": { "size": 102.130859375, "count": 986 },
+    "complaints": { "size": 1410.447265625, "count": 2923 },
+    "histories": { "size": 13715.8642578125, "count": 7807 },
+    "allergyhistories": { "size": 4756.48828125, "count": 62343 },
+    "treatmentepisodes": { "size": 1310.931640625, "count": 8833 },
+    "visits": { "size": 39447.45703125, "count": 26564 }
+  },
+  "213000-214000": {
+    "persons": { "size": 225.25390625, "count": 214000 },
+    "doctors": { "size": 0.8984375, "count": 17 },
+    "patients": { "size": 102.5615234375, "count": 983 },
+    "complaints": { "size": 1419.162109375, "count": 2932 },
+    "histories": { "size": 13833.0947265625, "count": 7863 },
+    "allergyhistories": { "size": 4837.88671875, "count": 63419 },
+    "treatmentepisodes": { "size": 1295.5009765625, "count": 8727 },
+    "visits": { "size": 39209.056640625, "count": 26342 }
+  },
+  "214000-215000": {
+    "persons": { "size": 224.6748046875, "count": 215000 },
+    "doctors": { "size": 0.78125, "count": 15 },
+    "patients": { "size": 101.97265625, "count": 985 },
+    "complaints": { "size": 1385.70703125, "count": 2918 },
+    "histories": { "size": 14261.685546875, "count": 8136 },
+    "allergyhistories": { "size": 4956.2998046875, "count": 64958 },
+    "treatmentepisodes": { "size": 1301.7685546875, "count": 8770 },
+    "visits": { "size": 38965.7109375, "count": 26243 }
+  },
+  "215000-216000": {
+    "persons": { "size": 225.1865234375, "count": 216000 },
+    "doctors": { "size": 0.8056640625, "count": 15 },
+    "patients": { "size": 102.5908203125, "count": 985 },
+    "complaints": { "size": 1469.28125, "count": 3020 },
+    "histories": { "size": 13935.83203125, "count": 7927 },
+    "allergyhistories": { "size": 4868.626953125, "count": 63808 },
+    "treatmentepisodes": { "size": 1345.2958984375, "count": 9059 },
+    "visits": { "size": 40084.8935546875, "count": 26924 }
+  },
+  "216000-217000": {
+    "persons": { "size": 224.5234375, "count": 217000 },
+    "doctors": { "size": 0.806640625, "count": 15 },
+    "patients": { "size": 102.0478515625, "count": 985 },
+    "complaints": { "size": 1416.30078125, "count": 2929 },
+    "histories": { "size": 13941.3271484375, "count": 7920 },
+    "allergyhistories": { "size": 4798.5673828125, "count": 62893 },
+    "treatmentepisodes": { "size": 1317.97265625, "count": 8881 },
+    "visits": { "size": 39700.7431640625, "count": 26701 }
+  },
+  "217000-218000": {
+    "persons": { "size": 225.154296875, "count": 218000 },
+    "doctors": { "size": 0.6298828125, "count": 12 },
+    "patients": { "size": 102.8955078125, "count": 988 },
+    "complaints": { "size": 1429.8740234375, "count": 2945 },
+    "histories": { "size": 13914.216796875, "count": 7937 },
+    "allergyhistories": { "size": 4862.9658203125, "count": 63728 },
+    "treatmentepisodes": { "size": 1313.4033203125, "count": 8849 },
+    "visits": { "size": 39485.5419921875, "count": 26590 }
+  },
+  "218000-219000": {
+    "persons": { "size": 225.4267578125, "count": 219000 },
+    "doctors": { "size": 0.6708984375, "count": 12 },
+    "patients": { "size": 102.884765625, "count": 988 },
+    "complaints": { "size": 1434.62890625, "count": 2967 },
+    "histories": { "size": 13761.919921875, "count": 7821 },
+    "allergyhistories": { "size": 4754.517578125, "count": 62315 },
+    "treatmentepisodes": { "size": 1306.9345703125, "count": 8815 },
+    "visits": { "size": 39411.2763671875, "count": 26449 }
+  },
+  "219000-220000": {
+    "persons": { "size": 224.7998046875, "count": 220000 },
+    "doctors": { "size": 0.798828125, "count": 16 },
+    "patients": { "size": 102.5556640625, "count": 984 },
+    "complaints": { "size": 1415.712890625, "count": 2949 },
+    "histories": { "size": 13516.9951171875, "count": 7688 },
+    "allergyhistories": { "size": 4706.7998046875, "count": 61700 },
+    "treatmentepisodes": { "size": 1312.9580078125, "count": 8845 },
+    "visits": { "size": 39436.1875, "count": 26545 }
+  },
+  "220000-221000": {
+    "persons": { "size": 224.6533203125, "count": 221000 },
+    "doctors": { "size": 0.7978515625, "count": 15 },
+    "patients": { "size": 102.181640625, "count": 985 },
+    "complaints": { "size": 1412.48046875, "count": 2942 },
+    "histories": { "size": 13735.2958984375, "count": 7838 },
+    "allergyhistories": { "size": 4794.3935546875, "count": 62835 },
+    "treatmentepisodes": { "size": 1297.9384765625, "count": 8748 },
+    "visits": { "size": 38863.865234375, "count": 26166 }
+  },
+  "221000-222000": {
+    "persons": { "size": 225.19921875, "count": 222000 },
+    "doctors": { "size": 0.5244140625, "count": 9 },
+    "patients": { "size": 102.2744140625, "count": 991 },
+    "complaints": { "size": 1455.7841796875, "count": 2994 },
+    "histories": { "size": 13728.7763671875, "count": 7832 },
+    "allergyhistories": { "size": 4836.69140625, "count": 63404 },
+    "treatmentepisodes": { "size": 1356.3955078125, "count": 9135 },
+    "visits": { "size": 40469.365234375, "count": 27233 }
+  },
+  "222000-223000": {
+    "persons": { "size": 224.578125, "count": 223000 },
+    "doctors": { "size": 0.5859375, "count": 11 },
+    "patients": { "size": 102.6142578125, "count": 989 },
+    "complaints": { "size": 1403.5625, "count": 2928 },
+    "histories": { "size": 13929.142578125, "count": 7923 },
+    "allergyhistories": { "size": 4817.5830078125, "count": 63143 },
+    "treatmentepisodes": { "size": 1304.6982421875, "count": 8793 },
+    "visits": { "size": 39374.265625, "count": 26456 }
+  },
+  "223000-224000": {
+    "persons": { "size": 224.95703125, "count": 224000 },
+    "doctors": { "size": 0.5791015625, "count": 11 },
+    "patients": { "size": 102.8681640625, "count": 989 },
+    "complaints": { "size": 1429.173828125, "count": 2956 },
+    "histories": { "size": 14077.9560546875, "count": 7988 },
+    "allergyhistories": { "size": 4902.9345703125, "count": 64254 },
+    "treatmentepisodes": { "size": 1310.2021484375, "count": 8831 },
+    "visits": { "size": 39619.5966796875, "count": 26623 }
+  },
+  "224000-225000": {
+    "persons": { "size": 224.4990234375, "count": 225000 },
+    "doctors": { "size": 0.798828125, "count": 15 },
+    "patients": { "size": 102.46875, "count": 985 },
+    "complaints": { "size": 1405.66015625, "count": 2907 },
+    "histories": { "size": 13929.412109375, "count": 7946 },
+    "allergyhistories": { "size": 4842.0830078125, "count": 63450 },
+    "treatmentepisodes": { "size": 1286.9638671875, "count": 8675 },
+    "visits": { "size": 38658.0791015625, "count": 25965 }
+  },
+  "225000-226000": {
+    "persons": { "size": 224.2568359375, "count": 226000 },
+    "doctors": { "size": 0.5751953125, "count": 11 },
+    "patients": { "size": 102.6826171875, "count": 989 },
+    "complaints": { "size": 1431.0576171875, "count": 2970 },
+    "histories": { "size": 13741.0087890625, "count": 7817 },
+    "allergyhistories": { "size": 4763.23828125, "count": 62425 },
+    "treatmentepisodes": { "size": 1337.330078125, "count": 9007 },
+    "visits": { "size": 40550.763671875, "count": 27278 }
+  },
+  "226000-227000": {
+    "persons": { "size": 224.419921875, "count": 227000 },
+    "doctors": { "size": 0.78515625, "count": 14 },
+    "patients": { "size": 101.859375, "count": 986 },
+    "complaints": { "size": 1431.2587890625, "count": 2971 },
+    "histories": { "size": 14062.8779296875, "count": 8006 },
+    "allergyhistories": { "size": 4946.41796875, "count": 64821 },
+    "treatmentepisodes": { "size": 1334.0927734375, "count": 8989 },
+    "visits": { "size": 40199.6474609375, "count": 26989 }
+  },
+  "227000-228000": {
+    "persons": { "size": 224.2216796875, "count": 228000 },
+    "doctors": { "size": 0.8759765625, "count": 17 },
+    "patients": { "size": 101.658203125, "count": 983 },
+    "complaints": { "size": 1434.1240234375, "count": 2960 },
+    "histories": { "size": 13663.6943359375, "count": 7794 },
+    "allergyhistories": { "size": 4749.8125, "count": 62262 },
+    "treatmentepisodes": { "size": 1346.873046875, "count": 9070 },
+    "visits": { "size": 40385.9599609375, "count": 27166 }
+  },
+  "228000-229000": {
+    "persons": { "size": 224.5859375, "count": 229000 },
+    "doctors": { "size": 0.7333984375, "count": 14 },
+    "patients": { "size": 102.2998046875, "count": 986 },
+    "complaints": { "size": 1450.642578125, "count": 3020 },
+    "histories": { "size": 13644.4873046875, "count": 7753 },
+    "allergyhistories": { "size": 4776.5087890625, "count": 62608 },
+    "treatmentepisodes": { "size": 1332.1044921875, "count": 8980 },
+    "visits": { "size": 40069.59375, "count": 26937 }
+  },
+  "229000-230000": {
+    "persons": { "size": 224.6806640625, "count": 230000 },
+    "doctors": { "size": 0.4599609375, "count": 8 },
+    "patients": { "size": 102.6904296875, "count": 992 },
+    "complaints": { "size": 1457.5107421875, "count": 2986 },
+    "histories": { "size": 13852.0966796875, "count": 7923 },
+    "allergyhistories": { "size": 4797.7685546875, "count": 62889 },
+    "treatmentepisodes": { "size": 1307.865234375, "count": 8812 },
+    "visits": { "size": 39070.408203125, "count": 26300 }
+  },
+  "230000-231000": {
+    "persons": { "size": 224.6728515625, "count": 231000 },
+    "doctors": { "size": 0.6416015625, "count": 12 },
+    "patients": { "size": 102.5537109375, "count": 988 },
+    "complaints": { "size": 1451.3505859375, "count": 2991 },
+    "histories": { "size": 13936.3408203125, "count": 7922 },
+    "allergyhistories": { "size": 4857.5078125, "count": 63658 },
+    "treatmentepisodes": { "size": 1335.0361328125, "count": 8995 },
+    "visits": { "size": 40194.10546875, "count": 27036 }
+  },
+  "231000-232000": {
+    "persons": { "size": 224.8408203125, "count": 232000 },
+    "doctors": { "size": 0.548828125, "count": 10 },
+    "patients": { "size": 102.80859375, "count": 990 },
+    "complaints": { "size": 1434.4404296875, "count": 2992 },
+    "histories": { "size": 13879.7080078125, "count": 7875 },
+    "allergyhistories": { "size": 4802.98046875, "count": 62939 },
+    "treatmentepisodes": { "size": 1330.1630859375, "count": 8966 },
+    "visits": { "size": 40095.3388671875, "count": 26954 }
+  },
+  "232000-233000": {
+    "persons": { "size": 224.994140625, "count": 233000 },
+    "doctors": { "size": 0.28515625, "count": 5 },
+    "patients": { "size": 102.720703125, "count": 995 },
+    "complaints": { "size": 1445.498046875, "count": 2984 },
+    "histories": { "size": 14214.03515625, "count": 8110 },
+    "allergyhistories": { "size": 4964.623046875, "count": 65063 },
+    "treatmentepisodes": { "size": 1310.8046875, "count": 8825 },
+    "visits": { "size": 39362.05078125, "count": 26457 }
+  },
+  "233000-234000": {
+    "persons": { "size": 224.9375, "count": 234000 },
+    "doctors": { "size": 1.0068359375, "count": 19 },
+    "patients": { "size": 102.3720703125, "count": 981 },
+    "complaints": { "size": 1383.7890625, "count": 2891 },
+    "histories": { "size": 14075.2373046875, "count": 8034 },
+    "allergyhistories": { "size": 4954.06640625, "count": 64940 },
+    "treatmentepisodes": { "size": 1276.6083984375, "count": 8599 },
+    "visits": { "size": 38734.3447265625, "count": 26031 }
+  },
+  "234000-235000": {
+    "persons": { "size": 224.8134765625, "count": 235000 },
+    "doctors": { "size": 0.5927734375, "count": 11 },
+    "patients": { "size": 102.130859375, "count": 989 },
+    "complaints": { "size": 1396.3642578125, "count": 2920 },
+    "histories": { "size": 13702.400390625, "count": 7799 },
+    "allergyhistories": { "size": 4739.05078125, "count": 62115 },
+    "treatmentepisodes": { "size": 1295.736328125, "count": 8728 },
+    "visits": { "size": 38841.6884765625, "count": 26096 }
+  },
+  "235000-236000": {
+    "persons": { "size": 224.7890625, "count": 236000 },
+    "doctors": { "size": 0.974609375, "count": 18 },
+    "patients": { "size": 102.4501953125, "count": 982 },
+    "complaints": { "size": 1398.4794921875, "count": 2900 },
+    "histories": { "size": 13997.50390625, "count": 7962 },
+    "allergyhistories": { "size": 4863.5986328125, "count": 63752 },
+    "treatmentepisodes": { "size": 1272.333984375, "count": 8573 },
+    "visits": { "size": 38253.4755859375, "count": 25741 }
+  },
+  "236000-237000": {
+    "persons": { "size": 224.2822265625, "count": 237000 },
+    "doctors": { "size": 0.7734375, "count": 15 },
+    "patients": { "size": 102.0947265625, "count": 985 },
+    "complaints": { "size": 1432.388671875, "count": 2988 },
+    "histories": { "size": 13770.5263671875, "count": 7806 },
+    "allergyhistories": { "size": 4724.060546875, "count": 61904 },
+    "treatmentepisodes": { "size": 1330.34765625, "count": 8963 },
+    "visits": { "size": 39871.478515625, "count": 26831 }
+  },
+  "237000-238000": {
+    "persons": { "size": 224.8681640625, "count": 238000 },
+    "doctors": { "size": 0.6806640625, "count": 13 },
+    "patients": { "size": 102.4716796875, "count": 987 },
+    "complaints": { "size": 1446.755859375, "count": 3004 },
+    "histories": { "size": 14070.9716796875, "count": 8024 },
+    "allergyhistories": { "size": 4920.6796875, "count": 64489 },
+    "treatmentepisodes": { "size": 1328.9287109375, "count": 8951 },
+    "visits": { "size": 40018.0498046875, "count": 26863 }
+  },
+  "238000-239000": {
+    "persons": { "size": 224.5576171875, "count": 239000 },
+    "doctors": { "size": 0.54296875, "count": 10 },
+    "patients": { "size": 102.517578125, "count": 990 },
+    "complaints": { "size": 1457.7841796875, "count": 2997 },
+    "histories": { "size": 14227.880859375, "count": 8095 },
+    "allergyhistories": { "size": 4971.455078125, "count": 65141 },
+    "treatmentepisodes": { "size": 1330.708984375, "count": 8963 },
+    "visits": { "size": 40150.232421875, "count": 27012 }
+  },
+  "239000-240000": {
+    "persons": { "size": 224.96484375, "count": 240000 },
+    "doctors": { "size": 0.7333984375, "count": 14 },
+    "patients": { "size": 102.3408203125, "count": 986 },
+    "complaints": { "size": 1434.33203125, "count": 2946 },
+    "histories": { "size": 13864.3115234375, "count": 7914 },
+    "allergyhistories": { "size": 4771.5986328125, "count": 62521 },
+    "treatmentepisodes": { "size": 1321.1689453125, "count": 8903 },
+    "visits": { "size": 39384.615234375, "count": 26449 }
+  },
+  "240000-241000": {
+    "persons": { "size": 224.6357421875, "count": 241000 },
+    "doctors": { "size": 0.3310546875, "count": 6 },
+    "patients": { "size": 102.623046875, "count": 994 },
+    "complaints": { "size": 1405.6953125, "count": 2924 },
+    "histories": { "size": 13495.3984375, "count": 7668 },
+    "allergyhistories": { "size": 4718.7890625, "count": 61877 },
+    "treatmentepisodes": { "size": 1313.3134765625, "count": 8841 },
+    "visits": { "size": 39503.6328125, "count": 26567 }
+  },
+  "241000-242000": {
+    "persons": { "size": 224.896484375, "count": 242000 },
+    "doctors": { "size": 0.693359375, "count": 13 },
+    "patients": { "size": 102.416015625, "count": 987 },
+    "complaints": { "size": 1449.4580078125, "count": 2996 },
+    "histories": { "size": 13868.7529296875, "count": 7904 },
+    "allergyhistories": { "size": 4845.8896484375, "count": 63508 },
+    "treatmentepisodes": { "size": 1349.173828125, "count": 9081 },
+    "visits": { "size": 40484.1474609375, "count": 27226 }
+  },
+  "242000-243000": {
+    "persons": { "size": 224.501953125, "count": 243000 },
+    "doctors": { "size": 0.7119140625, "count": 13 },
+    "patients": { "size": 102.3623046875, "count": 987 },
+    "complaints": { "size": 1420.4970703125, "count": 2930 },
+    "histories": { "size": 14084.9306640625, "count": 8007 },
+    "allergyhistories": { "size": 4875.9580078125, "count": 63915 },
+    "treatmentepisodes": { "size": 1303.6650390625, "count": 8785 },
+    "visits": { "size": 39328.103515625, "count": 26456 }
+  },
+  "243000-244000": {
+    "persons": { "size": 225.1806640625, "count": 244000 },
+    "doctors": { "size": 0.4208984375, "count": 8 },
+    "patients": { "size": 102.9619140625, "count": 992 },
+    "complaints": { "size": 1409.1591796875, "count": 2909 },
+    "histories": { "size": 14021.849609375, "count": 8008 },
+    "allergyhistories": { "size": 4883.6513671875, "count": 64002 },
+    "treatmentepisodes": { "size": 1285.119140625, "count": 8661 },
+    "visits": { "size": 38479.9853515625, "count": 25903 }
+  },
+  "244000-245000": {
+    "persons": { "size": 225.3857421875, "count": 245000 },
+    "doctors": { "size": 0.6328125, "count": 12 },
+    "patients": { "size": 102.4267578125, "count": 988 },
+    "complaints": { "size": 1391.544921875, "count": 2911 },
+    "histories": { "size": 13724.359375, "count": 7838 },
+    "allergyhistories": { "size": 4841.28515625, "count": 63436 },
+    "treatmentepisodes": { "size": 1310.9697265625, "count": 8833 },
+    "visits": { "size": 39107.9365234375, "count": 26289 }
+  },
+  "245000-246000": {
+    "persons": { "size": 225.4521484375, "count": 246000 },
+    "doctors": { "size": 0.51171875, "count": 10 },
+    "patients": { "size": 102.671875, "count": 990 },
+    "complaints": { "size": 1421.3408203125, "count": 2931 },
+    "histories": { "size": 13886.658203125, "count": 7923 },
+    "allergyhistories": { "size": 4851.3642578125, "count": 63594 },
+    "treatmentepisodes": { "size": 1308.974609375, "count": 8824 },
+    "visits": { "size": 39753.615234375, "count": 26703 }
+  },
+  "246000-247000": {
+    "persons": { "size": 224.9765625, "count": 247000 },
+    "doctors": { "size": 0.68359375, "count": 13 },
+    "patients": { "size": 103.056640625, "count": 987 },
+    "complaints": { "size": 1414.0849609375, "count": 2939 },
+    "histories": { "size": 14285.8408203125, "count": 8111 },
+    "allergyhistories": { "size": 5008.3125, "count": 65631 },
+    "treatmentepisodes": { "size": 1299.50390625, "count": 8763 },
+    "visits": { "size": 39164.5771484375, "count": 26362 }
+  },
+  "247000-248000": {
+    "persons": { "size": 224.8486328125, "count": 248000 },
+    "doctors": { "size": 0.78125, "count": 15 },
+    "patients": { "size": 102.10546875, "count": 985 },
+    "complaints": { "size": 1484.5322265625, "count": 3059 },
+    "histories": { "size": 13734.5908203125, "count": 7829 },
+    "allergyhistories": { "size": 4749.6806640625, "count": 62249 },
+    "treatmentepisodes": { "size": 1349.9091796875, "count": 9093 },
+    "visits": { "size": 40799.732421875, "count": 27400 }
+  },
+  "248000-249000": {
+    "persons": { "size": 225.2861328125, "count": 249000 },
+    "doctors": { "size": 0.7119140625, "count": 13 },
+    "patients": { "size": 102.34375, "count": 987 },
+    "complaints": { "size": 1444.7431640625, "count": 2971 },
+    "histories": { "size": 13804.25, "count": 7840 },
+    "allergyhistories": { "size": 4778.9912109375, "count": 62627 },
+    "treatmentepisodes": { "size": 1333.490234375, "count": 8987 },
+    "visits": { "size": 40262.9296875, "count": 27081 }
+  },
+  "249000-250000": {
+    "persons": { "size": 226.361328125, "count": 250000 },
+    "doctors": { "size": 0.806640625, "count": 15 },
+    "patients": { "size": 101.9365234375, "count": 985 },
+    "complaints": { "size": 1439.7841796875, "count": 2986 },
+    "histories": { "size": 13632.533203125, "count": 7755 },
+    "allergyhistories": { "size": 4761.8173828125, "count": 62393 },
+    "treatmentepisodes": { "size": 1316.845703125, "count": 8865 },
+    "visits": { "size": 39602.8671875, "count": 26671 }
+  },
+  "250000-251000": {
+    "persons": { "size": 224.751953125, "count": 251000 },
+    "doctors": { "size": 0.322265625, "count": 6 },
+    "patients": { "size": 103.7158203125, "count": 994 },
+    "complaints": { "size": 1412.2890625, "count": 2921 },
+    "histories": { "size": 14094.41015625, "count": 8046 },
+    "allergyhistories": { "size": 4893.8310546875, "count": 64122 },
+    "treatmentepisodes": { "size": 1300.798828125, "count": 8764 },
+    "visits": { "size": 39018.435546875, "count": 26250 }
+  },
+  "251000-252000": {
+    "persons": { "size": 224.916015625, "count": 252000 },
+    "doctors": { "size": 0.7890625, "count": 14 },
+    "patients": { "size": 101.9287109375, "count": 986 },
+    "complaints": { "size": 1420.90625, "count": 2968 },
+    "histories": { "size": 13983.4501953125, "count": 7978 },
+    "allergyhistories": { "size": 4833.322265625, "count": 63349 },
+    "treatmentepisodes": { "size": 1313.1435546875, "count": 8844 },
+    "visits": { "size": 39382.1630859375, "count": 26467 }
+  },
+  "252000-253000": {
+    "persons": { "size": 225.5703125, "count": 253000 },
+    "doctors": { "size": 0.5009765625, "count": 9 },
+    "patients": { "size": 103.4794921875, "count": 991 },
+    "complaints": { "size": 1465.544921875, "count": 3032 },
+    "histories": { "size": 14246.0400390625, "count": 8123 },
+    "allergyhistories": { "size": 4944.55859375, "count": 64792 },
+    "treatmentepisodes": { "size": 1345.0126953125, "count": 9061 },
+    "visits": { "size": 40332.6865234375, "count": 27129 }
+  },
+  "253000-254000": {
+    "persons": { "size": 224.681640625, "count": 254000 },
+    "doctors": { "size": 0.560546875, "count": 11 },
+    "patients": { "size": 102.3076171875, "count": 989 },
+    "complaints": { "size": 1461.84375, "count": 3019 },
+    "histories": { "size": 14366.0498046875, "count": 8174 },
+    "allergyhistories": { "size": 4968.13671875, "count": 65120 },
+    "treatmentepisodes": { "size": 1338.6728515625, "count": 9018 },
+    "visits": { "size": 40080.72265625, "count": 26923 }
+  },
+  "254000-255000": {
+    "persons": { "size": 224.64453125, "count": 255000 },
+    "doctors": { "size": 0.435546875, "count": 8 },
+    "patients": { "size": 103.580078125, "count": 992 },
+    "complaints": { "size": 1427.431640625, "count": 2952 },
+    "histories": { "size": 13943.5263671875, "count": 7950 },
+    "allergyhistories": { "size": 4832.0380859375, "count": 63341 },
+    "treatmentepisodes": { "size": 1326.6123046875, "count": 8935 },
+    "visits": { "size": 39868.923828125, "count": 26862 }
+  },
+  "255000-256000": {
+    "persons": { "size": 224.8203125, "count": 256000 },
+    "doctors": { "size": 0.9052734375, "count": 17 },
+    "patients": { "size": 101.7021484375, "count": 983 },
+    "complaints": { "size": 1385.6259765625, "count": 2869 },
+    "histories": { "size": 13768.181640625, "count": 7839 },
+    "allergyhistories": { "size": 4742.91015625, "count": 62176 },
+    "treatmentepisodes": { "size": 1282.7451171875, "count": 8645 },
+    "visits": { "size": 38483.412109375, "count": 25901 }
+  },
+  "256000-257000": {
+    "persons": { "size": 224.9267578125, "count": 257000 },
+    "doctors": { "size": 0.6787109375, "count": 13 },
+    "patients": { "size": 101.814453125, "count": 987 },
+    "complaints": { "size": 1419.7177734375, "count": 2979 },
+    "histories": { "size": 13922.8701171875, "count": 7932 },
+    "allergyhistories": { "size": 4887.4091796875, "count": 64051 },
+    "treatmentepisodes": { "size": 1322.5703125, "count": 8911 },
+    "visits": { "size": 39850.71484375, "count": 26823 }
+  },
+  "257000-258000": {
+    "persons": { "size": 224.7734375, "count": 258000 },
+    "doctors": { "size": 0.6923828125, "count": 13 },
+    "patients": { "size": 102.1123046875, "count": 987 },
+    "complaints": { "size": 1447.845703125, "count": 3008 },
+    "histories": { "size": 13994.5888671875, "count": 7974 },
+    "allergyhistories": { "size": 4878.4384765625, "count": 63946 },
+    "treatmentepisodes": { "size": 1328.2177734375, "count": 8954 },
+    "visits": { "size": 40041.13671875, "count": 26882 }
+  },
+  "258000-259000": {
+    "persons": { "size": 225.21484375, "count": 259000 },
+    "doctors": { "size": 0.716796875, "count": 14 },
+    "patients": { "size": 102.4375, "count": 986 },
+    "complaints": { "size": 1411.517578125, "count": 2928 },
+    "histories": { "size": 13162.619140625, "count": 7493 },
+    "allergyhistories": { "size": 4565.49609375, "count": 59842 },
+    "treatmentepisodes": { "size": 1305.3701171875, "count": 8797 },
+    "visits": { "size": 39328.7548828125, "count": 26470 }
+  },
+  "259000-260000": {
+    "persons": { "size": 225.1640625, "count": 260000 },
+    "doctors": { "size": 0.5263671875, "count": 9 },
+    "patients": { "size": 103.3916015625, "count": 991 },
+    "complaints": { "size": 1431.5703125, "count": 2977 },
+    "histories": { "size": 13979.486328125, "count": 7998 },
+    "allergyhistories": { "size": 4892.1806640625, "count": 64107 },
+    "treatmentepisodes": { "size": 1304.59375, "count": 8792 },
+    "visits": { "size": 39047.4580078125, "count": 26246 }
+  },
+  "260000-261000": {
+    "persons": { "size": 225.1669921875, "count": 261000 },
+    "doctors": { "size": 0.65234375, "count": 13 },
+    "patients": { "size": 102.5986328125, "count": 987 },
+    "complaints": { "size": 1436.6142578125, "count": 2995 },
+    "histories": { "size": 13854.728515625, "count": 7903 },
+    "allergyhistories": { "size": 4847.447265625, "count": 63529 },
+    "treatmentepisodes": { "size": 1333.0498046875, "count": 8983 },
+    "visits": { "size": 40084.3896484375, "count": 26968 }
+  },
+  "261000-262000": {
+    "persons": { "size": 225.0546875, "count": 262000 },
+    "doctors": { "size": 0.2548828125, "count": 4 },
+    "patients": { "size": 103.30859375, "count": 996 },
+    "complaints": { "size": 1451.3359375, "count": 3013 },
+    "histories": { "size": 13564.4365234375, "count": 7741 },
+    "allergyhistories": { "size": 4706.7177734375, "count": 61714 },
+    "treatmentepisodes": { "size": 1339.109375, "count": 9016 },
+    "visits": { "size": 40283.0234375, "count": 27088 }
+  },
+  "262000-263000": {
+    "persons": { "size": 224.20703125, "count": 263000 },
+    "doctors": { "size": 0.5712890625, "count": 11 },
+    "patients": { "size": 103.2451171875, "count": 989 },
+    "complaints": { "size": 1434.896484375, "count": 2968 },
+    "histories": { "size": 13663.5576171875, "count": 7776 },
+    "allergyhistories": { "size": 4728.34765625, "count": 61980 },
+    "treatmentepisodes": { "size": 1310.6572265625, "count": 8832 },
+    "visits": { "size": 39470.9638671875, "count": 26530 }
+  },
+  "263000-264000": {
+    "persons": { "size": 224.341796875, "count": 264000 },
+    "doctors": { "size": 0.69140625, "count": 13 },
+    "patients": { "size": 102.7431640625, "count": 987 },
+    "complaints": { "size": 1434.96875, "count": 2979 },
+    "histories": { "size": 13805.6806640625, "count": 7867 },
+    "allergyhistories": { "size": 4783.2744140625, "count": 62694 },
+    "treatmentepisodes": { "size": 1317.759765625, "count": 8878 },
+    "visits": { "size": 39519.87890625, "count": 26573 }
+  },
+  "264000-265000": {
+    "persons": { "size": 224.86328125, "count": 265000 },
+    "doctors": { "size": 0.740234375, "count": 14 },
+    "patients": { "size": 101.9970703125, "count": 986 },
+    "complaints": { "size": 1458.8203125, "count": 3002 },
+    "histories": { "size": 13985.8251953125, "count": 7980 },
+    "allergyhistories": { "size": 4841.57421875, "count": 63462 },
+    "treatmentepisodes": { "size": 1344.5263671875, "count": 9053 },
+    "visits": { "size": 40340.4072265625, "count": 27109 }
+  },
+  "265000-266000": {
+    "persons": { "size": 225.134765625, "count": 266000 },
+    "doctors": { "size": 0.7099609375, "count": 14 },
+    "patients": { "size": 102.34375, "count": 986 },
+    "complaints": { "size": 1433.9560546875, "count": 2969 },
+    "histories": { "size": 13700.5791015625, "count": 7802 },
+    "allergyhistories": { "size": 4812.3583984375, "count": 63088 },
+    "treatmentepisodes": { "size": 1331.6435546875, "count": 8977 },
+    "visits": { "size": 40179.9326171875, "count": 27041 }
+  },
+  "266000-267000": {
+    "persons": { "size": 225.109375, "count": 267000 },
+    "doctors": { "size": 1.091796875, "count": 21 },
+    "patients": { "size": 101.3466796875, "count": 979 },
+    "complaints": { "size": 1422.6533203125, "count": 2960 },
+    "histories": { "size": 13920.1103515625, "count": 7925 },
+    "allergyhistories": { "size": 4800.7275390625, "count": 62903 },
+    "treatmentepisodes": { "size": 1311.650390625, "count": 8836 },
+    "visits": { "size": 39646.0234375, "count": 26629 }
+  },
+  "267000-268000": {
+    "persons": { "size": 224.8330078125, "count": 268000 },
+    "doctors": { "size": 0.7998046875, "count": 15 },
+    "patients": { "size": 102.43359375, "count": 985 },
+    "complaints": { "size": 1402.2998046875, "count": 2920 },
+    "histories": { "size": 13938.0849609375, "count": 7941 },
+    "allergyhistories": { "size": 4843.7158203125, "count": 63484 },
+    "treatmentepisodes": { "size": 1293.607421875, "count": 8708 },
+    "visits": { "size": 38475.375, "count": 25922 }
+  },
+  "268000-269000": {
+    "persons": { "size": 224.57421875, "count": 269000 },
+    "doctors": { "size": 0.728515625, "count": 14 },
+    "patients": { "size": 101.7529296875, "count": 986 },
+    "complaints": { "size": 1415.8798828125, "count": 2964 },
+    "histories": { "size": 13781.09765625, "count": 7851 },
+    "allergyhistories": { "size": 4809.7138671875, "count": 63042 },
+    "treatmentepisodes": { "size": 1327.9091796875, "count": 8948 },
+    "visits": { "size": 39911.453125, "count": 26862 }
+  },
+  "269000-270000": {
+    "persons": { "size": 225.1025390625, "count": 270000 },
+    "doctors": { "size": 0.8125, "count": 15 },
+    "patients": { "size": 102.9482421875, "count": 985 },
+    "complaints": { "size": 1415.0400390625, "count": 2938 },
+    "histories": { "size": 13654.9453125, "count": 7769 },
+    "allergyhistories": { "size": 4725.17578125, "count": 61935 },
+    "treatmentepisodes": { "size": 1321.220703125, "count": 8903 },
+    "visits": { "size": 39673.4052734375, "count": 26679 }
+  },
+  "270000-271000": {
+    "persons": { "size": 224.7646484375, "count": 271000 },
+    "doctors": { "size": 0.6494140625, "count": 12 },
+    "patients": { "size": 103.0146484375, "count": 988 },
+    "complaints": { "size": 1404.099609375, "count": 2910 },
+    "histories": { "size": 13726.490234375, "count": 7837 },
+    "allergyhistories": { "size": 4778.87109375, "count": 62619 },
+    "treatmentepisodes": { "size": 1286.59375, "count": 8667 },
+    "visits": { "size": 38799.525390625, "count": 26083 }
+  },
+  "271000-272000": {
+    "persons": { "size": 225.0234375, "count": 272000 },
+    "doctors": { "size": 0.6875, "count": 13 },
+    "patients": { "size": 102.287109375, "count": 987 },
+    "complaints": { "size": 1430.8095703125, "count": 2967 },
+    "histories": { "size": 13504.083984375, "count": 7690 },
+    "allergyhistories": { "size": 4673.6953125, "count": 61256 },
+    "treatmentepisodes": { "size": 1330.25, "count": 8955 },
+    "visits": { "size": 39903.990234375, "count": 26802 }
+  },
+  "272000-273000": {
+    "persons": { "size": 224.853515625, "count": 273000 },
+    "doctors": { "size": 0.5087890625, "count": 9 },
+    "patients": { "size": 102.8173828125, "count": 991 },
+    "complaints": { "size": 1451.3193359375, "count": 2994 },
+    "histories": { "size": 13992.6201171875, "count": 7965 },
+    "allergyhistories": { "size": 4873.546875, "count": 63864 },
+    "treatmentepisodes": { "size": 1337.5068359375, "count": 9013 },
+    "visits": { "size": 39967.5810546875, "count": 26832 }
+  },
+  "273000-274000": {
+    "persons": { "size": 224.8408203125, "count": 274000 },
+    "doctors": { "size": 0.947265625, "count": 19 },
+    "patients": { "size": 102.6181640625, "count": 981 },
+    "complaints": { "size": 1438.6650390625, "count": 2979 },
+    "histories": { "size": 13849.7744140625, "count": 7864 },
+    "allergyhistories": { "size": 4743.8759765625, "count": 62166 },
+    "treatmentepisodes": { "size": 1336.009765625, "count": 8998 },
+    "visits": { "size": 40280.4111328125, "count": 27033 }
+  },
+  "274000-275000": {
+    "persons": { "size": 225.048828125, "count": 275000 },
+    "doctors": { "size": 0.509765625, "count": 10 },
+    "patients": { "size": 102.9599609375, "count": 990 },
+    "complaints": { "size": 1446.3330078125, "count": 2965 },
+    "histories": { "size": 13823.1953125, "count": 7904 },
+    "allergyhistories": { "size": 4790.3056640625, "count": 62783 },
+    "treatmentepisodes": { "size": 1308.89453125, "count": 8823 },
+    "visits": { "size": 39465.828125, "count": 26539 }
+  },
+  "275000-276000": {
+    "persons": { "size": 225.0205078125, "count": 276000 },
+    "doctors": { "size": 0.5751953125, "count": 11 },
+    "patients": { "size": 102.7041015625, "count": 989 },
+    "complaints": { "size": 1402.1328125, "count": 2929 },
+    "histories": { "size": 13868.869140625, "count": 7916 },
+    "allergyhistories": { "size": 4767.8525390625, "count": 62492 },
+    "treatmentepisodes": { "size": 1314, "count": 8849 },
+    "visits": { "size": 39349.5830078125, "count": 26428 }
+  },
+  "276000-277000": {
+    "persons": { "size": 224.69921875, "count": 277000 },
+    "doctors": { "size": 0.8173828125, "count": 14 },
+    "patients": { "size": 102.4609375, "count": 986 },
+    "complaints": { "size": 1421.162109375, "count": 2949 },
+    "histories": { "size": 13973.48828125, "count": 7942 },
+    "allergyhistories": { "size": 4857.06640625, "count": 63672 },
+    "treatmentepisodes": { "size": 1311.265625, "count": 8838 },
+    "visits": { "size": 39677.9658203125, "count": 26689 }
+  },
+  "277000-278000": {
+    "persons": { "size": 224.8212890625, "count": 278000 },
+    "doctors": { "size": 0.6083984375, "count": 11 },
+    "patients": { "size": 102.951171875, "count": 989 },
+    "complaints": { "size": 1460.318359375, "count": 3022 },
+    "histories": { "size": 13743.9560546875, "count": 7807 },
+    "allergyhistories": { "size": 4753.9306640625, "count": 62309 },
+    "treatmentepisodes": { "size": 1342.0166015625, "count": 9040 },
+    "visits": { "size": 39912.125, "count": 26886 }
+  },
+  "278000-279000": {
+    "persons": { "size": 224.943359375, "count": 279000 },
+    "doctors": { "size": 0.7392578125, "count": 14 },
+    "patients": { "size": 102.8935546875, "count": 986 },
+    "complaints": { "size": 1461.8837890625, "count": 3035 },
+    "histories": { "size": 14416.162109375, "count": 8195 },
+    "allergyhistories": { "size": 4985.3828125, "count": 65344 },
+    "treatmentepisodes": { "size": 1340.33984375, "count": 9026 },
+    "visits": { "size": 40401.2890625, "count": 27182 }
+  },
+  "279000-280000": {
+    "persons": { "size": 224.7158203125, "count": 280000 },
+    "doctors": { "size": 0.5546875, "count": 10 },
+    "patients": { "size": 102.3330078125, "count": 990 },
+    "complaints": { "size": 1393.0791015625, "count": 2899 },
+    "histories": { "size": 14026.82421875, "count": 7991 },
+    "allergyhistories": { "size": 4847.599609375, "count": 63530 },
+    "treatmentepisodes": { "size": 1292.6572265625, "count": 8709 },
+    "visits": { "size": 38981.666015625, "count": 26219 }
+  },
+  "280000-281000": {
+    "persons": { "size": 224.47265625, "count": 281000 },
+    "doctors": { "size": 0.4375, "count": 8 },
+    "patients": { "size": 103.0390625, "count": 992 },
+    "complaints": { "size": 1409.6513671875, "count": 2928 },
+    "histories": { "size": 13715.7353515625, "count": 7833 },
+    "allergyhistories": { "size": 4768.5986328125, "count": 62505 },
+    "treatmentepisodes": { "size": 1291.91796875, "count": 8706 },
+    "visits": { "size": 38748.2646484375, "count": 26078 }
+  },
+  "281000-282000": {
+    "persons": { "size": 225.3212890625, "count": 282000 },
+    "doctors": { "size": 0.283203125, "count": 5 },
+    "patients": { "size": 103.31640625, "count": 995 },
+    "complaints": { "size": 1439.759765625, "count": 2974 },
+    "histories": { "size": 14073.9716796875, "count": 8027 },
+    "allergyhistories": { "size": 4912.48828125, "count": 64379 },
+    "treatmentepisodes": { "size": 1329.701171875, "count": 8951 },
+    "visits": { "size": 40099.26171875, "count": 26945 }
+  },
+  "282000-283000": {
+    "persons": { "size": 224.3984375, "count": 283000 },
+    "doctors": { "size": 0.650390625, "count": 12 },
+    "patients": { "size": 101.90625, "count": 988 },
+    "complaints": { "size": 1399.05859375, "count": 2904 },
+    "histories": { "size": 13720.8271484375, "count": 7785 },
+    "allergyhistories": { "size": 4725.08984375, "count": 61931 },
+    "treatmentepisodes": { "size": 1287.62890625, "count": 8681 },
+    "visits": { "size": 38637.4365234375, "count": 26008 }
+  },
+  "283000-284000": {
+    "persons": { "size": 223.5947265625, "count": 284000 },
+    "doctors": { "size": 0.37890625, "count": 6 },
+    "patients": { "size": 103.35546875, "count": 994 },
+    "complaints": { "size": 1435.896484375, "count": 2969 },
+    "histories": { "size": 13794.248046875, "count": 7874 },
+    "allergyhistories": { "size": 4812.5283203125, "count": 63097 },
+    "treatmentepisodes": { "size": 1331.318359375, "count": 8971 },
+    "visits": { "size": 39903.11328125, "count": 26794 }
+  },
+  "284000-285000": {
+    "persons": { "size": 225.009765625, "count": 285000 },
+    "doctors": { "size": 0.736328125, "count": 14 },
+    "patients": { "size": 102.4248046875, "count": 986 },
+    "complaints": { "size": 1407.1875, "count": 2940 },
+    "histories": { "size": 13838.451171875, "count": 7907 },
+    "allergyhistories": { "size": 4856.1650390625, "count": 63634 },
+    "treatmentepisodes": { "size": 1305.3974609375, "count": 8793 },
+    "visits": { "size": 39733.890625, "count": 26698 }
+  },
+  "285000-286000": {
+    "persons": { "size": 224.7783203125, "count": 286000 },
+    "doctors": { "size": 0.7802734375, "count": 15 },
+    "patients": { "size": 102.1201171875, "count": 985 },
+    "complaints": { "size": 1445.7802734375, "count": 2990 },
+    "histories": { "size": 14032.1435546875, "count": 8002 },
+    "allergyhistories": { "size": 4905.3505859375, "count": 64296 },
+    "treatmentepisodes": { "size": 1322.513671875, "count": 8906 },
+    "visits": { "size": 39872.4013671875, "count": 26820 }
+  },
+  "286000-287000": {
+    "persons": { "size": 223.9609375, "count": 287000 },
+    "doctors": { "size": 0.8994140625, "count": 17 },
+    "patients": { "size": 102.6162109375, "count": 983 },
+    "complaints": { "size": 1420.3818359375, "count": 2920 },
+    "histories": { "size": 13038.5927734375, "count": 7443 },
+    "allergyhistories": { "size": 4516.5234375, "count": 59213 },
+    "treatmentepisodes": { "size": 1321.6162109375, "count": 8908 },
+    "visits": { "size": 39338.3623046875, "count": 26537 }
+  },
+  "287000-288000": {
+    "persons": { "size": 224.7119140625, "count": 288000 },
+    "doctors": { "size": 0.8134765625, "count": 15 },
+    "patients": { "size": 102.8251953125, "count": 985 },
+    "complaints": { "size": 1434.25390625, "count": 2953 },
+    "histories": { "size": 13743.494140625, "count": 7832 },
+    "allergyhistories": { "size": 4789.2958984375, "count": 62761 },
+    "treatmentepisodes": { "size": 1302.705078125, "count": 8767 },
+    "visits": { "size": 39219.98828125, "count": 26425 }
+  },
+  "288000-289000": {
+    "persons": { "size": 224.658203125, "count": 289000 },
+    "doctors": { "size": 0.5615234375, "count": 11 },
+    "patients": { "size": 102.7275390625, "count": 989 },
+    "complaints": { "size": 1474.2744140625, "count": 3034 },
+    "histories": { "size": 13969.794921875, "count": 7970 },
+    "allergyhistories": { "size": 4829.19921875, "count": 63293 },
+    "treatmentepisodes": { "size": 1344.228515625, "count": 9058 },
+    "visits": { "size": 40118.9599609375, "count": 27016 }
+  },
+  "289000-290000": {
+    "persons": { "size": 224.482421875, "count": 290000 },
+    "doctors": { "size": 0.9013671875, "count": 17 },
+    "patients": { "size": 101.6103515625, "count": 983 },
+    "complaints": { "size": 1452.2177734375, "count": 3003 },
+    "histories": { "size": 13650.791015625, "count": 7768 },
+    "allergyhistories": { "size": 4702.1533203125, "count": 61634 },
+    "treatmentepisodes": { "size": 1326.7353515625, "count": 8933 },
+    "visits": { "size": 39916.703125, "count": 26842 }
+  },
+  "290000-291000": {
+    "persons": { "size": 224.2158203125, "count": 291000 },
+    "doctors": { "size": 0.5859375, "count": 11 },
+    "patients": { "size": 102.572265625, "count": 989 },
+    "complaints": { "size": 1419.65234375, "count": 2937 },
+    "histories": { "size": 13926.35546875, "count": 7933 },
+    "allergyhistories": { "size": 4843.09765625, "count": 63465 },
+    "treatmentepisodes": { "size": 1309.212890625, "count": 8826 },
+    "visits": { "size": 39854.9775390625, "count": 26798 }
+  },
+  "291000-292000": {
+    "persons": { "size": 224.9794921875, "count": 292000 },
+    "doctors": { "size": 0.8427734375, "count": 16 },
+    "patients": { "size": 102.369140625, "count": 984 },
+    "complaints": { "size": 1416.5390625, "count": 2905 },
+    "histories": { "size": 13856.037109375, "count": 7903 },
+    "allergyhistories": { "size": 4812.1845703125, "count": 63078 },
+    "treatmentepisodes": { "size": 1302.73046875, "count": 8776 },
+    "visits": { "size": 39200.71484375, "count": 26371 }
+  },
+  "292000-293000": {
+    "persons": { "size": 224.666015625, "count": 293000 },
+    "doctors": { "size": 0.7041015625, "count": 13 },
+    "patients": { "size": 102.8076171875, "count": 987 },
+    "complaints": { "size": 1455.8671875, "count": 3025 },
+    "histories": { "size": 13860.09375, "count": 7909 },
+    "allergyhistories": { "size": 4790.111328125, "count": 62796 },
+    "treatmentepisodes": { "size": 1340.5166015625, "count": 9029 },
+    "visits": { "size": 40088.7685546875, "count": 26958 }
+  },
+  "293000-294000": {
+    "persons": { "size": 225.7900390625, "count": 294000 },
+    "doctors": { "size": 0.8935546875, "count": 16 },
+    "patients": { "size": 102.4755859375, "count": 984 },
+    "complaints": { "size": 1424.9453125, "count": 2946 },
+    "histories": { "size": 13933.8720703125, "count": 7922 },
+    "allergyhistories": { "size": 4858.0654296875, "count": 63678 },
+    "treatmentepisodes": { "size": 1322.73828125, "count": 8911 },
+    "visits": { "size": 39700.9189453125, "count": 26683 }
+  },
+  "294000-295000": {
+    "persons": { "size": 225.064453125, "count": 295000 },
+    "doctors": { "size": 0.5302734375, "count": 10 },
+    "patients": { "size": 102.275390625, "count": 990 },
+    "complaints": { "size": 1444.7333984375, "count": 2988 },
+    "histories": { "size": 13990.6298828125, "count": 7955 },
+    "allergyhistories": { "size": 4896.203125, "count": 64169 },
+    "treatmentepisodes": { "size": 1343.8671875, "count": 9057 },
+    "visits": { "size": 40398.44921875, "count": 27202 }
+  },
+  "295000-296000": {
+    "persons": { "size": 224.515625, "count": 296000 },
+    "doctors": { "size": 0.6259765625, "count": 12 },
+    "patients": { "size": 102.3232421875, "count": 988 },
+    "complaints": { "size": 1440.4345703125, "count": 2999 },
+    "histories": { "size": 13667.078125, "count": 7783 },
+    "allergyhistories": { "size": 4761.1904296875, "count": 62406 },
+    "treatmentepisodes": { "size": 1334.099609375, "count": 8993 },
+    "visits": { "size": 40178.3759765625, "count": 27038 }
+  },
+  "296000-297000": {
+    "persons": { "size": 224.73828125, "count": 297000 },
+    "doctors": { "size": 0.537109375, "count": 10 },
+    "patients": { "size": 102.681640625, "count": 990 },
+    "complaints": { "size": 1404.4521484375, "count": 2930 },
+    "histories": { "size": 14017.17578125, "count": 8001 },
+    "allergyhistories": { "size": 4861.8798828125, "count": 63740 },
+    "treatmentepisodes": { "size": 1294.08984375, "count": 8716 },
+    "visits": { "size": 38942.416015625, "count": 26212 }
+  },
+  "297000-298000": {
+    "persons": { "size": 224.7900390625, "count": 298000 },
+    "doctors": { "size": 0.6494140625, "count": 13 },
+    "patients": { "size": 102.5712890625, "count": 987 },
+    "complaints": { "size": 1410.19140625, "count": 2941 },
+    "histories": { "size": 13844.875, "count": 7869 },
+    "allergyhistories": { "size": 4841.7802734375, "count": 63469 },
+    "treatmentepisodes": { "size": 1306.7158203125, "count": 8803 },
+    "visits": { "size": 38910.3505859375, "count": 26183 }
+  },
+  "298000-299000": {
+    "persons": { "size": 225.0751953125, "count": 299000 },
+    "doctors": { "size": 0.814453125, "count": 15 },
+    "patients": { "size": 102.4326171875, "count": 985 },
+    "complaints": { "size": 1455.4599609375, "count": 3008 },
+    "histories": { "size": 13700.6708984375, "count": 7793 },
+    "allergyhistories": { "size": 4749.095703125, "count": 62264 },
+    "treatmentepisodes": { "size": 1336.4580078125, "count": 8996 },
+    "visits": { "size": 39928.720703125, "count": 26847 }
+  },
+  "299000-300000": {
+    "persons": { "size": 225.2646484375, "count": 300000 },
+    "doctors": { "size": 0.8720703125, "count": 16 },
+    "patients": { "size": 101.87109375, "count": 984 },
+    "complaints": { "size": 1445.5703125, "count": 2971 },
+    "histories": { "size": 13421.6826171875, "count": 7662 },
+    "allergyhistories": { "size": 4690.505859375, "count": 61486 },
+    "treatmentepisodes": { "size": 1332.4736328125, "count": 8975 },
+    "visits": { "size": 39817.99609375, "count": 26816 }
+  }
+}

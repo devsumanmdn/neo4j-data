@@ -65,7 +65,7 @@ const getVisits = (folder, lastCount) => {
 const generateVisit = async (folder, lastCount) => {
   const visits = getVisits(folder, lastCount);
   await writeJsonToCSVFile({ file: `${folder}visits.csv`, data: visits });
-  console.log('Successfully created', visits.length, 'visits.');
+  //console.log('Successfully created', visits.length, 'visits.');
   return visits.length;
 };
 
