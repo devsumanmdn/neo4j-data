@@ -15,11 +15,23 @@ const writeDataToDB = async ({ file, label }) => {
     columns: true,
   });
 
+  let query = '';
+  let count = 0;
   for (data of array) {
-    const query = `CREATE (a: ${label} { ${Object.keys(data)
+    query += `CREATE (a${count}: ${label} { ${Object.keys(data)
       .map((key) => `${key}: $${key}`)
       .join(',')} })`;
 
+      count++;
+
+      if (count === 100) {
+        await session.run(query, data);
+        query = '';
+        count = 0;
+      }
+  }
+
+  if (count !== 0) {
     await session.run(query, data);
   }
   await session.close();
