@@ -105,7 +105,7 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
     console.log('Done running rel query for table Complaint');
 
     await writeDataToDB({
-      file: `${folder}treatmentepisodes.csv`,
+      file: `${folder}treatmentEpisodes.csv`,
       label: 'TreatmentEpisode',
     });
     const treatmentEpisodePatientRelQuery = getRelationshipQuery(
@@ -166,8 +166,8 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       'trtEpId',
       'treatEpId',
       'VISIT_TREATMENT_EPISODE_REL',
-      stat.treatmentepisodes.count || 0,
-      prevStat?.treatmentepisodes.count || 0
+      stat.treatmentEpisodes.count || 0,
+      prevStat?.treatmentEpisodes.count || 0
     );
     await session.run(visitTreatmentEpisodeRelQuery);
 

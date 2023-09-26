@@ -77,9 +77,9 @@ const generateChunk = async (startCount, endCount) => {
     folder,
     stats[prevKey]?.allergyhistories || 0
   );
-  const treatmentepisodesCount = await generateTreatmentEpisode(
+  const treatmentEpisodesCount = await generateTreatmentEpisode(
     folder,
-    stats[prevKey]?.treatmentepisodes || 0
+    stats[prevKey]?.treatmentEpisodes || 0
   );
   const visitsCount = await generateVisit(folder, stats[prevKey]?.visits || 0);
 
@@ -89,7 +89,7 @@ const generateChunk = async (startCount, endCount) => {
   const complaintsSize = fs.statSync(`${folder}complaints.csv`);
   const historiesSize = fs.statSync(`${folder}histories.csv`);
   const allergyhistoriesSize = fs.statSync(`${folder}allergyhistories.csv`);
-  const treatmentepisodesSize = fs.statSync(`${folder}treatmentepisodes.csv`);
+  const treatmentEpisodesSize = fs.statSync(`${folder}treatmentEpisodes.csv`);
   const visitsSize = fs.statSync(`${folder}visits.csv`);
 
   stats[key] = {
@@ -99,7 +99,7 @@ const generateChunk = async (startCount, endCount) => {
     complaints: {size: complaintsSize.size/1024, count: complaintsCount},
     histories: {size: historiesSize.size/1024, count: historiesCount},
     allergyhistories: {size: allergyhistoriesSize.size/1024, count: allergyhistoriesCount},
-    treatmentepisodes: {size: treatmentepisodesSize.size/1024, count: treatmentepisodesCount},
+    treatmentEpisodes: {size: treatmentEpisodesSize.size/1024, count: treatmentEpisodesCount},
     visits: {size: visitsSize.size/1024, count: visitsCount},
   };
 
@@ -107,12 +107,12 @@ const generateChunk = async (startCount, endCount) => {
 
   prevKey = key;
 
-  return `${endCount}\t${doctorsCount}\t${patientsCount}\t${complaintsCount}\t${historiesCount}\t${allergyhistoriesCount}\t${treatmentepisodesCount}\t${visitsCount}\t${
+  return `${endCount}\t${doctorsCount}\t${patientsCount}\t${complaintsCount}\t${historiesCount}\t${allergyhistoriesCount}\t${treatmentEpisodesCount}\t${visitsCount}\t${
     personsSize.size / 1024
   }\t${doctorsSize.size / 1024}\t${patientsSize.size / 1024}\t${
     historiesSize.size / 1024
   }\t${allergyhistoriesSize.size / 1024}\t${complaintsSize.size / 1024}\t${
-    treatmentepisodesSize.size / 1024
+    treatmentEpisodesSize.size / 1024
   }\t${visitsSize.size / 1024}`;
 };
 

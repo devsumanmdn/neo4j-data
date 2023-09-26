@@ -3,7 +3,7 @@ const { parse } = require("csv-parse/sync");
 
 const getOneRandom = require('./getOneRandom');
 
-const treatmentepisodesDummyJson = require('./graph database/treatmentepisode.json');
+const treatmentEpisodesDummyJson = require('./graph database/treatmentepisode.json');
 const getRandomNumberWithinRange = require('./getRandomNumberWithinRange');
 const randomiseArray = require('./randomiseArray');
 const writeJsonToCSVFile = require('./writeJsonToCSVFile');
@@ -38,7 +38,7 @@ const getTreatmentepisodes = (folder, lastCount) => {
             startTime,
             endTime,
             complaintId: complaint.complaintId,
-            status: getOneRandom(treatmentepisodesDummyJson[0].status),
+            status: getOneRandom(treatmentEpisodesDummyJson[0].status),
           };
         })
     );
@@ -52,14 +52,14 @@ const getTreatmentepisodes = (folder, lastCount) => {
 };
 
 const generateTreatmentEpisode = async (folder, lastCount) => {
-  const treatmentepisodes = getTreatmentepisodes(folder, lastCount);
-  await writeJsonToCSVFile({ file: `${folder}treatmentepisodes.csv`, data: treatmentepisodes });
+  const treatmentEpisodes = getTreatmentepisodes(folder, lastCount);
+  await writeJsonToCSVFile({ file: `${folder}treatmentEpisodes.csv`, data: treatmentEpisodes });
   // console.log(
   //   'Successfully created',
-  //   treatmentepisodes.length,
-  //   'treatmentepisodes.'
+  //   treatmentEpisodes.length,
+  //   'treatmentEpisodes.'
   // );
-  return treatmentepisodes.length;
+  return treatmentEpisodes.length;
 };
 
 module.exports = generateTreatmentEpisode;
