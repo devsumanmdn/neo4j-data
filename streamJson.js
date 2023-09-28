@@ -7,7 +7,7 @@ const { parse } = require('csv-parse/sync');
 
 const writeDataToDB = async ({ file, label }) => {
   const uri = 'bolt://127.0.0.1:7687';
-  const driver = neo4j.driver(uri, neo4j.auth.basic('neo4j', 'Mou@2997'));
+  const driver = neo4j.driver(uri, neo4j.auth.basic(process.env.DB_USER, process.env.DB_PASS));
   const session = driver.session();
 
   const array = parse(fs.readFileSync(file).toString(), {

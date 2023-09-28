@@ -1,8 +1,13 @@
+require('dotenv').config();
+
+console.log(process.env)
+
 const deleteAll = require('./deleteAll');
 const { generateAllData, CHUNK_SIZE } = require('./generateJSONData');
 const addRecordsAndCreateRelationshipsForCount = require('./neo4j');
 const fs = require('fs');
 const testQuery = require('./testQuery');
+const restartNeo4j = require('./restartNeo4j');
 
 const countsArray = [
   1000, 3000, 4000, 5000, 8000, 10000, 12000, 15000, 16000, 20000, 25000, 30000,
@@ -35,6 +40,7 @@ const countsArray = [
       msTakenByTheQuery,
       'ms'
     );
+    await restartNeo4j();
     fs.appendFileSync('queryStats.txt', `${count}\t${msTakenByTheQuery}\n`)
     lastEndCount = count;
   }
