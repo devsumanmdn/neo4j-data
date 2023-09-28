@@ -7,6 +7,4 @@ const restartNeo4j = () => {
 
 }
 
-restartNeo4j();
-
 module.exports = restartNeo4j;
