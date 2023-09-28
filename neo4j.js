@@ -85,6 +85,7 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       prevStat?.allergyhistories.count || 0,
       "allergyHId"
     );
+
     await session.run(allergyHistoryPatientRelQuery);
     // console.log('Done running rel query for table AllergyHistory');
 
@@ -175,10 +176,11 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
     // console.log('Done running rel query for table Visit');
   } finally {
     await session.close();
+    await driver.close();
+
   }
 
   // on application exit:
-  await driver.close();
 };
 
 module.exports = addRecordsAndCreateRelationshipsForCount;

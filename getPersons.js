@@ -18,13 +18,22 @@ const getStateAndDistrict = () => {
   };
 };
 
-const getUsersFromRmeoteSource = ({ limit, skip } = {}) =>
-  fetch(
+const getUsersFromRmeoteSource = ({ limit, skip } = {}) => {
+  const dummyUsersFilePath = './dummyUsers.json';
+  if (fs.existsSync(dummyUsersFilePath)) {
+    return JSON.parse(fs.readFileSync(dummyUsersFilePath));
+  }
+
+  return fetch(
     `https://dummyjson.com/users?${new URLSearchParams({
       ...(limit ? { limit } : {}),
       ...(skip ? { skip } : {}),
     })}`
-  ).then((res) => res.json());
+  ).then((res) => res.json()).then(users => {
+    fs.writeFileSync(dummyUsersFilePath, JSON.stringify(users));
+    return users;
+  });
+}
 
 const getAllUsers = async () => {
   const { users, total, limit } = await getUsersFromRmeoteSource();
@@ -74,9 +83,9 @@ const getPerson = async (startCount, endCount) => {
       : count - dummyUsers.length - startCount;
 
   //console.log({
-   // restCount,
-    //length: dummyUsers.length,
-    //count,
+  // restCount,
+  //length: dummyUsers.length,
+  //count,
   //});
 
   const restNewUsers = Array(restCount)
