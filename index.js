@@ -30,7 +30,7 @@ const countsArray = [
     }
     const msTakenByTheQuery = await testQuery();
     console.log(
-      `${lastEndCount}-${count}`,
+      `${count}`,
       'Query took',
       msTakenByTheQuery,
       'ms'
@@ -39,4 +39,5 @@ const countsArray = [
     lastEndCount = count;
   }
   console.timeEnd('All done in ');
+  process.exit(0)
 })();
