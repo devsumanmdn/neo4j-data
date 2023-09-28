@@ -1,7 +1,7 @@
 const deleteAll = require('./deleteAll');
 const { generateAllData, CHUNK_SIZE } = require('./generateJSONData');
 const addRecordsAndCreateRelationshipsForCount = require('./neo4j');
-const runForCount = require('./neo4j');
+const fs = require('fs');
 const testQuery = require('./testQuery');
 
 const countsArray = [
@@ -18,6 +18,8 @@ const countsArray = [
 
   console.time('All done in ');
   let lastEndCount = 0;
+  fs.writeFileSync('queryStats.txt', '')
+
   for (count of countsArray) {
     for (
       let startCount = lastEndCount;
@@ -33,6 +35,7 @@ const countsArray = [
       msTakenByTheQuery,
       'ms'
     );
+    fs.appendFileSync('queryStats.txt', `${count}\t${msTakenByTheQuery}\n`)
     lastEndCount = count;
   }
   console.timeEnd('All done in ');
