@@ -34,8 +34,8 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       'personId',
       'id',
       'DOCTOR_PERSON_REL',
-      stat.persons.count || 0,
-      prevStat?.persons.count || 0
+      prevStat?.doctors.count || 0,
+      "drId"
     );
     await session.run(doctorPersonRelQuery);
     // console.log('Done running rel query for table Doctor');
@@ -50,8 +50,8 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       'Id',
       'id',
       'PATIENT_PERSON_REL',
-      stat.persons.count || 0,
-      prevStat?.persons.count || 0
+      prevStat?.patients.count || 0,
+      'ptId'
     );
     await session.run(patientPersonRelQuery);
     // console.log('Done running rel query for table Patient');
@@ -66,8 +66,8 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       'ptId',
       'ptId',
       'HISTORY_PATIENT_REL',
-      stat.patients.count || 0,
-      prevStat?.patients.count || 0
+      prevStat?.histories.count || 0,
+      "historyId"
     );
     await session.run(historyPatientRelQuery);
     // console.log('Done running rel query for table History');
@@ -82,8 +82,8 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       'ptId',
       'ptId',
       'ALLERGY_HISTORY_PATIENT_REL',
-      stat.patients.count || 0,
-      prevStat?.patients.count || 0
+      prevStat?.allergyhistories.count || 0,
+      "allergyHId"
     );
     await session.run(allergyHistoryPatientRelQuery);
     // console.log('Done running rel query for table AllergyHistory');
@@ -98,8 +98,8 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       'ptId',
       'ptId',
       'COMPLAINT_PATIENT_REL',
-      stat.patients.count || 0,
-      prevStat?.patients.count || 0
+      prevStat?.complaints.count || 0,
+      "complaintId"
     );
     await session.run(complaintPatientRelQuery);
     // console.log('Done running rel query for table Complaint');
@@ -114,8 +114,8 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       'ptId',
       'ptId',
       'TREATMENT_EPISODE_PATIENT_REL',
-      stat.patients.count || 0,
-      prevStat?.patients.count || 0
+      prevStat?.treatmentEpisodes.count || 0,
+      "treatEpId"
     );
     await session.run(treatmentEpisodePatientRelQuery);
     // console.log('Done running rel query for table TreatmentEpisode');
@@ -126,8 +126,8 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       'complaintId',
       'complaintId',
       'TREATMENT_EPISODE_COMPLAINT_REL',
-      stat.complaints.count || 0,
-      prevStat?.complaints.count || 0
+      prevStat?.treatmentEpisodes.count || 0,
+      "treatEpId"
     );
     await session.run(treatmentEpisodeComplaintRelQuery);
     // console.log('Done running rel query for table TreatmentEpisode');
@@ -142,8 +142,8 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       'ptId',
       'ptId',
       'VISIT_PATIENT_REL',
-      stat.patients.count || 0,
-      prevStat?.patients.count || 0
+      prevStat?.visits.count || 0,
+      "vId"
     );
     await session.run(visitPatientRelQuery);
     // console.log('Done running rel query for table Visit');
@@ -154,8 +154,8 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       'complaintId',
       'complaintId',
       'VISIT_COMPLAINT_REL',
-      stat.complaints.count || 0,
-      prevStat?.complaints.count || 0
+      prevStat?.visits.count || 0,
+      "vId"
     );
     await session.run(visitComplaintRelQuery);
     // console.log('Done running rel query for table Visit');
@@ -166,19 +166,13 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
       'trtEpId',
       'treatEpId',
       'VISIT_TREATMENT_EPISODE_REL',
-      stat.treatmentEpisodes.count || 0,
-      prevStat?.treatmentEpisodes.count || 0
+      prevStat?.visits.count || 0,
+      "vId"
     );
     await session.run(visitTreatmentEpisodeRelQuery);
 
     // const timeInMS = await testQuery();
     // console.log('Done running rel query for table Visit');
-
-    // stats += `\t${timeInMS}ms\n`;
-    // console.log(stats);
-
-    // fs.appendFileSync('./stats.txt', stats);
-    console.log('Successfully ran for', `${skip}-${skip + CHUNK_SIZE}`);
   } finally {
     await session.close();
   }

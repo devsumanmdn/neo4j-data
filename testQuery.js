@@ -10,7 +10,7 @@ const testQuery = async () => {
   for (let i = 1; i <= trial; i++) {
     const time1 = Date.now();
     await session.run(
-      `Match (p:Person{name:"Terry Medhurst"}) <-- (d:Patient) <-- (c:Complaint) return c;`
+      `Match (p:Person{name:"Terry Medhurst"}) <-[r1:PATIENT_PERSON_REL]- (d:Patient) <-[r2:COMPLAINT_PATIENT_REL]- (c:Complaint) return c;`
     );
     const timeTaken = Date.now() - time1;
 

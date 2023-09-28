@@ -4,12 +4,12 @@ const getRelationshipQuery = (
   attribute1,
   attribute2,
   relationshipName,
-  maxLimit,
-  minLimit
+  minLimit,
+  label1PrimaryAttribute
 ) => {
   return `
     match (a: ${label1}), (b:${label2})
-    where a.${attribute1} = b.${attribute2} and a.${attribute1} <= ${maxLimit} and a.${attribute1} > ${minLimit}
+    where a.${attribute1} = b.${attribute2} and toInteger(a.${label1PrimaryAttribute}) > ${minLimit}
     create (a)-[r:${relationshipName}]->(b)`;
 };
 

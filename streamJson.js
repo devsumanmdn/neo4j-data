@@ -16,23 +16,29 @@ const writeDataToDB = async ({ file, label }) => {
   });
 
   let query = '';
+  let queryData = {};
   let count = 0;
   for (data of array) {
     query += `CREATE (a${count}: ${label} { ${Object.keys(data)
-      .map((key) => `${key}: $${key}`)
+      .map((key) => {
+        const queryKey = `${key}${count}`;
+        queryData[queryKey] = data[key];
+        return `${key}: $${queryKey}`;
+      })
       .join(',')} })`;
 
       count++;
 
       if (count === 100) {
-        await session.run(query, data);
+        await session.run(query, queryData);
         query = '';
         count = 0;
+        queryData = {};
       }
   }
 
   if (count !== 0) {
-    await session.run(query, data);
+    await session.run(query, queryData);
   }
   await session.close();
   await driver.close();

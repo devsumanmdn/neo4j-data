@@ -105,7 +105,7 @@ const getPerson = async (startCount, endCount) => {
         '.com';
 
       return {
-        id: index + startCount + 1,
+        id: (count - restCount) + index + startCount + 1,
         email: email,
         name: name,
         bloodGroup: getOneRandom(personJson[0].bloodGroup),
