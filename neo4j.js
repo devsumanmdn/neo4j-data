@@ -14,7 +14,7 @@ const addRecordsAndCreateRelationshipsForCount = async (skip) => {
 
     const { key, folder } = getKeyAndFolder(skip);
 
-    const { prev: PrevKey } = getKeyAndFolder(skip - CHUNK_SIZE);
+    const { key: PrevKey } = skip ? getKeyAndFolder(skip - CHUNK_SIZE) : {key: '' };
     let prevStat = stats[PrevKey];
     let stat = stats[key];
 

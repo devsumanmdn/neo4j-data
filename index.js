@@ -5,9 +5,7 @@ const fs = require('fs');
 const testQuery = require('./testQuery');
 
 const countsArray = [
-  1000, 3000, 4000, 5000, 8000, 10000, 12000, 15000, 16000, 20000, 25000, 30000,
-  40000, 50000, 60000, 70000, 80000, 90000, 100000, 110000, 120000, 125000,
-  140000, 150000, 160000, 175000, 180000, 200000, 225000, 300000,
+  1000, 3000, 4000, 5000
 ];
 
 (async () => {
@@ -30,7 +28,7 @@ const countsArray = [
     }
     const msTakenByTheQuery = await testQuery();
     console.log(
-      `${lastEndCount}-${count}`,
+      `${count}`,
       'Query took',
       msTakenByTheQuery,
       'ms'
@@ -39,4 +37,5 @@ const countsArray = [
     lastEndCount = count;
   }
   console.timeEnd('All done in ');
+  process.exit(0)
 })();
