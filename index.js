@@ -1,7 +1,5 @@
 require('dotenv').config();
 
-console.log(process.env)
-
 const deleteAll = require('./deleteAll');
 const { generateAllData, CHUNK_SIZE } = require('./generateJSONData');
 const addRecordsAndCreateRelationshipsForCount = require('./neo4j');
