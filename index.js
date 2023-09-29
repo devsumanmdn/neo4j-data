@@ -30,6 +30,9 @@ const countsArray = [
       startCount += CHUNK_SIZE
     ) {
       await addRecordsAndCreateRelationshipsForCount(startCount);
+      if (startCount + CHUNK_SIZE < count) {
+        await restartNeo4j();
+      }
     }
     const msTakenByTheQuery = await testQuery();
     console.log(
